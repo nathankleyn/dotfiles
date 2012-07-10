@@ -6,13 +6,17 @@ install:
 	@if [ -e $(HOME)/.bashrc ]; then mv $(HOME)/.bashrc $(HOME)/.bashrc.bak; fi
 	@echo "Initialising submodules..."
 	@git submodule update --init
+	@make -s vim-install
 	@echo "Linking up new .bashrc"
 	ln -s ${PWD}/bashrc $(HOME)/.bashrc
 	@echo "Finished."
 
 update:
 	@git submodule foreach git pull origin master
-	@make -s vim
+	@make -s vim-update
 
-vim:
+vim-install:
 	@cd ${PWD}/submodules/vimrc && make install
+
+vim-update:
+	@cd ${PWD}/submodules/vimrc && make update
