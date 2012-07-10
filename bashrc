@@ -13,7 +13,7 @@ export JRUBY_OPTS="--1.9 -Xcext.enabled=true"
 export RBXOPT=-X19
 
 # Add RBEnv to PATH and enable.
-export PATH=$HOME/Scripts/rbenv/bin:$PATH
+export PATH=$HOME/.rbenv/bin:$PATH
 eval "$(rbenv init -)"
 
 shopt -s globstar
@@ -25,7 +25,7 @@ alias ll="ls -l --color=auto"
 
 alias rspec="rspec -c -b"
 
-alias gd="cd ~/GlobalDawn"
+alias gd="cd ~/repos/gd"
 alias gs="git status"
 alias vm="gd && cd platform-vm"
 alias rf="gd && cd platform-ruby-frontend"

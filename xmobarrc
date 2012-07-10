@@ -1,0 +1,13 @@
+Config { bgColor = "#444"
+       , font = "xft:Ubuntu Mono:size=8:antialias=true"
+       , commands = [ Run Com "battery" [] "" 150
+                    , Run Cpu ["-L", "3", "-H", "50","--normal", "green", "--high", "red"] 10
+                    , Run Memory ["-t","Mem: <usedratio>%"] 10
+                    , Run Date "%a %b %_d | %H:%M:%S" "date" 10
+                    , Run Com "wireless" [] "" 150
+                    , Run StdinReader
+                    ]
+       , sepChar = "^"
+       , alignSep = "}{"
+       , template = "^StdinReader^ }{ ^wireless^ | ^cpu^ | ^memory^ | Battery: ^battery^ | ^date^"
+       }
