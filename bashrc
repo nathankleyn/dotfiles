@@ -24,6 +24,7 @@ alias ls="ls --color=auto"
 alias ll="ls -l --color=auto"
 
 alias rspec="rspec -c -b"
+alias sc="cd ~/repos/scripts"
 
 alias gd="cd ~/repos/gd"
 alias gs="git status"
