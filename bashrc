@@ -16,6 +16,12 @@ export RBXOPT=-X19
 export PATH=$HOME/.rbenv/bin:$PATH
 eval "$(rbenv init -)"
 
+# Add common build scripts for Java to the PATH.
+export PATH=$HOME/repos/gd/social-business-engine/common/scripts:$PATH
+
+# Add android SDK to PATH.
+export PATH=/opt/android-sdk/tools:$PATH
+
 shopt -s globstar
 shopt -s extglob
 
@@ -71,4 +77,4 @@ colour_blue='\e[0;34m'
 colour_cyan='\e[0;36m'
 colour_red="\e[0;31m"
 
-PS1="$colour_blue\u$colour_reset@$colour_red\h$colour_reset:$colour_cyan\w$colour_reset"'$(__git_ps1)\n\$ '
+PS1="$colour_blue\u$colour_reset@$colour_red\h$colour_reset:$colour_cyan\w$colour_reset"'\n\$ '
