@@ -3,6 +3,7 @@ import XMonad
 import XMonad.Config.Gnome
 import XMonad.Hooks.DynamicLog
 import XMonad.Hooks.EwmhDesktops
+import XMonad.Hooks.SetWMName
 import XMonad.Util.EZConfig
 import XMonad.Util.Loggers
 
@@ -15,14 +16,14 @@ main = xmonad =<< xmobarFn
 -- This is the toolbar that sits at the top of the main X screen.
 xmobarFn = (statusBar "xmobar" xmobarPretty xmobarToggleKey xmonadConfig)
 
-xmobarHighlight = "#FF9"
-xmobarHidden = "#CCC"
-xmobarDisabled = "#888"
+xmobarHighlight = "#eee8d5"
+xmobarHidden = "#839496"
+xmobarDisabled = "#073642"
 
 -- These are options that are passed to Xmobar when it's started up. We define
 -- nice colours here.
 xmobarPretty = xmobarPP {
-        ppTitle = xmobarColor xmobarHighlight "" . shorten 100,
+        ppTitle = xmobarColor xmobarHidden "" . shorten 100,
         ppCurrent = xmobarColor xmobarHighlight "",
         ppVisible = xmobarColor xmobarHidden "",
         ppHidden = xmobarColor xmobarHidden "",
@@ -47,14 +48,14 @@ gConfig = gnomeConfig {
             -- And the border colour for focused windos.
             focusedBorderColor = "#000",
             -- The width of the borders around windows.
-            borderWidth = 1,
+            borderWidth = 0,
             -- When an event takes place, we can define a callback to be
             -- triggered on receipt of this. In our case, we want to handle
             -- full screening things like Chromium and Flash properly.
             handleEventHook = fullscreenEventHook,
             -- Set the terminal that is opened when the <Mod>+<Enter> shortcut
             -- is pressed.
-            terminal = "gnome-terminal"
+            terminal = "xterm -u8"
           }
 
 xmonadKeyMap = [
