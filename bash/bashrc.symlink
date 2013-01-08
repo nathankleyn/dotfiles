@@ -40,4 +40,4 @@ colour_blue='\e[0;34m'
 colour_cyan='\e[0;36m'
 colour_red='\e[0;31m'
 
-PS1="$colour_cyan\w $colour_blue)$colour_reset "
+PS1="$colour_cyan\w$colour_reset\n> "
