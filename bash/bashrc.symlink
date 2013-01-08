@@ -13,7 +13,7 @@ export EDITOR=vim
 export LANG=en_US.UTF-8
 
 # Add RBEnv, common build scripts for Java, bieber and cabal to the PATH.
-export PATH=$HOME/.rbenv/bin:$HOME/repos/gd/social-business-engine/common/scripts:$HOME/repos/gd/bieber/bin/shims:$HOME/.cabal/bin:$PATH
+export PATH=$HOME/.rbenv/bin:$HOME/repos/gd/social-business-engine/common/scripts:$HOME/repos/gd/bieber/bin/shims:$HOME/.cabal/bin:$HOME/.bin:$PATH
 
 # Enable RBEnv.
 eval "$(rbenv init - --no-rehash)"
