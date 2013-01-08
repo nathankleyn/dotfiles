@@ -20,8 +20,7 @@ xmobarHighlight = "#eee8d5"
 xmobarHidden = "#839496"
 xmobarDisabled = "#073642"
 
--- These are options that are passed to Xmobar when it's started up. We 
-define
+-- These are options that are passed to Xmobar when it's started up. We define
 -- nice colours here.
 xmobarPretty = xmobarPP {
         ppTitle = xmobarColor xmobarHidden "" . shorten 100,
@@ -54,8 +53,7 @@ gConfig = gnomeConfig {
             -- triggered on receipt of this. In our case, we want to handle
             -- full screening things like Chromium and Flash properly.
             handleEventHook = fullscreenEventHook,
-            -- Set the terminal that is opened when the <Mod>+<Enter> 
-shortcut
+            -- Set the terminal that is opened when the <Mod>+<Enter> shortcut
             -- is pressed.
             terminal = "xterm -u8"
           }
@@ -67,13 +65,11 @@ xmonadKeyMap = [
            , ("M-<Backspace>", spawn "amixer -q set Master toggle")
            -- Volume up key
            -- Either the correct Fn key, or <Mod>+<Up>
-           , ("<XF86AudioRaiseVolume>", spawn "amixer -q set Master 1%+ 
-unmute")
+           , ("<XF86AudioRaiseVolume>", spawn "amixer -q set Master 1%+ unmute")
            , ("M-<Up>", spawn "amixer -q set Master 1%+ unmute")
            -- Volume lower key
            -- Either the correct Fn key, or <Mod>+<Down>
-           , ("<XF86AudioLowerVolume>", spawn "amixer -q set Master 1%- 
-unmute")
+           , ("<XF86AudioLowerVolume>", spawn "amixer -q set Master 1%- unmute")
            , ("M-<Down>", spawn "amixer -q set Master 1%- unmute")
          ]
 
