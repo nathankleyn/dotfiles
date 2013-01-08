@@ -2,6 +2,9 @@ all:update
 
 install:
 	@PWD=$(pwd)
+	@echo "Backing up existing .vimrc and .vim to $(HOME)/.vim[rc].bak"
+	@if [ -e $(HOME)/.vimrc ]; then mv $(HOME)/.vimrc $(HOME)/.vimrc.bak; fi
+	@if [ -e $(HOME)/.vim ]; then mv $(HOME)/.vim $(HOME)/.vim.bak; fi
 	@echo "Backing up existing .bashrc to $(HOME)/.bashrc.bak"
 	@if [ -e $(HOME)/.bashrc ]; then mv $(HOME)/.bashrc $(HOME)/.bashrc.bak; fi
 	@echo "Backing up existing .bash_profile to $(HOME)/.bash_profile.bak"
@@ -17,14 +20,14 @@ install:
 	ln -sf ${PWD}/xmonad $(HOME)/.xmonad
 	ln -sf ${PWD}/xmobarrc $(HOME)/.xmobarrc
 	ln -sf ${PWD}/xinitrc $(HOME)/.xinitrc
+	ln -sf ${PWD}/vim/vimrc $(HOME)/.vimrc
+	ln -sf ${PWD}/vim $(HOME)/.vim
 	@echo "Finished."
 
 update:
 	@git submodule foreach git pull origin master
-	@make -s vim-update
+	@make -s pathogen
 
-vim-install:
-	@cd ${PWD}/submodules/vimrc && make install
-
-vim-update:
-	@cd ${PWD}/submodules/vimrc && make update
+pathogen:
+	@cd ${PWD}/autoload && curl -so ./pathogen.vim \
+		https://raw.github.com/tpope/vim-pathogen/HEAD/autoload/pathogen.vim
