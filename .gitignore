@@ -1,2 +1,3 @@
-xmonad/*
-!xmonad/xmonad.hs
+xmonad/xmonad.symlink/*
+!xmonad/xmonad.symlink/xmonad.hs
+vim/vim.symlink/.netrwhist
