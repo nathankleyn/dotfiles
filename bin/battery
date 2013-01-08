@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+
+echo $(echo "scale=10; (`cat /sys/class/power_supply/BAT0/charge_now` / `cat /sys/class/power_supply/BAT0/charge_full`) * 100" | bc | sed -r 's/(.)[^.]*\.?/\L\1/g')% $(if [ `cat /sys/class/power_supply/BAT0/status` == "Charging" ]; then echo -n '^'; fi)
