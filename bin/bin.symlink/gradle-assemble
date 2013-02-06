@@ -1,1 +1,6 @@
-echo "gradle assemble -PbuildNumber=1 -PcommonBranchName=${git branch | grep \* | awk '{print $2}'}"
+git status &> /dev/null
+if [ $? -eq 0 ]
+then
+  BRANCH=`git branch | grep \* | awk '{print $2}'`
+  gradle assemble -PbuildNumber=1 -PcommonBranchName=${BRANCH}
+fi
