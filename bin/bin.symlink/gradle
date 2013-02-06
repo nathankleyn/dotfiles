@@ -1,0 +1,2 @@
+echo $@
+$HOME/repos/gd/bieber/build/services/gradle/bin/gradle -g $HOME/repos/gd/bieber/build/data/gradle $@

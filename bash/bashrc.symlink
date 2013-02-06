@@ -6,14 +6,14 @@
 [[ $- != *i* ]] && return
 
 . /usr/share/git/completion/git-completion.bash
-. $HOME/repos/gd/bieber/bin/bieber-completion
+# . $HOME/repos/gd/mngr/bin/mngr-settings.sh
 
 export BROWSER=chromium
 export EDITOR=vim
 export LANG=en_US.UTF-8
 
 # Add RBEnv, common build scripts for Java, bieber and cabal to the PATH.
-export PATH=$HOME/.rbenv/bin:$HOME/repos/gd/social-business-engine/common/scripts:$HOME/repos/gd/bieber/bin/shims:$HOME/.cabal/bin:$HOME/.bin:$PATH
+export PATH=$HOME/.rbenv/bin:$HOME/repos/gd/platform/backend/common/scripts:$HOME/repos/gd/bieber/bin/shims:$HOME/.cabal/bin:$HOME/.bin:$PATH
 
 # Enable RBEnv.
 eval "$(rbenv init - --no-rehash)"
@@ -29,8 +29,8 @@ alias rspec="rspec -c -b"
 alias rep="cd ~/repos"
 alias sc="cd ~/repos/scripts"
 alias gd="cd ~/repos/gd"
+alias gdj="gd && cd platform/backend"
 alias gs="git status"
-alias bieb="gd && cd bieber"
 alias open="xdg-open"
 
 # Pretty prompt with colours.
@@ -41,3 +41,17 @@ colour_cyan='\e[0;36m'
 colour_red='\e[0;31m'
 
 PS1="$colour_cyan\w$colour_reset\n> "
+
+# Setup SSH agent to store temporary passphrase.
+
+SSH_ENV="$HOME/.ssh/environment"
+
+function start_agent {
+  echo "Initialising new SSH Agent session..."
+  /usr/bin/ssh-agent | sed 's/^echo/#echo/' > "${SSH_ENV}"
+  chmod 600 "${SSH_ENV}"
+  . "${SSH_ENV}" > /dev/null
+  /usr/bin/ssh-add;
+}
+
+export GLOBALDAWN_HOME="$HOME/repos/gd/bieber/build/projects"
