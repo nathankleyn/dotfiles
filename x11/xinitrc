@@ -8,5 +8,5 @@
 
 start-pulseaudio-x11
 xrdb -merge ~/.Xresources
+feh --bg-fill ~/photos/IMG_9758.jpg
 exec xmonad
-# exec awesome

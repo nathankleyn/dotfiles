@@ -16,9 +16,9 @@ main = xmonad =<< xmobarFn
 -- This is the toolbar that sits at the top of the main X screen.
 xmobarFn = (statusBar "xmobar" xmobarPretty xmobarToggleKey xmonadConfig)
 
-xmobarHighlight = "#eee8d5"
-xmobarHidden = "#839496"
-xmobarDisabled = "#073642"
+xmobarHighlight = "#AAAAAA"
+xmobarHidden = "#666666"
+xmobarDisabled = "#333333"
 
 -- These are options that are passed to Xmobar when it's started up. We define
 -- nice colours here.

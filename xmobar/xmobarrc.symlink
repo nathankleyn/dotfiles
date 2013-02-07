@@ -1,5 +1,7 @@
-Config { bgColor = "#002b36"
-       , fgColor = "#93a1a1"
+-- Config { bgColor = "#002b36"
+--       , fgColor = "#93a1a1"
+Config { bgColor = "#222222"
+       , fgColor = "#888888"
        , font = "xft:Ubuntu Mono:size=10:antialias=true"
        , commands = [ Run Com "battery" [] "" 150
                     , Run Cpu ["-L", "3", "-H", "50","--normal", "green", "--high", "red"] 10
