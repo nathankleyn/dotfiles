@@ -1,0 +1,8 @@
+#
+# ~/.zprofile
+#
+
+[[ -f ~/.zshrc ]] && . ~/.zshrc
+
+start_agent
+exec startx
