@@ -55,7 +55,8 @@ gConfig = gnomeConfig {
             handleEventHook = fullscreenEventHook,
             -- Set the terminal that is opened when the <Mod>+<Enter> shortcut
             -- is pressed.
-            terminal = "xterm -u8"
+            -- terminal = "xterm -u8"
+            terminal = "uxterm"
           }
 
 xmonadKeyMap = [

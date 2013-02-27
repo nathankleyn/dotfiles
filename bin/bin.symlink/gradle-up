@@ -1,0 +1,15 @@
+function gradle_root() {
+  if [ -e build.gradle ]; then
+    return 0
+  fi
+
+  while ! [ -e build.gradle ] && ! [ `pwd` == '/' ]; do
+    cd ..
+  done
+
+  if [ `pwd` == '/' ]; then
+    return 1
+  fi
+}
+
+gradle_root && gradle
