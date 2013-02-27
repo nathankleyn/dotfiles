@@ -12,4 +12,4 @@ function gradle_root() {
   fi
 }
 
-gradle_root && gradle
+gradle_root && gradle $@
