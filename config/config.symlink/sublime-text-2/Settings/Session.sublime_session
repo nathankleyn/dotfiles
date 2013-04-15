@@ -1,0 +1,3998 @@
+{
+	"folder_history":
+	[
+		"/home/nathan/repos/searchingfortomorrow.com",
+		"/home/nathan/repos/gd/platform",
+		"/home/nathan/repos/net-battle-hs",
+		"/home/nathan/repos/linode-configuration",
+		"/home/nathan/repos/crosby",
+		"/home/nathan/repos/nathankleyn.com.old",
+		"/home/nathan/repos/nathankleyn.com",
+		"/home/nathan/repos/satisfy",
+		"/home/nathan/repos/gd/configuration",
+		"/home/nathan/repos/gd/bieber",
+		"/home/nathan/repos/nxt",
+		"/home/nathan/repos/gd/platform/static-files/sdk",
+		"/home/nathan/repos/gd/test/post-message",
+		"/home/nathan/repos/gd/platform/static-files/gd-sdk",
+		"/home/nathan/repos/gd/platform/static-files/gd-sdk/plugins",
+		"/home/nathan/repos/gd/platform-static-files-refactor"
+	],
+	"last_window_id": 20,
+	"settings":
+	{
+		"new_window_height": 1037.0,
+		"new_window_settings":
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"stubRe",
+						"stubReplacements1"
+					],
+					[
+						"bef",
+						"beforeEach"
+					],
+					[
+						"mockS",
+						"mockSubjects"
+					],
+					[
+						"stub",
+						"stubString1"
+					],
+					[
+						"obj",
+						"objectToQs"
+					],
+					[
+						"recom",
+						"recommendationItemInputChecked"
+					],
+					[
+						"recomm",
+						"recommendationItemInput"
+					],
+					[
+						"pag",
+						"pagination"
+					],
+					[
+						"mess",
+						"messagesNode"
+					],
+					[
+						"_on",
+						"_onMarkupClickBound"
+					],
+					[
+						"_onMar",
+						"_onMarkupMouseUp"
+					],
+					[
+						"bo",
+						"border"
+					],
+					[
+						"prev",
+						"previewPlugin"
+					],
+					[
+						"in",
+						"innerHTML"
+					],
+					[
+						"_pre",
+						"_previewNode"
+					],
+					[
+						"previ",
+						"previewPluginNode"
+					],
+					[
+						"_bui",
+						"_builderType"
+					],
+					[
+						"at",
+						"attribute"
+					],
+					[
+						"text",
+						"textarea"
+					],
+					[
+						"pre",
+						"previewNode"
+					],
+					[
+						"helo",
+						"helpBlock"
+					],
+					[
+						"_get",
+						"_getAttr"
+					],
+					[
+						"la",
+						"label"
+					],
+					[
+						"cont",
+						"controls"
+					],
+					[
+						"gro",
+						"groupMember"
+					],
+					[
+						"apped",
+						"appendChild"
+					],
+					[
+						"cre",
+						"createElement"
+					],
+					[
+						"contr",
+						"controlGroup"
+					],
+					[
+						"con",
+						"controls"
+					],
+					[
+						"_bu",
+						"_buildAttributes"
+					],
+					[
+						"ch",
+						"childNodes"
+					],
+					[
+						"conrol",
+						"controlGroup"
+					],
+					[
+						"styl",
+						"styleClasses"
+					],
+					[
+						"_ty",
+						"_typeSelectNode"
+					],
+					[
+						"type",
+						"typeSelect"
+					],
+					[
+						"sel",
+						"selectedType"
+					],
+					[
+						"_build",
+						"_buildTypeSelector"
+					],
+					[
+						"state",
+						"stateItem"
+					],
+					[
+						"s",
+						"styleClasses"
+					],
+					[
+						"st",
+						"stateItem"
+					],
+					[
+						"pl",
+						"plugin"
+					],
+					[
+						"plug",
+						"pluginList"
+					],
+					[
+						"app",
+						"appendChild"
+					],
+					[
+						"conr",
+						"controlGroup"
+					],
+					[
+						"fi",
+						"function"
+					],
+					[
+						"read",
+						"readyState"
+					],
+					[
+						"f",
+						"function"
+					],
+					[
+						"mock",
+						"mockSubject"
+					],
+					[
+						"sub",
+						"stubOptions"
+					],
+					[
+						"stubP",
+						"stubPostMessage"
+					],
+					[
+						"re",
+						"request"
+					],
+					[
+						"_fram",
+						"_frameDfd"
+					],
+					[
+						"pub",
+						"pubsub"
+					],
+					[
+						"stubA",
+						"stubArg2"
+					],
+					[
+						"stubn",
+						"stubEvent"
+					],
+					[
+						"all",
+						"stubAllowedOrigins"
+					],
+					[
+						"call",
+						"calledWith"
+					],
+					[
+						"_o",
+						"_onMessageBound"
+					],
+					[
+						"post",
+						"postMessage"
+					],
+					[
+						"stubN",
+						"stubNodes"
+					],
+					[
+						"gd",
+						"gdAttr"
+					],
+					[
+						"gdA",
+						"gdAttr"
+					],
+					[
+						"gr",
+						"groupMember"
+					],
+					[
+						"group",
+						"groupMembers"
+					],
+					[
+						"start",
+						"startGroup"
+					],
+					[
+						"plu",
+						"pluginUtil"
+					],
+					[
+						"stubL",
+						"stubLinks"
+					],
+					[
+						"sp",
+						"spySubject"
+					],
+					[
+						"do",
+						"document"
+					],
+					[
+						"load",
+						"_loadStylesheets"
+					],
+					[
+						"get",
+						"getElementsByTagName"
+					],
+					[
+						"mockSc",
+						"mockScript"
+					],
+					[
+						"proxy",
+						"proxyRequest"
+					],
+					[
+						"dom",
+						"domReady"
+					],
+					[
+						"Mock",
+						"mockSubject"
+					],
+					[
+						"sen",
+						"sendInitMessage"
+					],
+					[
+						"ap",
+						"apiFrame"
+					],
+					[
+						"moc",
+						"mockWindow"
+					],
+					[
+						"api",
+						"apiKey"
+					],
+					[
+						"_pag",
+						"_paginationNode"
+					],
+					[
+						"det",
+						"_detachPaginationEvents"
+					],
+					[
+						"_attac",
+						"_attachPaginationEvents"
+					],
+					[
+						"_",
+						"_onReadyStateChange"
+					],
+					[
+						"confi",
+						"config-defaults"
+					],
+					[
+						"_onSelec",
+						"_onSelectAllSubmitBound"
+					],
+					[
+						"_selec",
+						"_selectAllSubmitNode"
+					],
+					[
+						"targ",
+						"targetPage"
+					],
+					[
+						"_onPag",
+						"_onPaginationItemNodeClickBound"
+					],
+					[
+						"_page",
+						"_paginationNode"
+					],
+					[
+						"page",
+						"pageNode"
+					],
+					[
+						"_att",
+						"_attachPaginationEvents"
+					],
+					[
+						"togg",
+						"togglerFunction"
+					],
+					[
+						"twe",
+						"tweetText"
+					],
+					[
+						"date",
+						"dateString"
+					],
+					[
+						"clie",
+						"clientOrigin"
+					],
+					[
+						"send",
+						"_sendToOrigins"
+					],
+					[
+						"de",
+						"description"
+					],
+					[
+						"d",
+						"description"
+					],
+					[
+						"after",
+						"afterEach"
+					],
+					[
+						"grou",
+						"groupMemberNode"
+					],
+					[
+						"_onL",
+						"_onLaunchReviewNodeClickBound"
+					],
+					[
+						"retur",
+						"returns"
+					],
+					[
+						"quer",
+						"querySelectorAll"
+					],
+					[
+						"_find",
+						"_findNodesInPlugin"
+					],
+					[
+						"find",
+						"_findNodesInPluginByDataAttr"
+					],
+					[
+						"getA",
+						"_getAttr"
+					],
+					[
+						"ob",
+						"objectToQs"
+					],
+					[
+						"_sub",
+						"_subcribedToTopics"
+					],
+					[
+						"test",
+						"testGlobal"
+					],
+					[
+						"stubD",
+						"stubData"
+					],
+					[
+						"exp",
+						"expect"
+					],
+					[
+						"_s",
+						"_subscribeToTopics"
+					],
+					[
+						"sess",
+						"sessionKey"
+					],
+					[
+						"local",
+						"localStorage"
+					],
+					[
+						"stu",
+						"stubNode"
+					],
+					[
+						"pro",
+						"prototype"
+					],
+					[
+						"q",
+						"queryAll"
+					],
+					[
+						"sdk",
+						"sdkScript"
+					],
+					[
+						"config",
+						"configDefaults"
+					],
+					[
+						"preven",
+						"preventDefault"
+					],
+					[
+						"selec",
+						"selectedItem"
+					],
+					[
+						"soci",
+						"social_recommendation"
+					],
+					[
+						"_mu",
+						"_multiselectUrl"
+					],
+					[
+						"rel",
+						"stubRelevantItem"
+					],
+					[
+						"non",
+						"stubNonRelevantItemTwo"
+					],
+					[
+						"_item",
+						"_itemNodes"
+					],
+					[
+						"_ite",
+						"_itemNodes"
+					],
+					[
+						"response",
+						"responseText"
+					]
+				]
+			},
+			"build_system": "Packages/User/Gradle Dev.sublime-build",
+			"command_palette":
+			{
+				"height": 392.0,
+				"selected_items":
+				[
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"packa",
+						"Preferences: Browse Packages"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"Snippet: ",
+						"Snippet: Function"
+					],
+					[
+						"sideb",
+						"View: Toggle Side Bar"
+					],
+					[
+						"sidebar",
+						"View: Toggle Side Bar"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"reint",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"rein",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"conver",
+						"Indentation: Convert to Spaces"
+					],
+					[
+						"inde",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"insall",
+						"Package Control: Install Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"inspec",
+						"Web Inspector"
+					],
+					[
+						"insp",
+						"Web Inspector"
+					],
+					[
+						"web",
+						"Web Inspector"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"REMOVE",
+						"Package Control: Remove Package"
+					],
+					[
+						"git",
+						"Git: Diff All"
+					],
+					[
+						"lint",
+						"SublimeLinter: Show Error List"
+					],
+					[
+						"package",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Remove Package"
+					],
+					[
+						"jshint",
+						"JSHint: Linter"
+					],
+					[
+						"jsh",
+						"JSHint: Linter"
+					],
+					[
+						"preview",
+						"Markdown Preview: preview in Browser"
+					],
+					[
+						":w",
+						":w - Save"
+					],
+					[
+						"pack",
+						"Preferences: Browse Packages"
+					]
+				],
+				"width": 467.0
+			},
+			"console":
+			{
+				"height": 125.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/nathan/repos/searchingfortomorrow.com/config/unicorn-searchingfortomorrow.conf",
+				"/home/nathan/repos/gd/platform/static-files/sdk/test/gd-sdk/utils.test.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/utils.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/plugin-builder.json",
+				"/home/nathan/repos/gd/platform/static-files/sdk/plugin-builder/plugin-builder.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/plugin-builder/plugin/plugin-builder-item.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/test/gd-sdk/gd-sdk.test.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/test/gd-sdk/xhr.test.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/plugin/message-area.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/plugin/social-recommendations.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/request.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/plugin-util.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/post-message.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/pubsub.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/xhr.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/test/gd-sdk/config-defaults.test.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/test/gd-sdk/plugin/social-recommendations.test.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/plugin-builder/plugin/plugin-builder.js",
+				"/home/nathan/repos/gd/platform/static-files/less/plugins/login.less",
+				"/home/nathan/repos/gd/platform/static-files/less/plugins/social-recommendations.less",
+				"/home/nathan/repos/gd/platform/static-files/less/plugins/plugin-builder.less",
+				"/home/nathan/repos/gd/platform/static-files/less/demo.less",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/plugin/base.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/base.js",
+				"/home/nathan/repos/gd/platform/static-files/less/gd.less",
+				"/home/nathan/repos/gd/platform/static-files/node_modules/morpheus/build.json",
+				"/home/nathan/repos/gd/configuration/nginx/vhosts/bieber.conf.erb",
+				"/home/nathan/repos/gd/platform/static-files/sdk/test/gd-sdk/request.test.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/api-frame.html",
+				"/home/nathan/repos/gd/platform/docs/examples/client/index.html",
+				"/home/nathan/repos/gd/platform/static-files/sdk/test/gd-sdk/base.test.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/test/gd-sdk/post-message.test.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/test/gd-sdk/plugin/base.test.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/test/gd-sdk/plugin/personal-share.test.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/test/gd-sdk/plugin/user-status.test.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/gd-sdk.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/config-defaults.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/plugin/user-status.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/lib/facebook-sdk.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/lib/twitter-sdk.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/plugin/personal-share.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/proxy-request.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/build/gd-sdk.localhost.js",
+				"/home/nathan/repos/gd/platform/README.md",
+				"/home/nathan/repos/gd/platform/static-files/sdk/build.gradle",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/api-frame.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/plugin-list.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/plugin/login.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/dialog.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/dom-ready.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/requirejs-options.json",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/config/localhost.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/config/remote.js",
+				"/home/nathan/repos/gd/platform/static-files/package.json",
+				"/home/nathan/repos/gd/platform/.gitignore",
+				"/home/nathan/repos/gd/platform/static-files/sdk/karma.conf.js",
+				"/home/nathan/repos/gd/platform/docs/examples/client/plugin-builder.json",
+				"/home/nathan/repos/gd/platform/static-files/sdk/plugin-builder/plugin/builder.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/build/pluin-builder.localhost.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/test/test-main.js",
+				"/home/nathan/repos/gd/platform/backend/backend/recommendations/recommendations-rest-service/src/main/java/com/globaldawn/recommendations/web/support/RecommendationsResultSetBuilder.java",
+				"/home/nathan/sample-bar-plugin.js",
+				"/home/nathan/repos/gd/platform/docs/examples/client/login-success.html",
+				"/home/nathan/repos/gd/platform/docs/examples/client/login-failed.html",
+				"/home/nathan/repos/gd/platform/docs/examples/client/social-recs.html",
+				"/home/nathan/repos/gd/platform/docs/examples/client/start-sdk.js",
+				"/home/nathan/repos/gd/platform/js-backoffice/build.gradle",
+				"/home/nathan/repos/gd/platform/static-files/build.gradle",
+				"/home/nathan/repos/gd/platform/static-files/less/gd-helpers.less",
+				"/home/nathan/repos/gd/platform/static-files/less/gd-mixins.less",
+				"/home/nathan/repos/gd/platform/static-files/less/plugins/message-area.less",
+				"/home/nathan/repos/gd/platform/static-files/less/plugins/share.less",
+				"/home/nathan/repos/gd/platform/static-files/less/gd-bootstrap.less",
+				"/home/nathan/repos/gd/platform/static-files/less/bootstrap/mixins.less",
+				"/home/nathan/repos/gd/platform/static-files/css/demo.css",
+				"/home/nathan/repos/gd/platform/static-files/less/forms.less",
+				"/home/nathan/repos/gd/platform/jenkins-scripts/buildStaticFiles.sh",
+				"/home/nathan/repos/gd/platform/jenkins-scripts/buildBackOffice.sh",
+				"/home/nathan/.config/sublime-text-2/Packages/User/Gradle.sublime-build",
+				"/home/nathan/.config/sublime-text-2/Packages/User/Gradle Bootstrap.sublime-build",
+				"/home/nathan/.config/sublime-text-2/Packages/User/Gradle Dev.sublime-build",
+				"/home/nathan/repos/gd/platform/static-files/sdk/test/gd-sdk/pubsub.test.js",
+				"/home/nathan/.config/sublime-text-2/Packages/Default/Preferences.sublime-settings",
+				"/home/nathan/.config/sublime-text-2/Packages/User/SublimeLinter.sublime-settings",
+				"/home/nathan/.config/sublime-text-2/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+				"/home/nathan/repos/gd/platform/static-files/sdk/test/gd-sdk/plugin-util.test.js",
+				"/home/nathan/repos/gd/platform/js-backoffice/lib/dojo/dojox/widget/UpgradeBar.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/test/gd-sdk/api-frame.test.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/test/gd-sdk/dialog.test.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/test/gd-sdk/dom-ready.test.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/test/gd-sdk/animation.test.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/test/gd-sdk/plugin/login.test.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/test/gd-sdk/plugin/message-area.test.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/test/gd-sdk/plugin/public-share.test.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/test/gd-sdk/plugin-list.test.js",
+				"/home/nathan/.i3/config",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/animation.js",
+				"/home/nathan/repos/gd/platform/js-backoffice/GlobalDawn/Admin/js/Display/AnalyticsTimeline.js",
+				"/home/nathan/repos/gd/platform/backend/recommendations/recommendations-rest-service/src/main/java/com/globaldawn/recommendations/web/plugins/controller/SocialRecommendationPluginController.java",
+				"/home/nathan/repos/gd/platform/backend/common/common-data-model/src/main/java/com/globaldawn/common/datamodel/repository/UserRepository.java",
+				"/home/nathan/repos/gd/platform/backend/behaviour-processor/behaviour-processor-core/src/main/java/com/globaldawn/behaviourprocessor/test/console/TestConsoleUserRepository.java",
+				"/home/nathan/repos/gd/platform/js-backoffice/GlobalDawn/Admin/less/view_helpers/autosuggest.less",
+				"/home/nathan/repos/gd/platform/js-backoffice/GlobalDawn/Admin/less/admin.less",
+				"/home/nathan/repos/gd/platform/js-backoffice/GlobalDawn/Admin/less/mixins.less",
+				"/home/nathan/repos/gd/platform/js-backoffice/GlobalDawn/Admin/less/analytics.less",
+				"/home/nathan/repos/gd/platform/static-files/css/gd.css",
+				"/home/nathan/repos/gd/platform/backend/common/scripts/ideaAllP.sh",
+				"/home/nathan/repos/gd/platform/static-files/js/dependencies/social-recommendations.js",
+				"/home/nathan/before",
+				"/home/nathan/after",
+				"/home/nathan/repos/gd/platform/static-files/README.md",
+				"/home/nathan/repos/gd/platform/js-backoffice/GlobalDawn/Admin/js/Display/SelectableFormSection.js",
+				"/home/nathan/repos/gd/platform/js-backoffice/GlobalDawn/Admin/js/Display/EnabledToggler.js",
+				"/home/nathan/repos/searchingfortomorrow.com/Gemfile",
+				"/home/nathan/repos/searchingfortomorrow.com/searchingfortomorrowcom-unicorn.service",
+				"/home/nathan/repos/nathankleyn.com/app/controllers/posts.rb",
+				"/home/nathan/repos/crosby/lib/crosby.rb",
+				"/home/nathan/repos/nathankleyn.com/application.rb",
+				"/home/nathan/repos/nathankleyn.com/Gemfile",
+				"/home/nathan/repos/nathankleyn.com/app/models/post.rb",
+				"/home/nathan/repos/nathankleyn.com/nathankleyncom-unicorn.service",
+				"/home/nathan/repos/linode-configuration/nginx/nginx.conf",
+				"/home/nathan/repos/linode-configuration/nginx/sites/searchingfortomorrow.com.conf.disabled",
+				"/home/nathan/repos/linode-configuration/nginx/sites/kittygallannaugh.com.conf.disabled",
+				"/home/nathan/repos/linode-configuration/nginx/sites/nathankleyn.com.conf",
+				"/home/nathan/repos/crosby/lib/crosby/resources.rb",
+				"/home/nathan/repos/nathankleyn.com/public/sass/posts/2011/hello-world.scss",
+				"/home/nathan/repos/nathankleyn.com/public/css/posts/2011/ruby-resources.css"
+			],
+			"find":
+			{
+				"height": 40.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+					"/home/nathan/repos/gd/platform/static-files/sdk",
+					"/home/nathan/repos/gd/platform/static-files/less",
+					"/home/nathan/repos/gd/platform/static-files/sdk",
+					"",
+					"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk",
+					"",
+					"/home/nathan/repos/gd/platform/static-files/sdk/test",
+					"/home/nathan/repos/gd/platform/static-files,-**/node_modules/**",
+					"/home/nathan/repos/gd/platform/static-files,-node_modules",
+					"/home/nathan/repos/gd/platform/static-files",
+					"/home/nathan/repos/gd/platform/static-files/sdk",
+					"/home/nathan/repos/gd/platform/static-files/sdk/test",
+					"/home/nathan/repos/gd/platform/static-files/sdk",
+					"/home/nathan/repos/gd/platform/static-files/sdk/test",
+					"/home/nathan/repos/gd/platform/static-files/sdk",
+					"/home/nathan/repos/gd/platform/static-files",
+					"/home/nathan/repos/gd/platform/js-backoffice/GlobalDawn",
+					"/home/nathan/repos/gd/platform/backend",
+					"/home/nathan/repos/gd/platform/backoffice",
+					"/home/nathan/repos/gd/platform/js-backoffice",
+					"/home/nathan/repos/gd/platform-static-files-refactor/static-files/gd-sdk",
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": false,
+				"find_history":
+				[
+					"mockU",
+					"mockPrototype",
+					"utils.contains",
+					"_buildPag",
+					"_onMarkupClick",
+					"[data-gd-small]",
+					".gd-login-small",
+					"_getAttributeType",
+					"_attributeIsVisible",
+					"\n      ",
+					"values\"",
+					"Header",
+					"proxyR",
+					"proxy-request",
+					"@deprecated",
+					"_onTypeChange",
+					"TypeSelector",
+					"PluginBuilderPlugin",
+					"BuilderPlugin",
+					"gdPopover",
+					"display: table",
+					":before",
+					".clearfix",
+					".clearfix:after",
+					".clearfix:before",
+					"table",
+					"getParent",
+					"_message",
+					"),\n",
+					"snipp",
+					"message-area",
+					"to.have.been.calledTwice",
+					".twice",
+					"ATTR_PREFIX",
+					"'then'",
+					"stubError",
+					"stubDfd",
+					"cover",
+					"conver",
+					"preprocessors",
+					"gd-sdk/**/*.js",
+					"console",
+					"();\n",
+					"a.property",
+					"property",
+					"expect(result)",
+					"promise",
+					"result",
+					"return a dfd",
+					"return a def",
+					"return a promise",
+					"delete window",
+					"delete windoiw",
+					"delete",
+					"parent",
+					"_tmplitem",
+					"_getAttr",
+					"_onPaginationNodeClick",
+					"relevant",
+					"id",
+					"friend-id",
+					";\n",
+					"_onClick",
+					"ChildDependants.Add",
+					"disable",
+					"disabled",
+					"toggle",
+					" `",
+					"/* ",
+					"find_by_year_and_slug",
+					"from_yaml_to_object",
+					"proxyRe",
+					"done",
+					"stubRequest",
+					"mockRequest",
+					"twiter",
+					"broadcast",
+					"'\n",
+					"request",
+					"gd-sdk/request",
+					"pubsub.broadcast",
+					"gd-sdk/request",
+					"request",
+					"gd-sdk/request",
+					"request",
+					"q",
+					"Testacular",
+					"_addRequestParams",
+					"messages",
+					"request",
+					"RequestProxy",
+					"\"",
+					"`",
+					"head",
+					"FIXME",
+					"fakeTim",
+					"this.sandbox.clock",
+					".tick",
+					"FIXME",
+					"SocialRecommendations",
+					"qwery",
+					"data-gd",
+					"subscr",
+					"testGlobal",
+					"_subscribedToTopics",
+					"q.prom",
+					"sinon.match.object",
+					"define('gd-sdk/config'",
+					"gd-sdk/config",
+					"config",
+					"apiKey",
+					"*\n",
+					"sendReadyMessage",
+					"_handleErrors",
+					"_addRequestParams",
+					"appendChild",
+					"loadExternalJs",
+					"contains",
+					"origin",
+					"location.protocol",
+					"getOrigin",
+					"stringContains",
+					"attrsToQs",
+					"_",
+					"findNodes",
+					".findNodes",
+					"findNodes",
+					"@returns {q"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"_onMarkupFocus",
+					"[data-gd-small=\"true\"]",
+					"[data-gd-small]",
+					"allowedValues\"",
+					"_onTypeSelectChange",
+					"TypeSelect",
+					"PluginBuilderItemPlugin",
+					"PluginBuilderPlugin",
+					"facebook-login",
+					"property",
+					"_onPaginationItemNodeClick",
+					"from_yaml",
+					"publish",
+					"proxyRequest",
+					"pubsub.publish",
+					"proxyRequest",
+					"ApiFrame",
+					"`",
+					"q",
+					"ProductReviews",
+					"objectToQs",
+					"called",
+					"request",
+					";",
+					"</a></td>\n",
+					"<td><a",
+					"<tr>\n      <td>",
+					"<tr>\\n      <td>",
+					"_onCheckboxChange",
+					"_checkboxesInResultSet",
+					"this.stubEvent",
+					"detach the",
+					"detach",
+					"SocialRecommendationsPlugin",
+					"gd-sdk/pubsub",
+					"RequestProxy",
+					"Request",
+					" = function",
+					"= function",
+					"Request",
+					"ProxyRequest",
+					"_buildResultSet",
+					"}, this));",
+					"_.bind(function(\\1) \\{",
+					"_.bind(function(\\1) {",
+					"_.bind(function() {",
+					"className",
+					"className'",
+					"_labels",
+					"detach",
+					"twitter",
+					"mockPlugin",
+					"mockBean",
+					"mockSubject",
+					"gd-sdk/plugin/",
+					"PluginUtil.",
+					"twitterSdk",
+					"facebookSdk",
+					"TWITTER",
+					"Twitter",
+					"twitter",
+					"PublicSharePlugin",
+					"SocialRecommendationsPlugin",
+					"'",
+					"\\1:",
+					"\\1"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"incremental_find":
+			{
+				"height": 44.0
+			},
+			"input":
+			{
+				"height": 41.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 198.0
+			},
+			"output.find_results":
+			{
+				"height": 178.0
+			},
+			"output.git":
+			{
+				"height": 154.0
+			},
+			"replace":
+			{
+				"height": 74.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"plugin-",
+						"platform/static-files/sdk/plugin-builder.json"
+					],
+					[
+						"social-rec",
+						"platform/static-files/sdk/gd-sdk/plugin/social-recommendations.js"
+					],
+					[
+						"message",
+						"platform/static-files/sdk/gd-sdk/plugin/message-area.js"
+					],
+					[
+						"static-files/sdk/gd-sdk/plugin/social-recommendations.js",
+						"platform/static-files/sdk/gd-sdk/plugin/social-recommendations.js"
+					],
+					[
+						"demo.",
+						"platform/static-files/less/demo.less"
+					],
+					[
+						"plugin-b",
+						"platform/static-files/less/plugins/plugin-builder.less"
+					],
+					[
+						"social-re.le",
+						"platform/static-files/less/plugins/social-recommendations.less"
+					],
+					[
+						"social-re.less",
+						"platform/static-files/less/plugins/social-recommendations.less"
+					],
+					[
+						"login.le",
+						"platform/static-files/less/plugins/login.less"
+					],
+					[
+						"plugin-u",
+						"platform/static-files/sdk/gd-sdk/plugin-util.js"
+					],
+					[
+						"base.js",
+						"platform/static-files/sdk/gd-sdk/plugin/base.js"
+					],
+					[
+						"builder.json",
+						"platform/static-files/sdk/plugin-builder.json"
+					],
+					[
+						"base.",
+						"platform/static-files/sdk/gd-sdk/plugin/base.js"
+					],
+					[
+						"build.js",
+						"platform/static-files/node_modules/morpheus/build.json"
+					],
+					[
+						"utis.js",
+						"platform/static-files/sdk/gd-sdk/utils.js"
+					],
+					[
+						"bui.json",
+						"platform/static-files/sdk/plugin-builder.json"
+					],
+					[
+						"builder.js",
+						"platform/static-files/sdk/plugin-builder/plugin/plugin-builder.js"
+					],
+					[
+						"plu-item",
+						"platform/static-files/sdk/plugin-builder/plugin/plugin-builder-item.js"
+					],
+					[
+						"base",
+						"platform/static-files/sdk/gd-sdk/base.js"
+					],
+					[
+						"bieber.c",
+						"configuration/nginx/vhosts/bieber.conf.erb"
+					],
+					[
+						"api-fra",
+						"platform/static-files/sdk/api-frame.html"
+					],
+					[
+						"bieber",
+						"configuration/nginx/vhosts/bieber.conf.erb"
+					],
+					[
+						"login.less",
+						"platform/static-files/less/plugins/login.less"
+					],
+					[
+						"buil.js",
+						"platform/static-files/sdk/plugin-builder.json"
+					],
+					[
+						"inde.html",
+						"platform/docs/examples/client/index.html"
+					],
+					[
+						"bieber.conf",
+						"configuration/nginx/vhosts/bieber.conf.erb"
+					],
+					[
+						"gd-bo",
+						"platform/static-files/less/gd-bootstrap.less"
+					],
+					[
+						"gd.less",
+						"platform/static-files/less/gd.less"
+					],
+					[
+						"demo.less",
+						"platform/static-files/less/demo.less"
+					],
+					[
+						"demo.cs",
+						"platform/static-files/css/demo.css"
+					],
+					[
+						"base.test",
+						"platform/static-files/sdk/test/gd-sdk/base.test.js"
+					],
+					[
+						"read",
+						"platform/README.md"
+					],
+					[
+						"test-m",
+						"platform/static-files/sdk/test/test-main.js"
+					],
+					[
+						"karma",
+						"platform/static-files/sdk/karma.conf.js"
+					],
+					[
+						"req.tes",
+						"platform/static-files/sdk/test/gd-sdk/request.test.js"
+					],
+					[
+						"config-de.te",
+						"platform/static-files/sdk/test/gd-sdk/config-defaults.test.js"
+					],
+					[
+						"config-def",
+						"platform/static-files/sdk/gd-sdk/config-defaults.js"
+					],
+					[
+						"postm.te",
+						"platform/static-files/sdk/test/gd-sdk/post-message.test.js"
+					],
+					[
+						"base.te",
+						"platform/static-files/sdk/test/gd-sdk/base.test.js"
+					],
+					[
+						"base.tes",
+						"platform/static-files/sdk/test/gd-sdk/base.test.js"
+					],
+					[
+						"karm",
+						"platform/static-files/sdk/karma.conf.js"
+					],
+					[
+						"social.test",
+						"platform/static-files/sdk/test/gd-sdk/plugin/social-recommendations.test.js"
+					],
+					[
+						"sidebar",
+						"platform/js-backoffice/lib/dojo/dojox/widget/UpgradeBar.js"
+					],
+					[
+						"timeline",
+						"platform/js-backoffice/GlobalDawn/Admin/js/Display/AnalyticsTimeline.js"
+					],
+					[
+						"ideap",
+						"platform/backend/common/scripts/ideaAllP.sh"
+					],
+					[
+						"social-recomm.test",
+						"platform/static-files/sdk/test/gd-sdk/plugin/social-recommendations.test.js"
+					],
+					[
+						"social-re",
+						"platform/static-files/js/dependencies/social-recommendations.js"
+					],
+					[
+						"social-",
+						"platform/static-files/sdk/gd-sdk/plugin/social-recommendations.js"
+					],
+					[
+						"package",
+						"platform/static-files/package.json"
+					],
+					[
+						"pluginbase",
+						"platform/static-files/sdk/gd-sdk/plugin/base.js"
+					],
+					[
+						"login",
+						"platform/static-files/sdk/gd-sdk/plugin/login.js"
+					],
+					[
+						"confi-de",
+						"platform/static-files/sdk/gd-sdk/config-defaults.js"
+					],
+					[
+						"confi",
+						"platform/js-backoffice/build/config.js"
+					],
+					[
+						"requ",
+						"platform/static-files/gd-sdk/requirejs-options.json"
+					],
+					[
+						"test-ma",
+						"platform/static-files/sdk/test/test-main.js"
+					],
+					[
+						"messae-ar",
+						"platform/static-files/sdk/gd-sdk/plugin/message-area.js"
+					],
+					[
+						"user-status",
+						"platform/static-files/sdk/test/gd-sdk/plugin/user-status.test.js"
+					],
+					[
+						"utils.test",
+						"platform/static-files/sdk/test/gd-sdk/utils.test.js"
+					],
+					[
+						"util.test",
+						"platform/static-files/node_modules/testacular/node_modules/socket.io/node_modules/socket.io-client/test/util.test.js"
+					],
+					[
+						"sdk/util.js",
+						"platform/static-files/sdk/gd-sdk/utils.js"
+					],
+					[
+						"social-rec.js",
+						"platform/static-files/sdk/gd-sdk/plugin/social-recommendations.js"
+					],
+					[
+						"testa.co",
+						"platform/static-files/sdk/testacular.conf.js"
+					],
+					[
+						"back/pac",
+						"platform/js-backoffice/package.json"
+					],
+					[
+						"pack",
+						"platform/static-files/package.json"
+					],
+					[
+						"publi",
+						"platform/static-files/sdk/test/gd-sdk/plugin/public-share.test.js"
+					],
+					[
+						"dom-read",
+						"platform/static-files/sdk/gd-sdk/dom-ready.js"
+					],
+					[
+						"single-lo",
+						"platform/docs/examples/client/single-login.html"
+					],
+					[
+						"testac",
+						"platform/static-files/sdk/testacular.conf.js"
+					],
+					[
+						"utils",
+						"platform/static-files/sdk/gd-sdk/utils.js"
+					],
+					[
+						"utils.",
+						"platform/static-files/sdk/gd-sdk/utils.js"
+					],
+					[
+						"personal",
+						"platform/static-files/sdk/test/gd-sdk/plugin/personal-share.test.js"
+					],
+					[
+						"user.test",
+						"platform/static-files/sdk/test/gd-sdk/plugin/user-status.test.js"
+					],
+					[
+						"plugin/",
+						"platform/static-files/sdk/gd-sdk/plugin/user-status.js"
+					],
+					[
+						"person",
+						"platform/static-files/sdk/gd-sdk/plugin/personal-share.js"
+					],
+					[
+						"index.",
+						"platform/docs/examples/client/index.html"
+					],
+					[
+						"social.js",
+						"platform/static-files/sdk/gd-sdk/plugin/social-recommendations.js"
+					],
+					[
+						"sdk/b",
+						"platform/static-files/sdk/build.gradle"
+					],
+					[
+						"js-bac/bui",
+						"platform/js-backoffice/build.gradle"
+					],
+					[
+						"sdk/bui",
+						"platform/static-files/sdk/build.gradle"
+					],
+					[
+						"per.test.",
+						"platform/static-files/sdk/test/gd-sdk/plugin/personal-share.test.js"
+					],
+					[
+						"singl",
+						"platform/docs/examples/client/single-login.html"
+					],
+					[
+						"single",
+						"platform/docs/examples/client/single-login.html"
+					],
+					[
+						"request/",
+						"platform/static-files/sdk/gd-sdk/request/post-message.js"
+					],
+					[
+						"logi",
+						"platform/static-files/sdk/test/gd-sdk/plugin/login.test.js"
+					],
+					[
+						"login.tes",
+						"platform/static-files/sdk/test/gd-sdk/plugin/login.test.js"
+					],
+					[
+						"twit",
+						"platform/static-files/sdk/gd-sdk/lib/twitter-sdk.js"
+					],
+					[
+						"faces",
+						"platform/static-files/sdk/gd-sdk/lib/facebook-sdk.js"
+					],
+					[
+						"etxernal",
+						"platform/static-files/sdk/test/fixtures/external-js.js"
+					],
+					[
+						"test.con",
+						"platform/static-files/sdk/testacular.conf.js"
+					],
+					[
+						"test-main",
+						"platform/static-files/sdk/test/test-main.js"
+					],
+					[
+						"testacular.co",
+						"platform/static-files/sdk/testacular.conf.js"
+					],
+					[
+						"dialog.js",
+						"platform/static-files/sdk/gd-sdk/dialog.js"
+					],
+					[
+						"client/index",
+						"platform/docs/examples/client/index.html"
+					],
+					[
+						"display/base.",
+						"platform/js-backoffice/GlobalDawn/Admin/js/Display/Base.js"
+					],
+					[
+						"autosu",
+						"platform/js-backoffice/GlobalDawn/Admin/js/Display/AutoSuggest.js"
+					],
+					[
+						"reachchangeadapter.java",
+						"platform/backend/analytics/analytics-core/src/main/java/com/globaldawn/analytics/adapters/ReachChangeAdapter.java"
+					],
+					[
+						"chart-util.ftl",
+						"platform/backend/admin-service/admin-frontend/src/main/webapp/WEB-INF/freemarker/analytics/analytics-charts-util.ftl"
+					],
+					[
+						"streamgrap",
+						"platform/js-backoffice/GlobalDawn/Admin/js/Display/Charting/StreamgraphChart.js"
+					],
+					[
+						"streamgraph.js",
+						"platform/js-backoffice/GlobalDawn/Admin/js/Display/Charting/StreamgraphChart.js"
+					],
+					[
+						"analytics-ut",
+						"platform/backend/admin-service/admin-frontend/src/main/webapp/WEB-INF/freemarker/analytics/analytics-util.ftl"
+					],
+					[
+						"side-ta",
+						"platform/backend/admin-service/admin-frontend/src/main/webapp/WEB-INF/freemarker/analytics/analytics-side-tabs.ftl"
+					],
+					[
+						"demo",
+						"platform/static-files/less/demo.less"
+					],
+					[
+						"streamgraph",
+						"platform/js-backoffice/GlobalDawn/Admin/less/streamgraphchart.less"
+					],
+					[
+						"socialrecom.js",
+						"platform-static-files-refactor/static-files/gd-sdk/plugins/social-recommendations.js"
+					],
+					[
+						"stream.js",
+						"js-backoffice/GlobalDawn/Admin/js/Display/Charting/StreamgraphChart.js"
+					],
+					[
+						"timelin.js",
+						"js-backoffice/GlobalDawn/Admin/js/Display/AnalyticsTimeline.js"
+					],
+					[
+						"side-tab",
+						"backend/admin-service/admin-frontend/src/main/webapp/WEB-INF/freemarker/analytics/analytics-side-tabs.ftl"
+					],
+					[
+						"timeline.less",
+						"js-backoffice/GlobalDawn/Admin/less/analyticstimeline.less"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 300.0,
+			"status_bar_visible": true
+		},
+		"new_window_width": 1916.0
+	},
+	"windows":
+	[
+		{
+			"auto_complete":
+			{
+				"selected_items":
+				[
+					[
+						"res",
+						"responseTo"
+					],
+					[
+						"send",
+						"sendInitMessage"
+					],
+					[
+						"xhr",
+						"XhrTransport"
+					],
+					[
+						"_on",
+						"_onIncommingBound"
+					],
+					[
+						"re",
+						"response"
+					],
+					[
+						"_onR",
+						"_onResponseBound"
+					],
+					[
+						"fra",
+						"frameDfd"
+					],
+					[
+						"bui",
+						"buildZip"
+					],
+					[
+						"stubRe",
+						"stubReplacements1"
+					],
+					[
+						"bef",
+						"beforeEach"
+					],
+					[
+						"mockS",
+						"mockSubjects"
+					],
+					[
+						"stub",
+						"stubString1"
+					],
+					[
+						"obj",
+						"objectToQs"
+					],
+					[
+						"recom",
+						"recommendationItemInputChecked"
+					],
+					[
+						"recomm",
+						"recommendationItemInput"
+					],
+					[
+						"pag",
+						"pagination"
+					],
+					[
+						"mess",
+						"messagesNode"
+					],
+					[
+						"_onMar",
+						"_onMarkupMouseUp"
+					],
+					[
+						"bo",
+						"border"
+					],
+					[
+						"prev",
+						"previewPlugin"
+					],
+					[
+						"in",
+						"innerHTML"
+					],
+					[
+						"_pre",
+						"_previewNode"
+					],
+					[
+						"previ",
+						"previewPluginNode"
+					],
+					[
+						"_bui",
+						"_builderType"
+					],
+					[
+						"at",
+						"attribute"
+					],
+					[
+						"text",
+						"textarea"
+					],
+					[
+						"pre",
+						"previewNode"
+					],
+					[
+						"helo",
+						"helpBlock"
+					],
+					[
+						"_get",
+						"_getAttr"
+					],
+					[
+						"la",
+						"label"
+					],
+					[
+						"cont",
+						"controls"
+					],
+					[
+						"gro",
+						"groupMember"
+					],
+					[
+						"apped",
+						"appendChild"
+					],
+					[
+						"cre",
+						"createElement"
+					],
+					[
+						"contr",
+						"controlGroup"
+					],
+					[
+						"con",
+						"controls"
+					],
+					[
+						"_bu",
+						"_buildAttributes"
+					],
+					[
+						"ch",
+						"childNodes"
+					],
+					[
+						"conrol",
+						"controlGroup"
+					],
+					[
+						"styl",
+						"styleClasses"
+					],
+					[
+						"_ty",
+						"_typeSelectNode"
+					],
+					[
+						"type",
+						"typeSelect"
+					],
+					[
+						"sel",
+						"selectedType"
+					],
+					[
+						"_build",
+						"_buildTypeSelector"
+					],
+					[
+						"state",
+						"stateItem"
+					],
+					[
+						"s",
+						"styleClasses"
+					],
+					[
+						"st",
+						"stateItem"
+					],
+					[
+						"pl",
+						"plugin"
+					],
+					[
+						"plug",
+						"pluginList"
+					],
+					[
+						"app",
+						"appendChild"
+					],
+					[
+						"conr",
+						"controlGroup"
+					],
+					[
+						"fi",
+						"function"
+					],
+					[
+						"read",
+						"readyState"
+					],
+					[
+						"f",
+						"function"
+					],
+					[
+						"mock",
+						"mockSubject"
+					],
+					[
+						"sub",
+						"stubOptions"
+					],
+					[
+						"stubP",
+						"stubPostMessage"
+					],
+					[
+						"_fram",
+						"_frameDfd"
+					],
+					[
+						"pub",
+						"pubsub"
+					],
+					[
+						"stubA",
+						"stubArg2"
+					],
+					[
+						"stubn",
+						"stubEvent"
+					],
+					[
+						"all",
+						"stubAllowedOrigins"
+					],
+					[
+						"call",
+						"calledWith"
+					],
+					[
+						"_o",
+						"_onMessageBound"
+					],
+					[
+						"post",
+						"postMessage"
+					],
+					[
+						"stubN",
+						"stubNodes"
+					],
+					[
+						"gd",
+						"gdAttr"
+					],
+					[
+						"gdA",
+						"gdAttr"
+					],
+					[
+						"gr",
+						"groupMember"
+					],
+					[
+						"group",
+						"groupMembers"
+					],
+					[
+						"start",
+						"startGroup"
+					],
+					[
+						"plu",
+						"pluginUtil"
+					],
+					[
+						"stubL",
+						"stubLinks"
+					],
+					[
+						"sp",
+						"spySubject"
+					],
+					[
+						"do",
+						"document"
+					],
+					[
+						"load",
+						"_loadStylesheets"
+					],
+					[
+						"get",
+						"getElementsByTagName"
+					],
+					[
+						"mockSc",
+						"mockScript"
+					],
+					[
+						"proxy",
+						"proxyRequest"
+					],
+					[
+						"dom",
+						"domReady"
+					],
+					[
+						"Mock",
+						"mockSubject"
+					],
+					[
+						"sen",
+						"sendInitMessage"
+					],
+					[
+						"ap",
+						"apiFrame"
+					],
+					[
+						"moc",
+						"mockWindow"
+					],
+					[
+						"api",
+						"apiKey"
+					],
+					[
+						"_pag",
+						"_paginationNode"
+					],
+					[
+						"det",
+						"_detachPaginationEvents"
+					],
+					[
+						"_attac",
+						"_attachPaginationEvents"
+					],
+					[
+						"_",
+						"_onReadyStateChange"
+					],
+					[
+						"confi",
+						"config-defaults"
+					],
+					[
+						"_onSelec",
+						"_onSelectAllSubmitBound"
+					],
+					[
+						"_selec",
+						"_selectAllSubmitNode"
+					],
+					[
+						"targ",
+						"targetPage"
+					],
+					[
+						"_onPag",
+						"_onPaginationItemNodeClickBound"
+					],
+					[
+						"_page",
+						"_paginationNode"
+					],
+					[
+						"page",
+						"pageNode"
+					],
+					[
+						"_att",
+						"_attachPaginationEvents"
+					],
+					[
+						"togg",
+						"togglerFunction"
+					],
+					[
+						"twe",
+						"tweetText"
+					],
+					[
+						"date",
+						"dateString"
+					],
+					[
+						"clie",
+						"clientOrigin"
+					],
+					[
+						"de",
+						"description"
+					],
+					[
+						"d",
+						"description"
+					],
+					[
+						"after",
+						"afterEach"
+					],
+					[
+						"grou",
+						"groupMemberNode"
+					],
+					[
+						"_onL",
+						"_onLaunchReviewNodeClickBound"
+					],
+					[
+						"retur",
+						"returns"
+					],
+					[
+						"quer",
+						"querySelectorAll"
+					],
+					[
+						"_find",
+						"_findNodesInPlugin"
+					],
+					[
+						"find",
+						"_findNodesInPluginByDataAttr"
+					],
+					[
+						"getA",
+						"_getAttr"
+					],
+					[
+						"ob",
+						"objectToQs"
+					],
+					[
+						"_sub",
+						"_subcribedToTopics"
+					],
+					[
+						"test",
+						"testGlobal"
+					],
+					[
+						"stubD",
+						"stubData"
+					],
+					[
+						"exp",
+						"expect"
+					],
+					[
+						"_s",
+						"_subscribeToTopics"
+					],
+					[
+						"sess",
+						"sessionKey"
+					],
+					[
+						"local",
+						"localStorage"
+					],
+					[
+						"stu",
+						"stubNode"
+					],
+					[
+						"pro",
+						"prototype"
+					],
+					[
+						"q",
+						"queryAll"
+					],
+					[
+						"sdk",
+						"sdkScript"
+					],
+					[
+						"config",
+						"configDefaults"
+					],
+					[
+						"preven",
+						"preventDefault"
+					],
+					[
+						"selec",
+						"selectedItem"
+					],
+					[
+						"soci",
+						"social_recommendation"
+					],
+					[
+						"_mu",
+						"_multiselectUrl"
+					]
+				]
+			},
+			"buffers":
+			[
+				{
+					"file": "platform/static-files/sdk/gd-sdk/transport/web-socket.js",
+					"settings":
+					{
+						"buffer_size": 2567,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "platform/static-files/sdk/gd-sdk/api-frame.js",
+					"settings":
+					{
+						"buffer_size": 2826,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "platform/static-files/sdk/gd-sdk/api-frame-proxy.js",
+					"settings":
+					{
+						"buffer_size": 2788,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "platform/static-files/sdk/gd-sdk/base.js",
+					"settings":
+					{
+						"buffer_size": 3986,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "platform/static-files/sdk/gd-sdk/plugin/base.js",
+					"settings":
+					{
+						"buffer_size": 7355,
+						"line_ending": "Unix"
+					}
+				},
+				{
+					"file": "platform/static-files/sdk/gd-sdk/transport/base.js",
+					"settings":
+					{
+						"buffer_size": 1629,
+						"line_ending": "Unix"
+					}
+				}
+			],
+			"build_system": "Packages/User/Gradle Dev.sublime-build",
+			"command_palette":
+			{
+				"height": 232.0,
+				"selected_items":
+				[
+					[
+						"side",
+						"View: Toggle Side Bar"
+					],
+					[
+						"insta",
+						"Package Control: Install Package"
+					],
+					[
+						"packa",
+						"Preferences: Browse Packages"
+					],
+					[
+						"remo",
+						"Package Control: Remove Package"
+					],
+					[
+						"Snippet: ",
+						"Snippet: Function"
+					],
+					[
+						"sideb",
+						"View: Toggle Side Bar"
+					],
+					[
+						"sidebar",
+						"View: Toggle Side Bar"
+					],
+					[
+						"install",
+						"Package Control: Install Package"
+					],
+					[
+						"reint",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"rein",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"conver",
+						"Indentation: Convert to Spaces"
+					],
+					[
+						"inde",
+						"Indentation: Reindent Lines"
+					],
+					[
+						"insall",
+						"Package Control: Install Package"
+					],
+					[
+						"remove",
+						"Package Control: Remove Package"
+					],
+					[
+						"inspec",
+						"Web Inspector"
+					],
+					[
+						"insp",
+						"Web Inspector"
+					],
+					[
+						"web",
+						"Web Inspector"
+					],
+					[
+						"instal",
+						"Package Control: Install Package"
+					],
+					[
+						"REMOVE",
+						"Package Control: Remove Package"
+					],
+					[
+						"git",
+						"Git: Diff All"
+					],
+					[
+						"lint",
+						"SublimeLinter: Show Error List"
+					],
+					[
+						"package",
+						"Package Control: Install Package"
+					],
+					[
+						"Package Control: ",
+						"Package Control: Remove Package"
+					],
+					[
+						"jshint",
+						"JSHint: Linter"
+					],
+					[
+						"jsh",
+						"JSHint: Linter"
+					],
+					[
+						"preview",
+						"Markdown Preview: preview in Browser"
+					],
+					[
+						":w",
+						":w - Save"
+					],
+					[
+						"pack",
+						"Preferences: Browse Packages"
+					]
+				],
+				"width": 449.0
+			},
+			"console":
+			{
+				"height": 125.0
+			},
+			"distraction_free":
+			{
+				"menu_visible": true,
+				"show_minimap": false,
+				"show_open_files": false,
+				"show_tabs": false,
+				"side_bar_visible": false,
+				"status_bar_visible": false
+			},
+			"file_history":
+			[
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/transport/xhr.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/transport/base.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/config-defaults.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/api-frame.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/api-frame-proxy.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/animation.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/transport/web-socket.js",
+				"/home/nathan/repos/gd/platform/backend/common/common-websocket/build.gradle",
+				"/home/nathan/repos/gd/platform/backend/common/common-web/build.gradle",
+				"/home/nathan/repos/gd/platform/backend/common/common-websocket-interface/build.gradle",
+				"/home/nathan/repos/gd/infrastructure/jenkins/githook/src/main/resources/projects.json",
+				"/home/nathan/repos/gd/infrastructure/jenkins/jenkins-tools/src/main/java/com/globaldawn/gradle/ProjectDependencyExtractor.java",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/transport/post-message.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/pubsub.js",
+				"/home/nathan/repos/gd/configuration/configuration/java-common/globaldawn.properties.erb",
+				"/home/nathan/SDK-TODO",
+				"/home/nathan/repos/gd/platform/static-files/sdk/build/gd-sdk.localhost.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/plugin/base.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/config/remote.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/api-frame.html",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/transports/base.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/transports/xhr.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/transports/post-message.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/transports/long-poll.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/transports/web-socket.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/plugin/user-status.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/lib/facebook-sdk.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/lib/twitter-sdk.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/plugin/personal-share.js",
+				"/home/nathan/repos/gd/platform/docs/examples/client/single-login.html",
+				"/home/nathan/repos/gd/platform/docs/examples/client/login-failed.html",
+				"/home/nathan/repos/gd/platform/docs/examples/client/login-done.html",
+				"/home/nathan/repos/gd/platform/docs/examples/client/index.html",
+				"/home/nathan/repos/gd/platform/docs/examples/client/social-recs.html",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/request.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/base.js",
+				"/home/nathan/repos/gd/configuration/nginx/vhosts/bieber.conf.erb",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/plugin/login.js",
+				"/home/nathan/repos/gd/platform/js-backoffice/build.gradle",
+				"/home/nathan/repos/gd/platform/build-scripts/java/1.4/common-css.gradle",
+				"/home/nathan/repos/gd/platform/build-scripts/java/1.4/common-configuration.gradle",
+				"/home/nathan/repos/gd/platform/build-scripts/java/1.4/common-java-configuration.gradle",
+				"/home/nathan/repos/gd/platform/js-backoffice/lib/Highcharts/Highstock.js",
+				"/home/nathan/repos/gd/platform/js-backoffice/package.json",
+				"/home/nathan/repos/gd/platform/.gitignore",
+				"/home/nathan/repos/gd/platform/jenkins-scripts/buildBackOffice.sh",
+				"/home/nathan/repos/gd/platform/backend/admin-service/build.gradle",
+				"/home/nathan/repos/gd/platform/js-backoffice/README.md",
+				"/home/nathan/repos/gd/platform/js-backoffice/README.markdown",
+				"/home/nathan/repos/gd/platform/js-backoffice/js/Display/DatePicker.js",
+				"/home/nathan/repos/gd/platform/js-backoffice/version.properties",
+				"/home/nathan/repos/gd/platform/js-backoffice/.jshintrc",
+				"/home/nathan/repos/gd/platform/js-backoffice/index.html",
+				"/home/nathan/repos/gd/platform/js-backoffice/less/analytics.less",
+				"/home/nathan/repos/gd/platform/js-backoffice/js/Display/GraphExplorer.js",
+				"/home/nathan/repos/gd/platform/js-backoffice/js/Display/Charting/TimeRangeChart.js",
+				"/home/nathan/repos/gd/platform/js-backoffice/js/Templates/GlobalNavigation.jqt",
+				"/home/nathan/repos/gd/platform/js-backoffice/js/Templates/Logo.jqt",
+				"/home/nathan/repos/gd/platform/js-backoffice/js/Templates/SearchResultsList.jqt",
+				"/home/nathan/repos/gd/platform/js-backoffice/js/Templates/CommunityUsers/CommunityUsersActivities.jqt",
+				"/home/nathan/repos/gd/platform/js-backoffice/js/Templates/CommunityUsers/CommunityUsersList.jqt",
+				"/home/nathan/repos/gd/platform/js-backoffice/js/Templates/CommunityUsers/CommunityUsersSearchList.jqt",
+				"/home/nathan/repos/gd/platform/js-backoffice/js/Templates/CommunityUsers/CommunityUsersSummaryTitle.jqt",
+				"/home/nathan/repos/gd/platform/js-backoffice/js/Templates/Rules/RulesList.jqt",
+				"/home/nathan/repos/gd/platform/js-backoffice/js/Templates/Segments/SegmentsList.jqt",
+				"/home/nathan/repos/gd/platform/js-backoffice/js/Templates/ViewHelpers/SegmentedControl.jqt",
+				"/home/nathan/repos/gd/platform/js-backoffice/js/Views/Charting/TimeRangeChart.js",
+				"/home/nathan/repos/gd/platform/js-backoffice/js/Views/CommunityUsers/GlobalDawn.Admin.Views.Community.Users.SearchResults.js",
+				"/home/nathan/repos/gd/platform/js-backoffice/js/Views/GlobalNavigation/GlobalDawn.Admin.Views.GlobalNavigation.js",
+				"/home/nathan/repos/gd/platform/js-backoffice/js/Views/Logo/GlobalDawn.Admin.Views.Logo.js",
+				"/home/nathan/repos/gd/platform/js-backoffice/js/Views/Segments/Form.js",
+				"/home/nathan/repos/gd/platform/js-backoffice/less/admin.less",
+				"/home/nathan/repos/gd/platform/js-backoffice/less/cta.less",
+				"/home/nathan/repos/gd/platform/js-backoffice/less/formfields.less",
+				"/home/nathan/repos/gd/platform/js-backoffice/less/graphexplorer.less",
+				"/home/nathan/repos/gd/platform/js-backoffice/less/navigation.less",
+				"/home/nathan/repos/gd/platform/js-backoffice/less/ratingsreviews.less",
+				"/home/nathan/repos/gd/platform/js-backoffice/less/segmentedcontrol.less",
+				"/home/nathan/repos/gd/platform/js-backoffice/less/vars.less",
+				"/home/nathan/repos/gd/platform/js-backoffice/less/view_helpers/modaldialog.less",
+				"/home/nathan/repos/gd/platform/js-backoffice/less/view_helpers/paginator.less",
+				"/home/nathan/repos/gd/platform/build-scripts/java/1.4/common-webapp.gradle",
+				"/home/nathan/repos/gd/platform/build-scripts/java/1.4/common-deploy.gradle",
+				"/home/nathan/repos/gd/platform/backend/social/social-rest-service/build.gradle",
+				"/home/nathan/repos/gd/platform/backend/admin-service/admin-frontend/src/main/webapp/WEB-INF/freemarker/actions/admin-custom-action-list.ftl",
+				"/home/nathan/repos/gd/platform/backend/admin-service/admin-frontend/src/main/webapp/WEB-INF/freemarker/analytics/analytics-dashboard.ftl",
+				"/home/nathan/repos/gd/platform/backend/admin-service/admin-frontend/src/main/webapp/WEB-INF/freemarker/graphexplorer/client.ftl",
+				"/home/nathan/repos/gd/platform/backend/admin-service/admin-frontend/src/main/webapp/WEB-INF/freemarker/mailboxes/admin-mailbox-list.ftl",
+				"/home/nathan/repos/gd/platform/backend/admin-service/admin-frontend/src/main/webapp/WEB-INF/freemarker/messages/admin-messages-list.ftl",
+				"/home/nathan/repos/gd/platform/backend/admin-service/admin-frontend/src/main/webapp/WEB-INF/freemarker/notifications/system-notifications-list.ftl",
+				"/home/nathan/repos/gd/platform/backend/admin-service/admin-frontend/src/main/webapp/WEB-INF/freemarker/reviews/admin-reviewTemplates-list.ftl",
+				"/home/nathan/repos/gd/platform/backend/admin-service/admin-frontend/src/main/webapp/WEB-INF/freemarker/rules/admin-rules-list.ftl",
+				"/home/nathan/repos/gd/platform/backend/admin-service/admin-frontend/src/main/webapp/WEB-INF/freemarker/segments/admin-segments-list.ftl",
+				"/home/nathan/repos/gd/platform/backend/admin-service/admin-frontend/src/main/webapp/WEB-INF/freemarker/setup/dashboard-domains.ftl",
+				"/home/nathan/repos/gd/platform/backend/admin-service/admin-frontend/src/main/webapp/WEB-INF/freemarker/setup/dashboard.ftl",
+				"/home/nathan/repos/gd/platform/backend/admin-service/admin-frontend/src/main/webapp/WEB-INF/freemarker/setup/users/admin-invite-list.ftl",
+				"/home/nathan/repos/gd/platform/backend/admin-service/admin-frontend/src/main/webapp/WEB-INF/freemarker/setup/users/admin-user-list.ftl",
+				"/home/nathan/repos/gd/platform/backend/admin-service/admin-frontend/src/main/webapp/WEB-INF/freemarker/social/api-key-list.ftl",
+				"/home/nathan/repos/gd/platform/backend/admin-service/admin-frontend/src/main/webapp/WEB-INF/freemarker/test_console/admin-tests-list.ftl",
+				"/home/nathan/repos/gd/platform/backend/admin-service/admin-frontend/src/main/webapp/WEB-INF/freemarker/test_console_log/admin-test-logs-list.ftl",
+				"/home/nathan/repos/gd/platform/backend/common/common-freemarker/src/main/resources/freemarker/common/tooltips.ftl",
+				"/home/nathan/repos/gd/platform/backend/db/8/PLATFORM-5927.js",
+				"/home/nathan/repos/gd/platform/backend/migration-scripts/src/main/resources/notifications/admin-invite-body.ftl",
+				"/home/nathan/repos/gd/platform/backend/migration-scripts/src/main/resources/notifications/admin-report-body.ftl",
+				"/home/nathan/repos/gd/platform/backend/migration-scripts/src/main/resources/notifications/admin-reset-password-body.ftl",
+				"/home/nathan/repos/gd/platform/backend/migration-scripts/src/main/resources/notifications/email-verification-body.ftl",
+				"/home/nathan/repos/gd/platform/js-backoffice/GlobalDawn/Admin/js/Display/MultiSuggest.js",
+				"/home/nathan/repos/gd/platform/js-backoffice/GlobalDawn/Admin/js/Display/Charting/BarChart.js",
+				"/home/nathan/repos/gd/platform/js-backoffice/GlobalDawn/Admin/js/Display/Charting/LineChart.js",
+				"/home/nathan/repos/gd/platform/js-backoffice/GlobalDawn/Admin/js/Display/Charting/StreamgraphChart.js",
+				"/home/nathan/repos/gd/platform/js-backoffice/GlobalDawn/Admin/js/Display/Charting/TimeRangeChart.js",
+				"/home/nathan/repos/gd/platform/js-backoffice/GlobalDawn/Admin/js/dohTests/runTests.html",
+				"/home/nathan/repos/gd/platform/js-backoffice/GlobalDawn/Admin/js/dohTests/testDependencies.js",
+				"/home/nathan/repos/gd/platform/js-backoffice/build/config.js",
+				"/home/nathan/repos/gd/platform/build-scripts/java/1.4/common-npm.gradle",
+				"/home/nathan/repos/gd/platform/static-files/build.gradle",
+				"/home/nathan/repos/gd/platform/js-backoffice/GlobalDawn/Admin/js/Display/AutoSuggest.js",
+				"/home/nathan/repos/gd/platform/build-scripts/java/1.4/common-eclipse.gradle",
+				"/home/nathan/repos/gd/platform/backend/social/version.properties",
+				"/home/nathan/repos/gd/platform/build-scripts/java/1.4/common-variables.gradle",
+				"/home/nathan/repos/gd/platform/build-scripts/java/1.4/emma.gradle",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/proxy-request.js",
+				"/home/nathan/repos/gd/platform/backend/moderation/moderation-interface/build.gradle",
+				"/home/nathan/repos/gd/platform/static-files/less/forms.less",
+				"/home/nathan/repos/gd/platform/static-files/less/demo.less",
+				"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk/gd-sdk.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/test/gd-sdk/gd-sdk.test.js",
+				"/home/nathan/repos/gd/platform/static-files/sdk/test/gd-sdk/utils.test.js"
+			],
+			"find":
+			{
+				"height": 40.0
+			},
+			"find_in_files":
+			{
+				"height": 0.0,
+				"where_history":
+				[
+					"/home/nathan/repos/gd/platform/static-files/sdk",
+					"/home/nathan/repos/gd/platform/backend",
+					"/home/nathan/repos/gd/platform/static-files/sdk",
+					"/home/nathan/repos/gd/platform",
+					"",
+					"/home/nathan/repos/gd/platform/",
+					"/home/nathan/repos/gd/platform/static-files/sdk",
+					"/home/nathan/repos/gd/platform/static-files/less",
+					"/home/nathan/repos/gd/platform/static-files/sdk",
+					"",
+					"/home/nathan/repos/gd/platform/static-files/sdk/gd-sdk",
+					"",
+					"/home/nathan/repos/gd/platform/static-files/sdk/test",
+					"/home/nathan/repos/gd/platform/static-files,-**/node_modules/**",
+					"/home/nathan/repos/gd/platform/static-files,-node_modules",
+					"/home/nathan/repos/gd/platform/static-files",
+					"/home/nathan/repos/gd/platform/static-files/sdk",
+					"/home/nathan/repos/gd/platform/static-files/sdk/test",
+					"/home/nathan/repos/gd/platform/static-files/sdk",
+					"/home/nathan/repos/gd/platform/static-files/sdk/test",
+					"/home/nathan/repos/gd/platform/static-files/sdk",
+					"/home/nathan/repos/gd/platform/static-files",
+					"/home/nathan/repos/gd/platform/js-backoffice/GlobalDawn",
+					"/home/nathan/repos/gd/platform/backend",
+					"/home/nathan/repos/gd/platform/backoffice",
+					"/home/nathan/repos/gd/platform/js-backoffice",
+					"/home/nathan/repos/gd/platform-static-files-refactor/static-files/gd-sdk",
+					""
+				]
+			},
+			"find_state":
+			{
+				"case_sensitive": true,
+				"find_history":
+				[
+					"sessionKey",
+					"debugger",
+					"onIncomming",
+					"fabric",
+					"debugger",
+					"http://1111111111.api.localhost:1337/gd-sdk/gd-sdk.js",
+					"gd-sdk/xhr",
+					"ApiFrameProxy",
+					"ApiFrameLoader",
+					"_onResponse",
+					"_xhr",
+					";\n",
+					"PostMessage",
+					"gdReferrer",
+					"WebWebSocketTransport",
+					"Socket",
+					"//css",
+					"`",
+					"This",
+					"&gt;",
+					"&lt;",
+					"datepicker",
+					"GlobalDawn/Frontend",
+					"/GlobalDawn/Frontend",
+					"/GlobalDawn/Admin",
+					"/GlobalDawn/Admin/images",
+					"GlobalDawn/Admin",
+					"GlobalDawn/Frontend",
+					"GlobalDawn/Fronend",
+					"GlobalDawn/Admin/images",
+					"/js",
+					"GlobalDawn/Admin/js",
+					"GlobalDawn/Admin",
+					"/GlobalDawn/Admin/images",
+					"GlobalDawn/Admin/images",
+					"sass/",
+					"sass",
+					"command",
+					"archives",
+					"ivy",
+					"mavenDeployer",
+					"SourceFolder",
+					"BuildCommand",
+					"jenkinsJobName",
+					"deploy",
+					"mockU",
+					"mockPrototype",
+					"utils.contains",
+					"_buildPag",
+					"_onMarkupClick",
+					"[data-gd-small]",
+					".gd-login-small",
+					"_getAttributeType",
+					"_attributeIsVisible",
+					"\n      ",
+					"values\"",
+					"Header",
+					"proxyR",
+					"proxy-request",
+					"@deprecated",
+					"_onTypeChange",
+					"TypeSelector",
+					"PluginBuilderPlugin",
+					"BuilderPlugin",
+					"gdPopover",
+					"display: table",
+					":before",
+					".clearfix",
+					".clearfix:after",
+					".clearfix:before",
+					"table",
+					"getParent",
+					"_message",
+					"),\n",
+					"snipp",
+					"message-area",
+					"to.have.been.calledTwice",
+					".twice",
+					"ATTR_PREFIX",
+					"'then'",
+					"stubError",
+					"stubDfd",
+					"cover",
+					"conver",
+					"preprocessors",
+					"gd-sdk/**/*.js",
+					"console",
+					"();\n",
+					"a.property",
+					"property",
+					"expect(result)",
+					"promise",
+					"result",
+					"return a dfd",
+					"return a def",
+					"return a promise",
+					"delete window",
+					"delete windoiw",
+					"delete",
+					"parent",
+					"_tmplitem",
+					"_getAttr",
+					"_onPaginationNodeClick",
+					"relevant",
+					"id",
+					"friend-id",
+					";\n",
+					"_onClick",
+					"ChildDependants.Add",
+					"disable",
+					"disabled",
+					"toggle",
+					" `",
+					"/* ",
+					"find_by_year_and_slug",
+					"from_yaml_to_object",
+					"proxyRe",
+					"done",
+					"stubRequest",
+					"mockRequest",
+					"twiter",
+					"broadcast",
+					"'\n",
+					"request",
+					"gd-sdk/request",
+					"pubsub.broadcast",
+					"gd-sdk/request",
+					"request"
+				],
+				"highlight": true,
+				"in_selection": false,
+				"preserve_case": false,
+				"regex": false,
+				"replace_history":
+				[
+					"http://1111111111.api.localhost:1337/sdk/gd-sdk.js",
+					"ApiFrameRequest",
+					"ApiFrameProxy",
+					"_onIncomming",
+					"PostMessageTransport",
+					"WebSocketTransport",
+					"",
+					">`",
+					"`<",
+					"/",
+					"/images",
+					"images",
+					"js",
+					"/images",
+					"_onMarkupFocus",
+					"[data-gd-small=\"true\"]",
+					"[data-gd-small]",
+					"allowedValues\"",
+					"_onTypeSelectChange",
+					"TypeSelect",
+					"PluginBuilderItemPlugin",
+					"PluginBuilderPlugin",
+					"facebook-login",
+					"property",
+					"_onPaginationItemNodeClick",
+					"from_yaml",
+					"publish",
+					"proxyRequest",
+					"pubsub.publish",
+					"proxyRequest",
+					"ApiFrame",
+					"`",
+					"q",
+					"ProductReviews",
+					"objectToQs",
+					"called",
+					"request",
+					";",
+					"</a></td>\n",
+					"<td><a",
+					"<tr>\n      <td>",
+					"<tr>\\n      <td>",
+					"_onCheckboxChange",
+					"_checkboxesInResultSet",
+					"this.stubEvent",
+					"detach the",
+					"detach",
+					"SocialRecommendationsPlugin",
+					"gd-sdk/pubsub",
+					"RequestProxy",
+					"Request",
+					" = function",
+					"= function",
+					"Request",
+					"ProxyRequest",
+					"_buildResultSet",
+					"}, this));",
+					"_.bind(function(\\1) \\{",
+					"_.bind(function(\\1) {",
+					"_.bind(function() {",
+					"className",
+					"className'",
+					"_labels",
+					"detach",
+					"twitter",
+					"mockPlugin",
+					"mockBean",
+					"mockSubject",
+					"gd-sdk/plugin/",
+					"PluginUtil.",
+					"twitterSdk",
+					"facebookSdk",
+					"TWITTER",
+					"Twitter",
+					"twitter",
+					"PublicSharePlugin",
+					"SocialRecommendationsPlugin",
+					"'",
+					"\\1:",
+					"\\1"
+				],
+				"reverse": false,
+				"show_context": true,
+				"use_buffer2": true,
+				"whole_word": false,
+				"wrap": true
+			},
+			"groups":
+			[
+				{
+					"selected": 2,
+					"sheets":
+					[
+						{
+							"buffer": 0,
+							"file": "platform/static-files/sdk/gd-sdk/transport/web-socket.js",
+							"settings":
+							{
+								"buffer_size": 2567,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2511,
+										2511
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"asi": false,
+										"browser": true,
+										"debug": false,
+										"devel": true,
+										"eqeqeq": true,
+										"eqnull": true,
+										"immed": true,
+										"newcap": true,
+										"onevar": true,
+										"plusplus": false,
+										"predef":
+										[
+											"define",
+											"require",
+											"module",
+											"describe",
+											"it",
+											"before",
+											"after",
+											"beforeEach",
+											"afterEach"
+										],
+										"undef": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": true,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1233.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 1,
+							"file": "platform/static-files/sdk/gd-sdk/api-frame.js",
+							"settings":
+							{
+								"buffer_size": 2826,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2099,
+										2099
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"asi": false,
+										"browser": true,
+										"debug": false,
+										"devel": true,
+										"eqeqeq": true,
+										"eqnull": true,
+										"immed": true,
+										"newcap": true,
+										"onevar": true,
+										"plusplus": false,
+										"predef":
+										[
+											"define",
+											"require",
+											"module",
+											"describe",
+											"it",
+											"before",
+											"after",
+											"beforeEach",
+											"afterEach"
+										],
+										"undef": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": true,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 897.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 2,
+							"file": "platform/static-files/sdk/gd-sdk/api-frame-proxy.js",
+							"settings":
+							{
+								"buffer_size": 2788,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										2592,
+										2592
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"asi": false,
+										"browser": true,
+										"debug": false,
+										"devel": true,
+										"eqeqeq": true,
+										"eqnull": true,
+										"immed": true,
+										"newcap": true,
+										"onevar": true,
+										"plusplus": false,
+										"predef":
+										[
+											"define",
+											"require",
+											"module",
+											"describe",
+											"it",
+											"before",
+											"after",
+											"beforeEach",
+											"afterEach"
+										],
+										"undef": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": true,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 1449.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 3,
+							"file": "platform/static-files/sdk/gd-sdk/base.js",
+							"settings":
+							{
+								"buffer_size": 3986,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										0,
+										0
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"asi": false,
+										"browser": true,
+										"debug": false,
+										"devel": true,
+										"eqeqeq": true,
+										"eqnull": true,
+										"immed": true,
+										"newcap": true,
+										"onevar": true,
+										"plusplus": false,
+										"predef":
+										[
+											"define",
+											"require",
+											"module",
+											"describe",
+											"it",
+											"before",
+											"after",
+											"beforeEach",
+											"afterEach"
+										],
+										"undef": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": true,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 0.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 4,
+							"file": "platform/static-files/sdk/gd-sdk/plugin/base.js",
+							"settings":
+							{
+								"buffer_size": 7355,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1615,
+										1615
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"asi": false,
+										"browser": true,
+										"debug": false,
+										"devel": true,
+										"eqeqeq": true,
+										"eqnull": true,
+										"immed": true,
+										"newcap": true,
+										"onevar": true,
+										"plusplus": false,
+										"predef":
+										[
+											"define",
+											"require",
+											"module",
+											"describe",
+											"it",
+											"before",
+											"after",
+											"beforeEach",
+											"afterEach"
+										],
+										"undef": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": true,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 4830.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						},
+						{
+							"buffer": 5,
+							"file": "platform/static-files/sdk/gd-sdk/transport/base.js",
+							"settings":
+							{
+								"buffer_size": 1629,
+								"regions":
+								{
+								},
+								"selection":
+								[
+									[
+										1386,
+										1386
+									]
+								],
+								"settings":
+								{
+									"annotations":
+									[
+										"TODO",
+										"README",
+										"FIXME"
+									],
+									"csslint_options":
+									{
+										"adjoining-classes": "warning",
+										"box-model": true,
+										"box-sizing": "warning",
+										"compatible-vendor-prefixes": "warning",
+										"display-property-grouping": true,
+										"duplicate-background-images": "warning",
+										"duplicate-properties": true,
+										"empty-rules": true,
+										"errors": true,
+										"fallback-colors": "warning",
+										"floats": "warning",
+										"font-faces": "warning",
+										"font-sizes": "warning",
+										"gradients": "warning",
+										"ids": "warning",
+										"import": "warning",
+										"important": "warning",
+										"known-properties": true,
+										"outline-none": "warning",
+										"overqualified-elements": "warning",
+										"qualified-headings": "warning",
+										"regex-selectors": "warning",
+										"rules-count": "warning",
+										"shorthand": "warning",
+										"star-property-hack": "warning",
+										"text-indent": "warning",
+										"underscore-property-hack": "warning",
+										"unique-headings": "warning",
+										"universal-selector": "warning",
+										"vendor-prefix": true,
+										"zero-units": "warning"
+									},
+									"gjslint_ignore":
+									[
+										110
+									],
+									"gjslint_options":
+									[
+									],
+									"javascript_linter": "jshint",
+									"jshint_options":
+									{
+										"asi": false,
+										"browser": true,
+										"debug": false,
+										"devel": true,
+										"eqeqeq": true,
+										"eqnull": true,
+										"immed": true,
+										"newcap": true,
+										"onevar": true,
+										"plusplus": false,
+										"predef":
+										[
+											"define",
+											"require",
+											"module",
+											"describe",
+											"it",
+											"before",
+											"after",
+											"beforeEach",
+											"afterEach"
+										],
+										"undef": true
+									},
+									"pep8": true,
+									"pep8_ignore":
+									[
+										"E501"
+									],
+									"perl_linter": "perlcritic",
+									"pyflakes_ignore":
+									[
+									],
+									"pyflakes_ignore_import_*": true,
+									"sublimelinter": true,
+									"sublimelinter_delay": 2,
+									"sublimelinter_disable":
+									[
+									],
+									"sublimelinter_executable_map":
+									{
+									},
+									"sublimelinter_fill_outlines": false,
+									"sublimelinter_gutter_marks": true,
+									"sublimelinter_mark_style": "outline",
+									"sublimelinter_notes": false,
+									"sublimelinter_objj_check_ascii": false,
+									"sublimelinter_popup_errors_on_save": false,
+									"sublimelinter_syntax_map":
+									{
+										"C++": "c",
+										"Python Django": "python",
+										"Ruby on Rails": "ruby"
+									},
+									"sublimelinter_wrap_find": true,
+									"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+									"tab_size": 2,
+									"translate_tabs_to_spaces": true
+								},
+								"translation.x": 0.0,
+								"translation.y": 966.0,
+								"zoom_level": 1.0
+							},
+							"type": "text"
+						}
+					]
+				}
+			],
+			"incremental_find":
+			{
+				"height": 44.0
+			},
+			"input":
+			{
+				"height": 41.0
+			},
+			"layout":
+			{
+				"cells":
+				[
+					[
+						0,
+						0,
+						1,
+						1
+					]
+				],
+				"cols":
+				[
+					0.0,
+					1.0
+				],
+				"rows":
+				[
+					0.0,
+					1.0
+				]
+			},
+			"menu_visible": true,
+			"output.exec":
+			{
+				"height": 198.0
+			},
+			"output.find_results":
+			{
+				"height": 178.0
+			},
+			"output.git":
+			{
+				"height": 154.0
+			},
+			"position": "0,0,0,0,0,0,20,1916,1057,1920,1080",
+			"replace":
+			{
+				"height": 74.0
+			},
+			"save_all_on_build": true,
+			"select_file":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+					[
+						"index.html",
+						"platform/docs/examples/client/index.html"
+					],
+					[
+						"comm-conf",
+						"platform/build-scripts/java/1.4/common-configuration.gradle"
+					],
+					[
+						"gd-sd",
+						"platform/static-files/sdk/gd-sdk/gd-sdk.js"
+					],
+					[
+						"gd-sd.t",
+						"platform/static-files/sdk/test/gd-sdk/gd-sdk.test.js"
+					],
+					[
+						"plugin-",
+						"platform/static-files/sdk/plugin-builder.json"
+					],
+					[
+						"social-rec",
+						"platform/static-files/sdk/gd-sdk/plugin/social-recommendations.js"
+					],
+					[
+						"message",
+						"platform/static-files/sdk/gd-sdk/plugin/message-area.js"
+					],
+					[
+						"static-files/sdk/gd-sdk/plugin/social-recommendations.js",
+						"platform/static-files/sdk/gd-sdk/plugin/social-recommendations.js"
+					],
+					[
+						"demo.",
+						"platform/static-files/less/demo.less"
+					],
+					[
+						"plugin-b",
+						"platform/static-files/less/plugins/plugin-builder.less"
+					],
+					[
+						"social-re.le",
+						"platform/static-files/less/plugins/social-recommendations.less"
+					],
+					[
+						"social-re.less",
+						"platform/static-files/less/plugins/social-recommendations.less"
+					],
+					[
+						"login.le",
+						"platform/static-files/less/plugins/login.less"
+					],
+					[
+						"plugin-u",
+						"platform/static-files/sdk/gd-sdk/plugin-util.js"
+					],
+					[
+						"base.js",
+						"platform/static-files/sdk/gd-sdk/plugin/base.js"
+					],
+					[
+						"builder.json",
+						"platform/static-files/sdk/plugin-builder.json"
+					],
+					[
+						"base.",
+						"platform/static-files/sdk/gd-sdk/plugin/base.js"
+					],
+					[
+						"build.js",
+						"platform/static-files/node_modules/morpheus/build.json"
+					],
+					[
+						"utis.js",
+						"platform/static-files/sdk/gd-sdk/utils.js"
+					],
+					[
+						"bui.json",
+						"platform/static-files/sdk/plugin-builder.json"
+					],
+					[
+						"builder.js",
+						"platform/static-files/sdk/plugin-builder/plugin/plugin-builder.js"
+					],
+					[
+						"plu-item",
+						"platform/static-files/sdk/plugin-builder/plugin/plugin-builder-item.js"
+					],
+					[
+						"base",
+						"platform/static-files/sdk/gd-sdk/base.js"
+					],
+					[
+						"bieber.c",
+						"configuration/nginx/vhosts/bieber.conf.erb"
+					],
+					[
+						"api-fra",
+						"platform/static-files/sdk/api-frame.html"
+					],
+					[
+						"bieber",
+						"configuration/nginx/vhosts/bieber.conf.erb"
+					],
+					[
+						"login.less",
+						"platform/static-files/less/plugins/login.less"
+					],
+					[
+						"buil.js",
+						"platform/static-files/sdk/plugin-builder.json"
+					],
+					[
+						"inde.html",
+						"platform/docs/examples/client/index.html"
+					],
+					[
+						"bieber.conf",
+						"configuration/nginx/vhosts/bieber.conf.erb"
+					],
+					[
+						"gd-bo",
+						"platform/static-files/less/gd-bootstrap.less"
+					],
+					[
+						"gd.less",
+						"platform/static-files/less/gd.less"
+					],
+					[
+						"demo.less",
+						"platform/static-files/less/demo.less"
+					],
+					[
+						"demo.cs",
+						"platform/static-files/css/demo.css"
+					],
+					[
+						"base.test",
+						"platform/static-files/sdk/test/gd-sdk/base.test.js"
+					],
+					[
+						"read",
+						"platform/README.md"
+					],
+					[
+						"test-m",
+						"platform/static-files/sdk/test/test-main.js"
+					],
+					[
+						"karma",
+						"platform/static-files/sdk/karma.conf.js"
+					],
+					[
+						"req.tes",
+						"platform/static-files/sdk/test/gd-sdk/request.test.js"
+					],
+					[
+						"config-de.te",
+						"platform/static-files/sdk/test/gd-sdk/config-defaults.test.js"
+					],
+					[
+						"config-def",
+						"platform/static-files/sdk/gd-sdk/config-defaults.js"
+					],
+					[
+						"postm.te",
+						"platform/static-files/sdk/test/gd-sdk/post-message.test.js"
+					],
+					[
+						"base.te",
+						"platform/static-files/sdk/test/gd-sdk/base.test.js"
+					],
+					[
+						"base.tes",
+						"platform/static-files/sdk/test/gd-sdk/base.test.js"
+					],
+					[
+						"karm",
+						"platform/static-files/sdk/karma.conf.js"
+					],
+					[
+						"social.test",
+						"platform/static-files/sdk/test/gd-sdk/plugin/social-recommendations.test.js"
+					],
+					[
+						"sidebar",
+						"platform/js-backoffice/lib/dojo/dojox/widget/UpgradeBar.js"
+					],
+					[
+						"timeline",
+						"platform/js-backoffice/GlobalDawn/Admin/js/Display/AnalyticsTimeline.js"
+					],
+					[
+						"ideap",
+						"platform/backend/common/scripts/ideaAllP.sh"
+					],
+					[
+						"social-recomm.test",
+						"platform/static-files/sdk/test/gd-sdk/plugin/social-recommendations.test.js"
+					],
+					[
+						"social-re",
+						"platform/static-files/js/dependencies/social-recommendations.js"
+					],
+					[
+						"social-",
+						"platform/static-files/sdk/gd-sdk/plugin/social-recommendations.js"
+					],
+					[
+						"package",
+						"platform/static-files/package.json"
+					],
+					[
+						"pluginbase",
+						"platform/static-files/sdk/gd-sdk/plugin/base.js"
+					],
+					[
+						"login",
+						"platform/static-files/sdk/gd-sdk/plugin/login.js"
+					],
+					[
+						"confi-de",
+						"platform/static-files/sdk/gd-sdk/config-defaults.js"
+					],
+					[
+						"confi",
+						"platform/js-backoffice/build/config.js"
+					],
+					[
+						"requ",
+						"platform/static-files/gd-sdk/requirejs-options.json"
+					],
+					[
+						"test-ma",
+						"platform/static-files/sdk/test/test-main.js"
+					],
+					[
+						"messae-ar",
+						"platform/static-files/sdk/gd-sdk/plugin/message-area.js"
+					],
+					[
+						"user-status",
+						"platform/static-files/sdk/test/gd-sdk/plugin/user-status.test.js"
+					],
+					[
+						"utils.test",
+						"platform/static-files/sdk/test/gd-sdk/utils.test.js"
+					],
+					[
+						"util.test",
+						"platform/static-files/node_modules/testacular/node_modules/socket.io/node_modules/socket.io-client/test/util.test.js"
+					],
+					[
+						"sdk/util.js",
+						"platform/static-files/sdk/gd-sdk/utils.js"
+					],
+					[
+						"social-rec.js",
+						"platform/static-files/sdk/gd-sdk/plugin/social-recommendations.js"
+					],
+					[
+						"testa.co",
+						"platform/static-files/sdk/testacular.conf.js"
+					],
+					[
+						"back/pac",
+						"platform/js-backoffice/package.json"
+					],
+					[
+						"pack",
+						"platform/static-files/package.json"
+					],
+					[
+						"publi",
+						"platform/static-files/sdk/test/gd-sdk/plugin/public-share.test.js"
+					],
+					[
+						"dom-read",
+						"platform/static-files/sdk/gd-sdk/dom-ready.js"
+					],
+					[
+						"single-lo",
+						"platform/docs/examples/client/single-login.html"
+					],
+					[
+						"testac",
+						"platform/static-files/sdk/testacular.conf.js"
+					],
+					[
+						"utils",
+						"platform/static-files/sdk/gd-sdk/utils.js"
+					],
+					[
+						"utils.",
+						"platform/static-files/sdk/gd-sdk/utils.js"
+					],
+					[
+						"personal",
+						"platform/static-files/sdk/test/gd-sdk/plugin/personal-share.test.js"
+					],
+					[
+						"user.test",
+						"platform/static-files/sdk/test/gd-sdk/plugin/user-status.test.js"
+					],
+					[
+						"plugin/",
+						"platform/static-files/sdk/gd-sdk/plugin/user-status.js"
+					],
+					[
+						"person",
+						"platform/static-files/sdk/gd-sdk/plugin/personal-share.js"
+					],
+					[
+						"index.",
+						"platform/docs/examples/client/index.html"
+					],
+					[
+						"social.js",
+						"platform/static-files/sdk/gd-sdk/plugin/social-recommendations.js"
+					],
+					[
+						"sdk/b",
+						"platform/static-files/sdk/build.gradle"
+					],
+					[
+						"js-bac/bui",
+						"platform/js-backoffice/build.gradle"
+					],
+					[
+						"sdk/bui",
+						"platform/static-files/sdk/build.gradle"
+					],
+					[
+						"per.test.",
+						"platform/static-files/sdk/test/gd-sdk/plugin/personal-share.test.js"
+					],
+					[
+						"singl",
+						"platform/docs/examples/client/single-login.html"
+					],
+					[
+						"single",
+						"platform/docs/examples/client/single-login.html"
+					],
+					[
+						"request/",
+						"platform/static-files/sdk/gd-sdk/request/post-message.js"
+					],
+					[
+						"logi",
+						"platform/static-files/sdk/test/gd-sdk/plugin/login.test.js"
+					],
+					[
+						"login.tes",
+						"platform/static-files/sdk/test/gd-sdk/plugin/login.test.js"
+					],
+					[
+						"twit",
+						"platform/static-files/sdk/gd-sdk/lib/twitter-sdk.js"
+					],
+					[
+						"faces",
+						"platform/static-files/sdk/gd-sdk/lib/facebook-sdk.js"
+					],
+					[
+						"etxernal",
+						"platform/static-files/sdk/test/fixtures/external-js.js"
+					],
+					[
+						"test.con",
+						"platform/static-files/sdk/testacular.conf.js"
+					],
+					[
+						"test-main",
+						"platform/static-files/sdk/test/test-main.js"
+					],
+					[
+						"testacular.co",
+						"platform/static-files/sdk/testacular.conf.js"
+					],
+					[
+						"dialog.js",
+						"platform/static-files/sdk/gd-sdk/dialog.js"
+					],
+					[
+						"client/index",
+						"platform/docs/examples/client/index.html"
+					],
+					[
+						"display/base.",
+						"platform/js-backoffice/GlobalDawn/Admin/js/Display/Base.js"
+					],
+					[
+						"autosu",
+						"platform/js-backoffice/GlobalDawn/Admin/js/Display/AutoSuggest.js"
+					],
+					[
+						"reachchangeadapter.java",
+						"platform/backend/analytics/analytics-core/src/main/java/com/globaldawn/analytics/adapters/ReachChangeAdapter.java"
+					],
+					[
+						"chart-util.ftl",
+						"platform/backend/admin-service/admin-frontend/src/main/webapp/WEB-INF/freemarker/analytics/analytics-charts-util.ftl"
+					],
+					[
+						"streamgrap",
+						"platform/js-backoffice/GlobalDawn/Admin/js/Display/Charting/StreamgraphChart.js"
+					],
+					[
+						"streamgraph.js",
+						"platform/js-backoffice/GlobalDawn/Admin/js/Display/Charting/StreamgraphChart.js"
+					],
+					[
+						"analytics-ut",
+						"platform/backend/admin-service/admin-frontend/src/main/webapp/WEB-INF/freemarker/analytics/analytics-util.ftl"
+					],
+					[
+						"side-ta",
+						"platform/backend/admin-service/admin-frontend/src/main/webapp/WEB-INF/freemarker/analytics/analytics-side-tabs.ftl"
+					],
+					[
+						"demo",
+						"platform/static-files/less/demo.less"
+					],
+					[
+						"streamgraph",
+						"platform/js-backoffice/GlobalDawn/Admin/less/streamgraphchart.less"
+					],
+					[
+						"socialrecom.js",
+						"platform-static-files-refactor/static-files/gd-sdk/plugins/social-recommendations.js"
+					],
+					[
+						"stream.js",
+						"js-backoffice/GlobalDawn/Admin/js/Display/Charting/StreamgraphChart.js"
+					],
+					[
+						"timelin.js",
+						"js-backoffice/GlobalDawn/Admin/js/Display/AnalyticsTimeline.js"
+					],
+					[
+						"side-tab",
+						"backend/admin-service/admin-frontend/src/main/webapp/WEB-INF/freemarker/analytics/analytics-side-tabs.ftl"
+					],
+					[
+						"timeline.less",
+						"js-backoffice/GlobalDawn/Admin/less/analyticstimeline.less"
+					]
+				],
+				"width": 0.0
+			},
+			"select_project":
+			{
+				"height": 0.0,
+				"selected_items":
+				[
+				],
+				"width": 0.0
+			},
+			"show_minimap": true,
+			"show_open_files": false,
+			"show_tabs": true,
+			"side_bar_visible": true,
+			"side_bar_width": 300.0,
+			"status_bar_visible": true,
+			"window_id": 20,
+			"workspace_name": "/home/nathan/repos/gd/gd.sublime-project"
+		}
+	],
+	"workspaces":
+	{
+		"recent_workspaces":
+		[
+			"/home/nathan/repos/gd/gd.sublime-project",
+			"/home/nathan/repos/nxt.sublime-project"
+		]
+	}
+}

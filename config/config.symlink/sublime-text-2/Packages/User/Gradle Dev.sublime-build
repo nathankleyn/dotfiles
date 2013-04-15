@@ -1,0 +1,4 @@
+{
+  "cmd": ["gradle-up build"],
+  "shell": true
+}

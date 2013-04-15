@@ -1,0 +1,29 @@
+{
+	"sublimelinter_gutter_marks": true,
+	"jshint_options": {
+	  "browser": true,
+	  "debug": false, // debugger statements will be marked as errors. Helps to find debugger statements and remove them before committing
+	  "devel": true, // allow console and alert
+	  "eqeqeq": true, // force use of === & !==
+	  "eqnull": true, // allow == null to check for null or undefined
+	  "immed": true, // force immediate functions to be wrapped in parentheses
+	  "plusplus": false,
+	  "newcap": true, // forces objects that are used with `new` to be capitalised
+	  "onevar": true, // only allow 1 var statement per function. Enforces vars to be defined at the top of the function
+	  // undef and latedef don't work together!
+	  "undef": true, // force vars to be declared before usage
+	  "asi": false, // no automatic semi-colon insertion. This is to avoid problems with minification.
+	  "predef" : [
+	  	"define",
+	  	"require",
+	  	"module",
+
+	  	"describe",
+	  	"it",
+	  	"before",
+	  	"after",
+	  	"beforeEach",
+	  	"afterEach"
+	  ]
+	}
+}

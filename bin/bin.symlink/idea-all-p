@@ -1,0 +1,7 @@
+git status &> /dev/null
+if [ $? -eq 0 ]; then
+  BRANCH=`git branch | grep \* | awk '{print $2}'`
+  ideaAllP.sh -PbranchName=$BRANCH -PcommonBranchName=$BRANCH
+else
+  echo "Not in a Git project, can't determine branch."
+fi

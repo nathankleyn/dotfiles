@@ -1,0 +1,13 @@
+{
+	"installed_packages":
+	[
+		"FreeMarker",
+		"GitGutter",
+		"LESS",
+		"nginx",
+		"Package Control",
+		"SCSS",
+		"SublimeLinter",
+		"Terminal"
+	]
+}

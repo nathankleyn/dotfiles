@@ -1,0 +1,4 @@
+{
+  "cmd": ["gradle-up --stacktrace bootstrap"],
+  "shell": true
+}
