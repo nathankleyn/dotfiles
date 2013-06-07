@@ -1,4 +1,4 @@
 {
-  "cmd": ["gradle-up build"],
+  "cmd": ["gradle-up buildJs --daemon -PbuildNumber=1"],
   "shell": true
 }

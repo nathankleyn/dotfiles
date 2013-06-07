@@ -1,5 +1,7 @@
 {
+	"sublimelinter_mark_style": "fill",
 	"sublimelinter_gutter_marks": true,
+	"sublimelinter_gutter_marks_theme": "bright",
 	"jshint_options": {
 	  "browser": true,
 	  "debug": false, // debugger statements will be marked as errors. Helps to find debugger statements and remove them before committing

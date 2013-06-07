@@ -15,9 +15,16 @@ export BROWSER=chromium
 export EDITOR=vim
 export LANG=en_US.UTF-8
 export _JAVA_AWT_WM_NONREPARENTING=1
+export CHROME_BIN=/usr/bin/chromium
+export FIREFOX_BIN=/usr/bin/firefox
 
-# Add RBEnv, common build scripts for Java, bieber and cabal to the PATH.
-export PATH=$HOME/.rbenv/bin:$HOME/repos/gd/platform/backend/common/scripts:$HOME/repos/gd/bieber/bin/shims:$HOME/.cabal/bin:$HOME/.bin:$PATH
+export PATH=$HOME/.rbenv/bin:$PATH
+export PATH=$HOME/repos/gd/platform/backend/common/scripts:$PATH
+export PATH=$HOME/.cabal/bin:$HOME/.bin:$PATH
+export PATH=/opt/gradle/bin:$PATH
+export PATH=/opt/kafka/bin:$PATH
+export PATH=/opt/hbase/bin:$PATH
+export PATH=/usr/local/nginx/sbin:$PATH
 
 # Enable RBEnv.
 eval "$(rbenv init - --no-rehash)"
@@ -46,4 +53,5 @@ function start_agent {
   /usr/bin/ssh-add;
 }
 
-export GLOBALDAWN_HOME="$HOME/repos/gd/bieber/build/projects"
+export GLOBALDAWN_HOME="$HOME/repos/gd"
+# export TERM=screen-256color
