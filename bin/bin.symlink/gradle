@@ -1,1 +1,3 @@
-gradle -g $HOME/repos/gd/bieber/build/data/gradle $@
+#!/usr/bin/env bash
+
+exec /home/nathan/repos/gd/platform/gradlew $@

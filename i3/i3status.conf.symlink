@@ -13,7 +13,7 @@ general {
 }
 
 order += "volume master"
-order += "wireless wlan0"
+order += "wireless wlp4s0"
 order += "battery 0"
 order += "load"
 order += "tztime local"
@@ -25,7 +25,7 @@ volume master {
         mixer_idx = 0
 }
 
-wireless wlan0 {
+wireless wlp4s0 {
         format_up = "W: (%quality at %essid) %ip"
         format_down = "W: down"
 }

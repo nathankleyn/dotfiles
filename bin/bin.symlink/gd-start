@@ -1,0 +1,10 @@
+for service in redis memcached mongodb nginx
+do
+  sudo systemctl stop $service
+  sudo systemctl start $service
+done
+
+(cd /opt/hbase && ./bin/start-hbase.sh)
+(cd /data/kafka && rm -rf *)
+sleep 2
+(cd /opt/kafka && ./bin/kafka-server-start.sh config/server.properties)

@@ -1,0 +1,8 @@
+{
+  // Your username on GitHub
+  "username": "nathankleyn",
+
+  // Your GitHub API token
+  // see: https://github.com/condemil/Gist#generating-access-token
+  "token": "506f548006c61081514768e2e1244b68122184fe"
+}

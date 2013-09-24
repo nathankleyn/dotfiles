@@ -9,14 +9,16 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 
-# . $HOME/repos/gd/mngr/bin/mngr-settings.sh
-
+export TERM=xterm-256color
 export BROWSER=chromium
 export EDITOR=vim
 export LANG=en_US.UTF-8
 export _JAVA_AWT_WM_NONREPARENTING=1
+export _JAVA_OPTIONS="-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true"
 export CHROME_BIN=/usr/bin/chromium
 export FIREFOX_BIN=/usr/bin/firefox
+export GEM_HOME=$HOME/.gem
+export GLOBALDAWN_HOME=$HOME/repos/gd
 
 export PATH=$HOME/.rbenv/bin:$PATH
 export PATH=$HOME/repos/gd/platform/backend/common/scripts:$PATH
@@ -25,9 +27,8 @@ export PATH=/opt/gradle/bin:$PATH
 export PATH=/opt/kafka/bin:$PATH
 export PATH=/opt/hbase/bin:$PATH
 export PATH=/usr/local/nginx/sbin:$PATH
-
-# Enable RBEnv.
-eval "$(rbenv init - --no-rehash)"
+export PATH=$HOME/.gem/bin:$PATH
+export PATH=$HOME/.npm/bin:$PATH
 
 alias r="reset"
 alias l="ll"
@@ -52,6 +53,3 @@ function start_agent {
   . "${SSH_ENV}" > /dev/null
   /usr/bin/ssh-add;
 }
-
-export GLOBALDAWN_HOME="$HOME/repos/gd"
-# export TERM=screen-256color

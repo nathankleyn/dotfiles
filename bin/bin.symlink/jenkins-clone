@@ -1,0 +1,1 @@
+cd $HOME/repos/gd/infrastructure/jenkins/jenkins-tools && java -cp build/libs/jenkins-tools-1.0.1.jar com.globaldawn.jenkins.tools.BranchCloneJob --username nkleyn --password password --projects-json /home/nathan/repos/gd/infrastructure/jenkins/githook/src/main/resources/projects.json --branch $1
