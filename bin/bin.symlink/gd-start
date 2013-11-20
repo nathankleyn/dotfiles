@@ -4,6 +4,9 @@ do
   sudo systemctl start $service
 done
 
+(jps | grep HMaster | awk '{print $1}' | xargs kill -9)
+(cd /data/hbase && for f in `ls -A`; do rm -rf "./$f"; done)
+
 (cd /opt/hbase && ./bin/start-hbase.sh)
 (cd /data/kafka && rm -rf *)
 sleep 2

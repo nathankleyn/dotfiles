@@ -120,7 +120,7 @@ set statusline+=%*
 " Colour schemes
 
 set t_Co=256
-set background=light
+set background=dark
 colorscheme solarized
 
 " Folding
@@ -135,6 +135,7 @@ au BufNewFile,BufRead *.jqt set filetype=html
 au BufNewFile,BufRead *.scss set filetype=css
 au BufNewFile,BufRead *.liquid set filetype=html
 au BufNewFile,BufRead *.json set filetype=json
+au BufNewFile,BufRead *.gradle set filetype=groovy
 
 " settings for folding comments
 au BufNewFile,BufRead *.cpp,*.c,*.h,*.java,*.js syn region myCComment start="/\*\*" end="\*/" fold keepend transparent
@@ -166,7 +167,7 @@ nmap <leader>r :%s#\<<C-r>=expand("<cword>")<CR>\>#
 " format json
 autocmd FileType json nmap <leader>f :%!python -m json.tool<cr>
 
-" strip all trailing whitespace 
+" strip all trailing whitespace
 fun! <SID>StripTrailingWhitespaces()
   let l = line(".")
   let c = col(".")

@@ -16,7 +16,7 @@
 # clear in small sizes. However, if you need a lot of unicode glyphs or
 # right-to-left text rendering, you should instead use pango for rendering and
 # chose a FreeType font, such as:
-font pango:DejaVu Sans Mono 10
+font pango:Source Code Pro 10
 
 # use Mouse+Mod4 to drag floating windows to their wanted position
 floating_modifier Mod4
@@ -35,10 +35,10 @@ bindsym Mod4+d exec dmenu_run
 # bindsym Mod4+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
-bindsym Mod4+j focus left
-bindsym Mod4+k focus down
-bindsym Mod4+l focus up
-bindsym Mod4+semicolon focus right
+bindsym Mod4+h focus left
+bindsym Mod4+j focus down
+bindsym Mod4+k focus up
+bindsym Mod4+l focus right
 
 # alternatively, you can use the cursor keys:
 bindsym Mod4+Left focus left
@@ -47,10 +47,10 @@ bindsym Mod4+Up focus up
 bindsym Mod4+Right focus right
 
 # move focused window
-bindsym Mod4+Shift+j move left
-bindsym Mod4+Shift+k move down
-bindsym Mod4+Shift+l move up
-bindsym Mod4+Shift+semicolon move right
+bindsym Mod4+Shift+h move left
+bindsym Mod4+Shift+j move down
+bindsym Mod4+Shift+k move up
+bindsym Mod4+Shift+l move right
 
 # alternatively, you can use the cursor keys:
 bindsym Mod4+Shift+Left move left
@@ -59,7 +59,7 @@ bindsym Mod4+Shift+Up move up
 bindsym Mod4+Shift+Right move right
 
 # split in horizontal orientation
-bindsym Mod4+h split h
+bindsym Mod4+s split h
 
 # split in vertical orientation
 bindsym Mod4+v split v
@@ -68,9 +68,9 @@ bindsym Mod4+v split v
 bindsym Mod4+f fullscreen
 
 # change container layout (stacked, tabbed, toggle split)
-bindsym Mod4+s layout stacking
-bindsym Mod4+w layout tabbed
-bindsym Mod4+e layout toggle split
+bindsym Mod4+t layout stacking
+bindsym Mod4+y layout tabbed
+bindsym Mod4+u layout toggle split
 
 # toggle tiling / floating
 bindsym Mod4+Shift+space floating toggle
@@ -79,7 +79,7 @@ bindsym Mod4+Shift+space floating toggle
 bindsym Mod4+space focus mode_toggle
 
 # focus the parent container
-bindsym Mod4+a focus parent
+#bindsym Mod4+a focus parent
 
 # focus the child container
 #bindsym Mod4+d focus child
@@ -123,10 +123,10 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-        bindsym j           resize shrink width 10 px or 10 ppt
-        bindsym k           resize grow height 10 px or 10 ppt
-        bindsym l           resize shrink height 10 px or 10 ppt
-        bindsym semicolon   resize grow width 10 px or 10 ppt
+        bindsym h           resize shrink width 10 px or 10 ppt
+        bindsym j           resize grow height 10 px or 10 ppt
+        bindsym k           resize shrink height 10 px or 10 ppt
+        bindsym l           resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
         bindsym Left        resize shrink width 10 px or 10 ppt
@@ -147,14 +147,29 @@ bar {
         status_command i3status
 
         colors {
-                background #111111
-                statusline #888888
-                separator #222222
+                # Custom Dark Theme
+                # background #111111
+                # statusline #888888
+                # separator #222222
+                # focused_workspace  #EEEEEE #DDDDDD #111111
+                # active_workspace   #333333 #222222 #888888
+                # inactive_workspace #111111 #111111 #888888
+                # urgent_workspace   #FF0000 #FF9999 #111111
 
-                focused_workspace  #EEEEEE #DDDDDD #111111
-                active_workspace   #333333 #222222 #888888
-                inactive_workspace #111111 #111111 #888888
-                urgent_workspace   #FF0000 #FF9999 #111111
+                # Solarized Dark
+                background #002b36
+                statusline #839496
+                separator #586e75
+                focused_workspace #839496 #839496 #002b36
+                active_workspace #ff0000 #ff9999 #ffffff
+                inactive_workspace #002b36 #002b36 #839496
+
+                # Solarized Light
+                # background #eee8d5
+                # statusline #586e75
+                # separator #93a1a1
+                # focused_workspace #cb4b16 #cb4b16 #eee8d5
+                # inactive_workspace #eee8d5 #eee8d5 #eee8d5
         }
 }
 
@@ -163,3 +178,21 @@ bindsym XF86AudioLowerVolume exec amixer -q set Master 5%- unmute
 bindsym XF86AudioMute exec amixer -q set Master toggle
 
 bindsym Mod4+x move workspace to output right
+
+# Hide the borders at the edge of the screen, both the top and the sides.
+hide_edge_borders both
+
+# The colours:          Border  Background Font    Indicator
+
+# Solarized Dark
+client.focused          #073642 #073642 #fdf6e3 #2e9ef4
+client.focused_inactive #268bd2 #268bd2 #fdf6e3 #484e50
+client.unfocused        #002b36 #002b36 #fdf6e3 #292d2e
+
+# Custom Dark Theme
+# client.focused          #444444 #222222    #ffffff #2e9ef4
+# client.focused_inactive #555555 #777777    #ffffff #484e50
+# client.unfocused        #666666 #888888    #ffffff #292d2e
+# client.urgent           #ff9999 #ff0000    #ffffff #900000
+
+exec --no-startup-id nm-applet

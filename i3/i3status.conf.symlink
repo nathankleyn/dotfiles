@@ -7,37 +7,40 @@
 # If the above line is not correctly displayed, fix your editor first!
 
 general {
-        colors = true
-        color_good = "#888888"
-        interval = 5
+  colors = true
+  color_good = "#888888"
+  color_degraded = "#b58900"
+  color_bad = "#dc322f"
+  color_separator = "#eee8d5"
+  interval = 1
 }
 
 order += "volume master"
-order += "wireless wlp4s0"
+# order += "wireless wlp4s0"
 order += "battery 0"
 order += "load"
 order += "tztime local"
 
 volume master {
-        format = "♪: %volume"
-        device = "default"
-        mixer = "Master"
-        mixer_idx = 0
+  format = "♪ %volume"
+  device = "default"
+  mixer = "Master"
+  mixer_idx = 0
 }
 
 wireless wlp4s0 {
-        format_up = "W: (%quality at %essid) %ip"
-        format_down = "W: down"
+  format_up = "W: (%quality at %essid) %ip"
+  format_down = "W: down"
 }
 
 battery 0 {
-        format = "%status %percentage %remaining"
+  format = "%status %percentage %remaining"
 }
 
 tztime local {
-        format = "%Y-%m-%d %H:%M:%S"
+  format = "%d-%m-%Y %H:%M:%S"
 }
 
 load {
-        format = "%1min"
+  format = "%1min %5min %15min"
 }
