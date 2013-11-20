@@ -196,3 +196,4 @@ client.unfocused        #002b36 #002b36 #fdf6e3 #292d2e
 # client.urgent           #ff9999 #ff0000    #ffffff #900000
 
 exec --no-startup-id nm-applet
+exec xflux -l 51.413521 -g -0.208642
