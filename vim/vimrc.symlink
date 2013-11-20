@@ -1,15 +1,12 @@
 " full vim
-set nocompatible " must be the first line
+" set nocompatible " must be the first line
 
-" pathogen
-filetype off
-silent! call pathogen#runtime_append_all_bundles()
-silent! call pathogen#helptags()
+execute pathogen#infect()
+syntax on
 filetype plugin indent on
 
 """""""""""""""""
 "general settings
-syntax on
 let mapleader = ","
 
 set scrolloff=3            " scroll 3 lines before bottom/top
@@ -19,7 +16,7 @@ set autowrite
 set showcmd                " display incomplete commands
 set hidden                 " allow buffer to be put in the background without saving
 
-set spelllang=en,es                 " set spell check language
+set spelllang=en           " set spell check language
 set wildmenu               " show autocomplete menus
 set wildmode=list:longest,list:full " completion menu behaves more like cli
 set wildignore+=*.o,tags,Session.vim
@@ -28,6 +25,7 @@ set iskeyword+=$,_         " added word chars
 
 " show line number, cursor position
 set number
+set relativenumber
 set ruler
 set cursorline             " highlights the cursor line
 set nowrap
@@ -59,11 +57,8 @@ set expandtab
 set smarttab
 
 " show line number, cursor position
-set number
-set ruler
 set cul                    " highlights the cursor line
 set backspace=start,indent,eol " set backspace to act like normal
-set nowrap
 set encoding=utf-8
 
 set visualbell             " don't beep
@@ -118,7 +113,6 @@ set statusline+=%*
 """""""""""""""""
 
 " Colour schemes
-
 set t_Co=256
 set background=dark
 colorscheme solarized
@@ -136,6 +130,7 @@ au BufNewFile,BufRead *.scss set filetype=css
 au BufNewFile,BufRead *.liquid set filetype=html
 au BufNewFile,BufRead *.json set filetype=json
 au BufNewFile,BufRead *.gradle set filetype=groovy
+au BufNewFile,BufRead *.litcoffee set filetype=litcoffee
 
 " settings for folding comments
 au BufNewFile,BufRead *.cpp,*.c,*.h,*.java,*.js syn region myCComment start="/\*\*" end="\*/" fold keepend transparent
@@ -175,6 +170,7 @@ fun! <SID>StripTrailingWhitespaces()
   call cursor(l, c)
 endfun
 
+" strip trailing whitspace from these types of files
 autocmd FileType c,cpp,python,ruby,java,html,css,json,javascript autocmd BufWritePre <buffer> :call <SID>StripTrailingWhitespaces()
 
 " save with ,,
@@ -302,9 +298,3 @@ autocmd FileType php let b:surround_45 = "<?php \r ?>"
 
 " Java
 :autocmd FileType java set expandtab!
-
-"""""""""""
-
-" personal settings
-set relativenumber
-set gfn=Ubuntu\ Mono\ 12
