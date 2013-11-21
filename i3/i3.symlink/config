@@ -161,7 +161,7 @@ bar {
                 statusline #839496
                 separator #586e75
                 focused_workspace #839496 #839496 #002b36
-                active_workspace #ff0000 #ff9999 #ffffff
+                active_workspace #002b36 #002b36 #839496
                 inactive_workspace #002b36 #002b36 #839496
 
                 # Solarized Light
@@ -169,6 +169,7 @@ bar {
                 # statusline #586e75
                 # separator #93a1a1
                 # focused_workspace #cb4b16 #cb4b16 #eee8d5
+                # active_workspace #eee8d5 #eee8d5 #eee8d5
                 # inactive_workspace #eee8d5 #eee8d5 #eee8d5
         }
 }
@@ -186,8 +187,9 @@ hide_edge_borders both
 
 # Solarized Dark
 client.focused          #073642 #073642 #fdf6e3 #2e9ef4
-client.focused_inactive #268bd2 #268bd2 #fdf6e3 #484e50
+client.focused_inactive #839496 #839496 #fdf6e3 #292d2e
 client.unfocused        #002b36 #002b36 #fdf6e3 #292d2e
+client.urgent           #ff0000 #ff9999 #000000 #484e50
 
 # Custom Dark Theme
 # client.focused          #444444 #222222    #ffffff #2e9ef4
