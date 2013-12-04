@@ -4,51 +4,57 @@
 
 # Path to your oh-my-zsh configuration.
 ZSH=$HOME/.oh-my-zsh
-ZSH_THEME="nathan"
+ZSH_THEME='nathan'
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+source ~/.zshrc-private
 
+export _JAVA_AWT_WM_NONREPARENTING=1
+export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true'
 export TERM=xterm-256color
 export BROWSER=chromium
 export EDITOR=vim
 export LANG=en_US.UTF-8
-export _JAVA_AWT_WM_NONREPARENTING=1
-export _JAVA_OPTIONS="-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true"
 export CHROME_BIN=/usr/bin/chromium
 export FIREFOX_BIN=/usr/bin/firefox
-export GEM_HOME=$HOME/.gem
-export GLOBALDAWN_HOME=$HOME/repos/gd
+export GEM_HOME=~/.gem
+export IHQ_HOME=~/repos/ihq
+export GLOBALDAWN_HOME=${IHQ_HOME}
 
-export PATH=$HOME/.rbenv/bin:$PATH
-export PATH=$HOME/repos/gd/platform/backend/common/scripts:$PATH
-export PATH=$HOME/.cabal/bin:$HOME/.bin:$PATH
-export PATH=/opt/gradle/bin:$PATH
-export PATH=/opt/kafka/bin:$PATH
-export PATH=/opt/hbase/bin:$PATH
-export PATH=/usr/local/nginx/sbin:$PATH
-export PATH=$HOME/.gem/bin:$PATH
-export PATH=$HOME/.npm/bin:$PATH
+path=(
+  ${IHQ_HOME}/platform
+  ${IHQ_HOME}/platform/backend/common/scripts
+  /opt/kafka/bin
+  /opt/hbase/bin
+  ~/.rbenv/bin
+  ~/.cabal/bin
+  ~/.gem/bin
+  ~/.npm/bin
+  ~/.bin
+  ${path}
+)
 
-alias r="reset"
-alias l="ll"
-alias ls="ls --color=auto"
-alias ll="ls -l --color=auto"
-alias rspec="rspec -c -b"
-alias rep="cd ~/repos"
-alias sc="cd ~/repos/scripts"
-alias gd="cd ~/repos/gd"
-alias gdp="cd ~/repos/gd/platform"
-alias gdj="gdp && cd backend"
-alias gs="git status"
-alias open="xdg-open"
+alias ihq="cd ${IHQ_HOME}"
+alias ihqp='ihq && cd platform'
+alias ihqj='ihqp && cd backend'
+alias gradle='gradlew'
+alias gs='git status'
+alias l=ll
+alias ls='ls --color=auto'
+alias ll='ls -l --color=auto'
+alias open='xdg-open'
+alias r=reset
+alias rspec='rspec -c -b'
+alias rep='cd ~/repos'
+alias sc='cd ~/repos/scripts'
 
 # Setup SSH agent to store temporary passphrase.
 
-SSH_ENV="$HOME/.ssh/environment"
+SSH_ENV=~/.ssh/environment
 
 function start_agent {
-  echo "Initialising new SSH Agent session..."
+  echo 'Initialising new SSH Agent session...'
   /usr/bin/ssh-agent | sed 's/^echo/#echo/' > "${SSH_ENV}"
   chmod 600 "${SSH_ENV}"
   . "${SSH_ENV}" > /dev/null

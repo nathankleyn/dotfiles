@@ -159,7 +159,7 @@ bar {
                 # Solarized Dark
                 background #002b36
                 statusline #839496
-                separator #586e75
+                separator #073642
                 focused_workspace #839496 #839496 #002b36
                 active_workspace #002b36 #002b36 #839496
                 inactive_workspace #002b36 #002b36 #839496
@@ -180,6 +180,8 @@ bindsym XF86AudioMute exec amixer -q set Master toggle
 
 bindsym Mod4+x move workspace to output right
 
+bindsym Control+mod1+l exec i3lock -c '#002b36'
+
 # Hide the borders at the edge of the screen, both the top and the sides.
 hide_edge_borders both
 
@@ -199,3 +201,5 @@ client.urgent           #ff0000 #ff9999 #000000 #484e50
 
 exec --no-startup-id nm-applet
 exec xflux -l 51.413521 -g -0.208642
+exec xsetroot -solid '#073642'
+
