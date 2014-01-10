@@ -8,5 +8,5 @@
 
 start-pulseaudio-x11
 xrdb -merge ~/.Xresources
-feh --bg-fill ~/photos/IMG_7523.jpg
+feh --bg-fill ~/photos/the-witness-1.png
 i3 -V > /tmp/i3log 2>&1

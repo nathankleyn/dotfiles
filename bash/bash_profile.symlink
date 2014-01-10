@@ -15,4 +15,3 @@
 #fi
 
 complete -cf sudo
-exec startx

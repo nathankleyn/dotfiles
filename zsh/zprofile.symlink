@@ -3,6 +3,4 @@
 #
 
 [[ -f ~/.zshrc ]] && . ~/.zshrc
-
-start_agent
-exec startx
+[[ -z $DISPLAY && $XDG_VTNR -eq 1 ]] && start_agent && exec startx

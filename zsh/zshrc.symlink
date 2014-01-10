@@ -24,6 +24,7 @@ export GLOBALDAWN_HOME=${IHQ_HOME}
 
 path=(
   ${IHQ_HOME}/platform
+  ${IHQ_HOME}/platform/bin
   ${IHQ_HOME}/platform/backend/common/scripts
   /opt/kafka/bin
   /opt/hbase/bin
@@ -38,11 +39,11 @@ path=(
 alias ihq="cd ${IHQ_HOME}"
 alias ihqp='ihq && cd platform'
 alias ihqj='ihqp && cd backend'
-alias gradle='gradlew'
+alias gradle='gradlew --daemon'
 alias gs='git status'
 alias l=ll
-alias ls='ls --color=auto'
-alias ll='ls -l --color=auto'
+alias ls='ls -G'
+alias ll='ls -lG'
 alias open='xdg-open'
 alias r=reset
 alias rspec='rspec -c -b'
