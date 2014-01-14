@@ -114,7 +114,7 @@ set statusline+=%*
 
 " Colour schemes
 set t_Co=256
-set background=dark
+set background=light
 colorscheme solarized
 
 " Folding
