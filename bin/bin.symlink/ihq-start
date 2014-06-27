@@ -1,13 +1,14 @@
-for service in redis memcached mongodb nginx
-do
-  sudo systemctl stop $service
-  sudo systemctl start $service
-done
+if type systemctl &> /dev/null; then
+  for service in redis memcached mongodb nginx
+  do
+    sudo systemctl stop $service
+    sudo systemctl start $service
+  done
+fi
 
 (jps | grep HMaster | awk '{print $1}' | xargs kill -9)
 (cd /data/hbase && for f in `ls -A`; do rm -rf "./$f"; done)
-
-(cd /opt/hbase && ./bin/start-hbase.sh)
 (cd /data/kafka && rm -rf *)
-sleep 2
+
+(cd /opt/hbase && ./bin/start-hbase.sh && ./bin/local-regionservers.sh start 1)
 (cd /opt/kafka && ./bin/kafka-server-start.sh config/server.properties)

@@ -10,29 +10,35 @@ plugins=(git)
 source $ZSH/oh-my-zsh.sh
 source ~/.zshrc-private
 
-export _JAVA_AWT_WM_NONREPARENTING=1
-export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true'
+if [[ `uname -s` != 'Darwin' ]]; then
+  export _JAVA_AWT_WM_NONREPARENTING=1
+  export _JAVA_OPTIONS='-Dawt.useSystemAAFontSettings=on -Dswing.aatext=true'
+fi
+
 export TERM=xterm-256color
 export BROWSER=chromium
 export EDITOR=vim
 export LANG=en_US.UTF-8
-export CHROME_BIN=/usr/bin/chromium
-export FIREFOX_BIN=/usr/bin/firefox
+export CHROME_BIN=/Users/nathan/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome
+export FIREFOX_BIN=/Users/nathan/Applications/Firefox.app/Contents/MacOS/firefox
 export GEM_HOME=~/.gem
 export IHQ_HOME=~/repos/ihq
-export GLOBALDAWN_HOME=${IHQ_HOME}
+export DOCKER_HOST=tcp://localhost:4243
+export VOLDEMORT_HOME=/usr/local/Cellar/voldemort/1.8.3/libexec
 
 path=(
-  ${IHQ_HOME}/platform
-  ${IHQ_HOME}/platform/bin
-  ${IHQ_HOME}/platform/backend/common/scripts
-  /opt/kafka/bin
-  /opt/hbase/bin
-  ~/.rbenv/bin
+  ~/.bin
   ~/.cabal/bin
   ~/.gem/bin
   ~/.npm/bin
-  ~/.bin
+  ${IHQ_HOME}/platform
+  ${IHQ_HOME}/platform/bin
+  ${IHQ_HOME}/platform/backend/common/scripts
+  /usr/local/opt/ruby/bin
+  /usr/local/bin
+  /usr/local/sbin
+  /opt/kafka/bin
+  /opt/hbase/bin
   ${path}
 )
 
