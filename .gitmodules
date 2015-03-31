@@ -49,3 +49,9 @@
 [submodule "vim-airline"]
 	path = vim/vim.symlink/bundle/vim-airline
 	url = https://github.com/bling/vim-airline.git
+[submodule "vim-scala"]
+	path = vim/vim.symlink/bundle/vim-scala
+	url = https://github.com/derekwyatt/vim-scala
+[submodule "vim-markdown"]
+	path = vim/vim.symlink/bundle/vim-markdown
+	url = https://github.com/plasticboy/vim-markdown

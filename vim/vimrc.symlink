@@ -19,7 +19,7 @@ set hidden                 " allow buffer to be put in the background without sa
 set spelllang=en           " set spell check language
 set wildmenu               " show autocomplete menus
 set wildmode=list:longest,list:full " completion menu behaves more like cli
-set wildignore+=*.o,tags,Session.vim
+set wildignore+=*.o,tags,Session.vim,out,build
 
 set iskeyword+=$,_         " added word chars
 
@@ -82,7 +82,7 @@ if v:version >= 703
   set undodir=$HOME/.vim/.undo
   set undolevels=1000
   set undoreload=10000
-  set colorcolumn=80    " show a right margin column
+  set colorcolumn=120    " show a right margin column
 endif
 
 set history=100 " create a larger history
@@ -97,6 +97,7 @@ set showmode
 set title
 
 " set status line
+let g:airline_powerline_fonts=1
 set laststatus=2
 set statusline=%<%f\%h%m%r%=%-20.(line=%l\ \ col=%c%V\ \ totlin=%L%)\ \%P
 
@@ -255,8 +256,8 @@ map <leader>c :Ack <c-R>"<space><cr>
 let g:ackhighlight=1
 
 " Markdown
-augroup mkd " add markdown syntax
-	autocmd BufRead *.mkd  set ai formatoptions=tcroqn2 comments=n:>
+augroup md " add markdown syntax
+	autocmd BufRead *.md  set ai formatoptions=tcroqn2 comments=n:>
 augroup END
 
 " Mustache
@@ -267,6 +268,7 @@ autocmd VimEnter,BufNewFile,BufRead *.mustache set nofoldenable
 let g:javascript_ignore_javaScriptdoc = 1
 
 " Ctrl+P
+let g:ctrlp_max_files=0
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\.git$\|\.hg$\|\.svn$',
   \ 'file': '\.exe$\|\.so$\|\.dll$',

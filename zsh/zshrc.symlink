@@ -9,6 +9,7 @@ plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
 source ~/.zshrc-private
+source `brew --prefix`/etc/profile.d/z.sh
 
 if [[ `uname -s` != 'Darwin' ]]; then
   export _JAVA_AWT_WM_NONREPARENTING=1
@@ -23,8 +24,8 @@ export CHROME_BIN=/Users/nathan/Applications/Google\ Chrome.app/Contents/MacOS/G
 export FIREFOX_BIN=/Users/nathan/Applications/Firefox.app/Contents/MacOS/firefox
 export GEM_HOME=~/.gem
 export IHQ_HOME=~/repos/ihq
-export DOCKER_HOST=tcp://localhost:4243
-export VOLDEMORT_HOME=/usr/local/Cellar/voldemort/1.8.3/libexec
+export _JAVA_OPTIONS="-Djava.net.preferIPv4Stack=true -Djava.security.krb5.realm=OX.AC.UK -Djava.security.krb5.kdc=kdc0.ox.ac.uk:kdc1.ox.ac.uk"
+export DOCKER_HOST=tcp://localhost:2375
 
 path=(
   ~/.bin
@@ -37,7 +38,7 @@ path=(
   /usr/local/opt/ruby/bin
   /usr/local/bin
   /usr/local/sbin
-  /opt/kafka/bin
+###  /opt/kafka/bin
   /opt/hbase/bin
   ${path}
 )
@@ -45,8 +46,10 @@ path=(
 alias ihq="cd ${IHQ_HOME}"
 alias ihqp='ihq && cd platform'
 alias ihqj='ihqp && cd backend'
-alias gradle='gradlew --daemon'
+# alias gradle='gradlew --daemon'
+alias gradle="gradlew"
 alias gs='git status'
+alias gds='git diff --cached --shortstat'
 alias l=ll
 alias ls='ls -G'
 alias ll='ls -lG'
