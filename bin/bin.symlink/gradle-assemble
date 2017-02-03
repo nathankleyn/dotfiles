@@ -1,7 +1,0 @@
-git status &> /dev/null
-if [ $? -eq 0 ]; then
-  BRANCH=`git branch | grep \* | awk '{print $2}'`
-  gradle assemble -i -PbuildNumber=1 -PcommonBranchName=$BRANCH
-else
-  echo "Not in a Git project, can't determine branch."
-fi
