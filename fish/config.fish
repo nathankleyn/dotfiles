@@ -33,29 +33,39 @@ set -x RUST_SRC_PATH ~/repos/rust/src
 # Make some functions to do handy things.
 
 function ihq
-    cd $IHQ_HOME
+  cd $IHQ_HOME
 end
 
 function ihqp
-    ihq; and cd platform
+  ihq; and cd platform
 end
 
 function gs
-  git status
+  git status $argv
 end
 
 function gc
-  git clean -dfx -e .vagrant -e mesos
+  git clean -dfx -e .vagrant -e mesos $argv
+end
+
+function gf
+  git commit --fixup HEAD; and git fetch; and env EDITOR=true git rebase --autosquash -i origin/master
 end
 
 function ll
-    ls -lG $argv
+  ls -lG $argv
 end
 
 function rspec
-  rspec -c -b
+  rspec -c -b $argv
 end
 
 function thor
-  bundle exec thor
+  bundle exec thor $argv
 end
+
+function typora
+  open -a Typora $argv
+end
+
+eval (direnv hook fish)
