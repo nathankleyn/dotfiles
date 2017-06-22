@@ -29,6 +29,7 @@ set -x HOMEBREW_NO_ANALYTICS 1
 set -x IHQ_HOME ~/repos/ihq
 set -x LANG en_US.UTF-8
 set -x RUST_SRC_PATH ~/repos/rust/src
+set -x NIC_CAGE_SUCKS 1
 
 # Make some functions to do handy things.
 
