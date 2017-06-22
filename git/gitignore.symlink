@@ -1,0 +1,15 @@
+# MacOS
+.DS_Store
+
+# Scala/SBT
+.ensime
+.ensime_cache
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/

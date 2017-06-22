@@ -1,0 +1,12 @@
+[user]
+	name = Nathan Kleyn
+	email = nathan@nathankleyn.com
+	signingkey = nathan@nathankleyn.com
+[push]
+	default = current
+[diff]
+	algorithm = patience
+[commit]
+	gpgsign = true
+[gpg]
+	program = /usr/local/MacGPG2/bin/gpg2
