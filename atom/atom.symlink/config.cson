@@ -1,0 +1,110 @@
+"*":
+  Ensime:
+    enableAutoInstallOfDependencies: false
+    sbtExec: "/usr/local/bin/sbt"
+  "atom-beautify":
+    _analyticsUserId: "1a1a9ee3-5466-43c6-8c28-66c5536c75d8"
+    language_ruby_beautify_on_save: true
+    language_rust_beautify_on_save: true
+  "autocomplete-haskell": {}
+  "browser-plus": {}
+  build: {}
+  "build-cargo":
+    cargoPath: "/Users/nathan/.cargo/bin/cargo"
+  core:
+    customFileTypes:
+      source: [
+        "[object Object]"
+      ]
+      "source.ruby": [
+        "Shantyconfig"
+        "Shantyfile"
+      ]
+    disabledPackages: [
+      "disable-arrow-keys"
+      "autocomplete"
+      "cut-line"
+      "wrap-guide"
+      "rspec"
+      "metrics"
+      "exception-reporting"
+      "floobits"
+      "language-liquid"
+      "tokamak"
+    ]
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "solarized-dark-syntax"
+    ]
+    titleBar: "custom"
+  deprecated:
+    tool:
+      cargo: true
+  editor:
+    fontFamily: "Hasklig"
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+  "exception-reporting":
+    userId: "df1a0f70-5181-a2b8-ed3a-d796a84cd0a0"
+  "file-icons":
+    coloured: false
+  "git-diff": {}
+  "haskell-ghc-mod":
+    additionalPathDirectories: [
+      "/usr/local/bin"
+      "/Users/nathan/.cabal/bin"
+    ]
+    ghcModPath: "/Users/nathan/.cabal/bin/ghc-mod"
+    ghcModiPath: "/Users/nathan/.cabal/bin/ghc-modi"
+    suppressStartupWarning: true
+  "ide-haskell":
+    stylishHaskellPath: "/Users/nathan/.cabal/bin/stylish-haskell"
+  linter:
+    subtleLinterErrors: [
+      "rubocop"
+    ]
+  "linter-jshint": {}
+  "linter-rubocop":
+    command: "/Users/nathan/.gem/bin/rubocop"
+  "linter-rust":
+    cargoCommand: "check"
+    cargoPath: "/Users/nathan/.cargo/bin/cargo"
+    rustcPath: "/Users/nathan/.cargo/bin/rustc"
+  "linter-ui-default":
+    panelHeight: 99
+    showPanel: true
+  metrics:
+    userId: "fe8c34361ef74aa9a5f3527295167b6b207a22c3"
+  minimap: {}
+  "multi-wrap-guide":
+    columns: [
+      80
+      100
+      120
+    ]
+    locked: true
+    rows: []
+  "one-dark-ui":
+    tabSizing: "Even"
+  racer:
+    racerBinPath: "/Users/nathan/repos/racer/target/release/racer"
+    rustSrcPath: "/Users/nathan/repos/rust/src"
+  "release-notes":
+    viewedVersion: "0.95.0"
+  rspec: {}
+  "spell-check": {}
+  "status-bar":
+    cursorPositionFormat: "Line %L, Column %C"
+    fullWidth: false
+  tabs:
+    alwaysShowTabBar: false
+    enableVcsColoring: true
+    showIcons: false
+  tokamak: {}
+  "tree-view":
+    squashDirectoryNames: true
+  "vim-mode": {}
+  welcome:
+    showOnStartup: false
