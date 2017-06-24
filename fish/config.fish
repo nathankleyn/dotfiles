@@ -9,7 +9,6 @@ source ~/.fish-private
 set -x PATH $PATH /usr/local/bin
 set -x PATH $PATH /usr/local/opt/ruby/bin
 set -x PATH $PATH /usr/local/sbin
-set -x PATH $PATH ~/.cabal/bin
 set -x PATH $PATH ~/.cargo/bin
 set -x PATH $PATH ~/.gem/bin
 set -x PATH $PATH ~/.okta-aws-cli
@@ -70,3 +69,5 @@ function typora
 end
 
 eval (direnv hook fish)
+
+test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish

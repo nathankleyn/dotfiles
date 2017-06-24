@@ -42,7 +42,7 @@
     tool:
       cargo: true
   editor:
-    fontFamily: "Hasklig"
+    fontFamily: "Source Code Pro"
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
