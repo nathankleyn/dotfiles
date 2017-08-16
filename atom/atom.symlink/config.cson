@@ -7,10 +7,14 @@
     language_ruby_beautify_on_save: true
     language_rust_beautify_on_save: true
   "autocomplete-haskell": {}
+  "autosave-onchange":
+    delay: 1000
   "browser-plus": {}
   build: {}
   "build-cargo":
     cargoPath: "/Users/nathan/.cargo/bin/cargo"
+  "cargo-test-runner":
+    cargoBinaryPath: "/Users/nathan/.cargo/bin/cargo"
   core:
     customFileTypes:
       source: [
@@ -25,12 +29,11 @@
       "autocomplete"
       "cut-line"
       "wrap-guide"
-      "rspec"
       "metrics"
       "exception-reporting"
-      "floobits"
-      "language-liquid"
       "tokamak"
+      "autosave-onchange"
+      "atom-pair"
     ]
     telemetryConsent: "limited"
     themes: [
@@ -43,6 +46,7 @@
       cargo: true
   editor:
     fontFamily: "Source Code Pro"
+    fontSize: 16
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
@@ -78,6 +82,7 @@
   metrics:
     userId: "fe8c34361ef74aa9a5f3527295167b6b207a22c3"
   minimap: {}
+  "minimap-plus": {}
   "multi-wrap-guide":
     columns: [
       80

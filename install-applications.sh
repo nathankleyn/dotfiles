@@ -8,8 +8,8 @@ fi
 brew tap caskroom/cask
 brew tap caskroom/fonts
 brew tap fisherman/tap
-brew cask install atom docker iterm2 java jetbrains-toolbox typora
-brew install fish fisherman font-source-code-pro thrift ruby rustup scala sbt direnv
+brew cask install atom docker font-hasklig font-source-code-pro gpgtools iterm2 java jetbrains-toolbox screenhero typora vlc zerotier-one
+brew install fish fisherman graphviz thrift ruby rustup scala sbt direnv
 gem install bundler
 rustup-init -y
 rustup install beta
