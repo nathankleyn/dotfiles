@@ -1,14 +1,3 @@
-config/sublime-text-2.symlink/Backup
-config/sublime-text-2.symlink/Packages/*
-!config/sublime-text-2.symlink/Packages/FreeMarker
-!config/sublime-text-2.symlink/Packages/GitGutter
-!config/sublime-text-2.symlink/Packages/LESS
-!config/sublime-text-2.symlink/Packages/nginx
-!config/sublime-text-2.symlink/Packages/SCSS
-!config/sublime-text-2.symlink/Packages/SublimeLinter
-!config/sublime-text-2.symlink/Packages/User
-config/sublime-text-2.symlink/Packages/User/Package Control.last-run
-config/sublime-text-2.symlink/Pristine Packages
 vim/vim.symlink/.netrwhist
 xmonad/xmonad.symlink/*
 !xmonad/xmonad.symlink/xmonad.hs

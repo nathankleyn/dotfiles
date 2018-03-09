@@ -6,6 +6,9 @@
     _analyticsUserId: "1a1a9ee3-5466-43c6-8c28-66c5536c75d8"
     language_ruby_beautify_on_save: true
     language_rust_beautify_on_save: true
+  "atom-ide-ui":
+    use:
+      "atom-ide-diagnostics-ui": false
   "autocomplete-haskell": {}
   "autosave-onchange":
     delay: 1000
@@ -31,9 +34,10 @@
       "wrap-guide"
       "metrics"
       "exception-reporting"
-      "tokamak"
       "autosave-onchange"
       "atom-pair"
+      "autocomplete-racer"
+      "build-cargo"
     ]
     telemetryConsent: "limited"
     themes: [
@@ -78,7 +82,6 @@
     rustcPath: "/Users/nathan/.cargo/bin/rustc"
   "linter-ui-default":
     panelHeight: 99
-    showPanel: true
   metrics:
     userId: "fe8c34361ef74aa9a5f3527295167b6b207a22c3"
   minimap: {}
@@ -90,16 +93,18 @@
       120
     ]
     locked: true
-    rows: []
   "one-dark-ui":
     tabSizing: "Even"
   racer:
-    racerBinPath: "/Users/nathan/repos/racer/target/release/racer"
+    racerBinPath: "/Users/nathan/.cargo/bin/racer"
     rustSrcPath: "/Users/nathan/repos/rust/src"
   "release-notes":
     viewedVersion: "0.95.0"
   rspec: {}
-  "spell-check": {}
+  "spell-check":
+    locales: [
+      "en-GB"
+    ]
   "status-bar":
     cursorPositionFormat: "Line %L, Column %C"
     fullWidth: false
@@ -107,9 +112,15 @@
     alwaysShowTabBar: false
     enableVcsColoring: true
     showIcons: false
-  tokamak: {}
+  tokamak:
+    cargoBinPath: "/Users/nathan/.cargo/bin/cargo"
+    racerBinPath: "/Users/nathan/.cargo/bin/racer"
+    rustcBinPath: "/Users/nathan/.cargo/bin/rustc"
+    toolBinPath: "/Users/nathan/.cargo/bin/rustup"
+  "tool-bar": {}
   "tree-view":
     squashDirectoryNames: true
   "vim-mode": {}
+  "vim-mode-plus": {}
   welcome:
     showOnStartup: false
