@@ -38,11 +38,13 @@
       "atom-pair"
       "autocomplete-racer"
       "build-cargo"
+      "teletype"
+      "github"
     ]
     telemetryConsent: "limited"
     themes: [
-      "one-dark-ui"
-      "solarized-dark-syntax"
+      "one-light-ui"
+      "solarized-light-syntax"
     ]
     titleBar: "custom"
   deprecated:
@@ -50,7 +52,7 @@
       cargo: true
   editor:
     fontFamily: "Source Code Pro"
-    fontSize: 16
+    fontSize: 17
     invisibles: {}
     showIndentGuide: true
     showInvisibles: true
@@ -82,6 +84,7 @@
     rustcPath: "/Users/nathan/.cargo/bin/rustc"
   "linter-ui-default":
     panelHeight: 99
+    showPanel: true
   metrics:
     userId: "fe8c34361ef74aa9a5f3527295167b6b207a22c3"
   minimap: {}
@@ -119,6 +122,7 @@
     toolBinPath: "/Users/nathan/.cargo/bin/rustup"
   "tool-bar": {}
   "tree-view":
+    hideVcsIgnoredFiles: true
     squashDirectoryNames: true
   "vim-mode": {}
   "vim-mode-plus": {}

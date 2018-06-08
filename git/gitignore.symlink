@@ -13,3 +13,6 @@ project/plugins/project/
 .history
 .cache
 .lib/
+
+# VSCode settings
+.vscode

@@ -5,9 +5,12 @@
 [push]
 	default = current
 [diff]
-	algorithm = patience
+	algorithm = histogram
 	submodule = log
+	colorMoved = default
 [commit]
 	gpgsign = true
 [gpg]
 	program = /usr/local/MacGPG2/bin/gpg2
+[core]
+	excludesfile = /Users/nathan/.gitignore

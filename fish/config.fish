@@ -1,5 +1,10 @@
 source ~/.fish-private
 
+# Configure Fish theme
+
+set -g theme_color_scheme solarized-light
+set -g theme_display_date no
+
 # Add directories to the PATH
 
 set -x PATH $PATH /usr/local/bin
