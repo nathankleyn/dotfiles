@@ -24,6 +24,7 @@ curl -L https://get.oh-my.fish | fish
 fish -c "fisher install edc/bass fzf imgcat ; and __fzf_install"
 fish -c "omf install bobthefish"
 
+fish -c "cd $DOTFILES_ROOT; and rake"
 ./atom/restore-packages.sh
 ./vscode/restore-extensions.sh
 
