@@ -478,6 +478,15 @@
 			<key>Text</key>
 			<string>ihq\ncd client-config\n</string>
 		</dict>
+		<key>touchbar:F1CB2D2D-2C11-4BA9-981A-B1622630FB8A</key>
+		<dict>
+			<key>Action</key>
+			<integer>38</integer>
+			<key>Label</key>
+			<string>⏳</string>
+			<key>Text</key>
+			<string>ihq\ncd pipeline\n</string>
+		</dict>
 	</dict>
 	<key>HideMenuBarInFullscreen</key>
 	<false/>
@@ -558,6 +567,7 @@
 		<array>
 			<string>touchbar:4DB1C6A6-CEBC-4EB6-8233-5697D84C0A07</string>
 			<string>touchbar:82A37921-66DC-4B60-8D74-A7EE58E86906</string>
+			<string>touchbar:F1CB2D2D-2C11-4BA9-981A-B1622630FB8A</string>
 			<string>touchbar:903625E3-FDF4-47C9-9D8D-705AD8560913</string>
 			<string>touchbar:1FAA6441-8D4B-423B-8A0F-602A5BD85923</string>
 			<string>touchbar:3847F056-5DD5-4C14-8102-178401B4251A</string>
@@ -585,9 +595,9 @@
 	<key>NSWindow Frame SessionsPreferences</key>
 	<string>64 1286 606 469 -425 1050 2560 1418 </string>
 	<key>NSWindow Frame SharedPreferences</key>
-	<string>776 474 796 473 0 0 1680 1028 </string>
+	<string>544 457 796 473 0 0 1680 1028 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>899 511 650 477 0 0 1680 1028 </string>
+	<string>513 1668 1050 758 -425 1050 2560 1418 </string>
 	<key>NSWindow Frame iTerm Window 1</key>
 	<string>664 528 650 500 0 0 1680 1028 </string>
 	<key>NSWindow Frame iTerm Window 2</key>
@@ -1462,7 +1472,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2018-06-08T08:22:39Z</date>
+	<date>2018-06-12T17:27:50Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowBookmarkName</key>
