@@ -13,7 +13,7 @@ brew tap caskroom/cask
 brew tap caskroom/fonts
 brew tap fisherman/tap
 brew install fish fisherman graphviz thrift ruby rustup scala sbt direnv
-brew cask install atom docker font-hasklig font-source-code-pro font-source-code-pro-for-powerline gpgtools insomnia iterm2 java8 jetbrains-toolbox typora vlc visual-studio-code visualvm zerotier-one
+brew cask install atom docker font-hasklig font-source-code-pro font-source-code-pro-for-powerline gpg-suite insomnia iterm2 java8 jetbrains-toolbox typora vlc visual-studio-code visualvm zerotier-one
 
 gem install bundler
 rustup-init -y
