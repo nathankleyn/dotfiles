@@ -9,10 +9,11 @@ if [ `which brew` = "brew not found" ]; then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)";
 fi
 
-brew tap caskroom/cask
-brew tap caskroom/fonts
+brew tap homebrew/cask
+brew tap homebrew/cask-fonts
+brew tap homebrew/cask-versions
 brew tap fisherman/tap
-brew install fish fisherman graphviz thrift ruby rustup scala sbt direnv
+brew install direnv fish fisherman graphviz thrift ruby rustup scala sbt direnv
 brew cask install atom docker font-hasklig font-source-code-pro font-source-code-pro-for-powerline gpg-suite insomnia iterm2 java8 jetbrains-toolbox typora vlc visual-studio-code visualvm zerotier-one
 
 gem install bundler
