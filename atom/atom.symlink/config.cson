@@ -10,6 +10,11 @@
     use:
       "atom-ide-diagnostics-ui": false
   "autocomplete-haskell": {}
+  "autocomplete-plus":
+    fileBlacklist: [
+      ".*"
+      "*.md"
+    ]
   "autosave-onchange":
     delay: 1000
   "browser-plus": {}
@@ -19,6 +24,7 @@
   "cargo-test-runner":
     cargoBinaryPath: "/Users/nathan/.cargo/bin/cargo"
   core:
+    allowPendingPaneItems: false
     customFileTypes:
       source: [
         "[object Object]"

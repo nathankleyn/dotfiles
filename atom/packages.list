@@ -18,7 +18,7 @@ language-fish-shell@1.1.0
 language-gitignore@0.3.0
 language-haml@0.31.1
 language-json5@1.1.1
-language-liquid@0.6.0
+language-liquid@0.7.0
 language-logstash@0.1.7
 language-lua@0.9.11
 language-rust@0.4.12
