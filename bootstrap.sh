@@ -13,7 +13,7 @@ brew tap homebrew/cask
 brew tap homebrew/cask-fonts
 brew tap homebrew/cask-versions
 brew tap fisherman/tap
-brew install --force direnv fish fisherman fzf graphviz thrift ruby rustup direnv
+brew install --force direnv fish fisherman fzf graphviz thrift ruby rustup watch
 brew cask install --force atom docker font-hasklig font-source-code-pro font-source-code-pro-for-powerline gpg-suite insomnia iterm2 java8 jetbrains-toolbox typora vlc visual-studio-code visualvm zerotier-one
 # This must be run after Java is installed.
 brew install --force scala sbt
