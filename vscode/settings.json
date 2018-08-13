@@ -1,6 +1,6 @@
 {
   "telemetry.enableTelemetry": false,
-  "workbench.colorTheme": "Braver's Solarized Light (themed workbench)",
+  "workbench.colorTheme": "Braver's Solarized Dark (themed workbench)",
   "editor.fontSize": 16,
   "editor.fontFamily": "'Source Code Pro'",
   "editor.tabSize": 2,

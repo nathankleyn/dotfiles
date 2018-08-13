@@ -40,17 +40,15 @@
       "wrap-guide"
       "metrics"
       "exception-reporting"
-      "autosave-onchange"
       "atom-pair"
       "autocomplete-racer"
       "build-cargo"
-      "teletype"
       "github"
     ]
     telemetryConsent: "limited"
     themes: [
-      "one-light-ui"
-      "solarized-light-syntax"
+      "one-dark-ui"
+      "solarized-dark-syntax"
     ]
     titleBar: "custom"
   deprecated:
