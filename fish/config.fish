@@ -7,8 +7,10 @@ set -g theme_display_date no
 
 # Add directories to the PATH
 
+set -x PATH /usr/local/opt/coreutils/libexec/gnubin $PATH
+set -x PATH /usr/local/opt/grep/libexec/gnubin $PATH
+set -x PATH /usr/local/opt/ruby/bin $PATH
 set -x PATH $PATH /usr/local/bin
-set -x PATH $PATH /usr/local/opt/ruby/bin
 set -x PATH $PATH /usr/local/sbin
 set -x PATH $PATH ~/.cargo/bin
 set -x PATH $PATH ~/.gem/bin
@@ -26,7 +28,6 @@ set -x FLEETCTL_ENDPOINT http://localhost:4001
 set -x GEM_HOME ~/.gem
 set -x HOMEBREW_NO_ANALYTICS 1
 set -x LANG en_US.UTF-8
-set -x NIC_CAGE_SUCKS 1
 
 # Make some functions to do handy things.
 
@@ -40,10 +41,6 @@ end
 
 function ll
   ls -lG $argv
-end
-
-function rspec
-  rspec -c -b $argv
 end
 
 function typora

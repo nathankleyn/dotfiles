@@ -56,8 +56,9 @@
       cargo: true
   editor:
     fontFamily: "Source Code Pro"
-    fontSize: 17
+    fontSize: 15
     invisibles: {}
+    lineHeight: 1.6
     showIndentGuide: true
     showInvisibles: true
   "exception-reporting":
@@ -88,7 +89,6 @@
     rustcPath: "/Users/nathan/.cargo/bin/rustc"
   "linter-ui-default":
     panelHeight: 99
-    showPanel: true
   metrics:
     userId: "fe8c34361ef74aa9a5f3527295167b6b207a22c3"
   minimap: {}
