@@ -10,6 +10,7 @@
 	colorMoved = default
 [commit]
 	gpgsign = true
+	template = /Users/nathan/repos/ihq/hello/local-env/git/msg-template
 [gpg]
 	program = /usr/local/MacGPG2/bin/gpg2
 [core]

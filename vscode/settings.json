@@ -27,5 +27,6 @@
   "terminal.integrated.shell.osx": "/usr/local/bin/fish",
   "shellcheck.customArgs": [
     "-x"
-  ]
+  ],
+  "editor.renderWhitespace": "none"
 }

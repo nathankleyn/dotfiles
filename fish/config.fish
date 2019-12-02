@@ -7,12 +7,12 @@ set -g theme_display_date no
 
 # Add directories to the PATH
 
+set -x PATH ~/.cargo/bin $PATH
 set -x PATH /usr/local/opt/coreutils/libexec/gnubin $PATH
 set -x PATH /usr/local/opt/grep/libexec/gnubin $PATH
 set -x PATH /usr/local/opt/ruby/bin $PATH
 set -x PATH $PATH /usr/local/bin
 set -x PATH $PATH /usr/local/sbin
-set -x PATH $PATH ~/.cargo/bin
 set -x PATH $PATH ~/.gem/bin
 set -x PATH $PATH ~/.okta-aws-cli
 
