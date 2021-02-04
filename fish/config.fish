@@ -7,18 +7,19 @@ set -g theme_display_date no
 
 # Add directories to the PATH
 
-set -x PATH ~/.cargo/bin $PATH
+set -x PATH /usr/local/bin $PATH
+set -x PATH /usr/local/sbin $PATH
 set -x PATH /usr/local/opt/coreutils/libexec/gnubin $PATH
 set -x PATH /usr/local/opt/grep/libexec/gnubin $PATH
 set -x PATH /usr/local/opt/ruby/bin $PATH
-set -x PATH $PATH /usr/local/bin
-set -x PATH $PATH /usr/local/sbin
-set -x PATH $PATH ~/.gem/bin
-set -x PATH $PATH ~/.okta-aws-cli
+set -x PATH ~/.cargo/bin $PATH
+set -x PATH ~/.gem/bin $PATH
+set -x PATH ~/.okta-aws-cli $PATH
+set -x PATH ~/Library/Python/3.7/bin $PATH
 
 # Export some lovely environment variables
 
-set -x _JAVA_OPTIONS "-Djava.net.preferIPv4Stack=true -Djava.security.krb5.realm=OX.AC.UK -Djava.security.krb5.kdc=kdc0.ox.ac.uk:kdc1.ox.ac.uk"
+# set -x _JAVA_OPTIONS "-Djava.net.preferIPv4Stack=true -Djava.security.krb5.realm=OX.AC.UK -Djava.security.krb5.kdc=kdc0.ox.ac.uk:kdc1.ox.ac.uk"
 set -x BROWSER chromium
 set -x CHROME_BIN /Users/nathan/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome
 set -x DOCKER_HOST unix:///var/run/docker.sock
@@ -48,6 +49,6 @@ function typora
 end
 
 # Extend Fish with direnv and iTerm integrations.
-
-eval (direnv hook fish)
+direnv hook fish | source
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
+
