@@ -1,6 +1,6 @@
 {
   "telemetry.enableTelemetry": false,
-  "workbench.colorTheme": "Braver's Solarized Dark (themed workbench)",
+  "workbench.colorTheme": "Braver's Solarized Light (themed workbench)",
   "editor.fontSize": 14,
   "editor.fontFamily": "'Source Code Pro'",
   "editor.tabSize": 2,
@@ -34,5 +34,16 @@
   "files.associations": {
     "*.nomad": "terraform"
   },
-  "todo-tree.tree.showScanModeButton": false
+  "todo-tree.tree.showScanModeButton": false,
+  "workbench.productIconTheme": "fluent-icons",
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)"
 }
