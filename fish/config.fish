@@ -12,6 +12,11 @@ set -x PATH /usr/local/sbin $PATH
 set -x PATH /usr/local/opt/coreutils/libexec/gnubin $PATH
 set -x PATH /usr/local/opt/grep/libexec/gnubin $PATH
 set -x PATH /usr/local/opt/ruby/bin $PATH
+set -x PATH /opt/homebrew/bin $PATH
+set -x PATH /opt/homebrew/sbin $PATH
+set -x PATH /opt/homebrew/opt/coreutils/libexec/gnubin $PATH
+set -x PATH /opt/homebrew/opt/grep/libexec/gnubin $PATH
+set -x PATH /opt/homebrew/opt/ruby/bin $PATH
 set -x PATH ~/.cargo/bin $PATH
 set -x PATH ~/.gem/bin $PATH
 set -x PATH ~/.okta-aws-cli $PATH
@@ -20,12 +25,8 @@ set -x PATH ~/Library/Python/3.7/bin $PATH
 # Export some lovely environment variables
 
 # set -x _JAVA_OPTIONS "-Djava.net.preferIPv4Stack=true -Djava.security.krb5.realm=OX.AC.UK -Djava.security.krb5.kdc=kdc0.ox.ac.uk:kdc1.ox.ac.uk"
-set -x BROWSER chromium
-set -x CHROME_BIN /Users/nathan/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome
 set -x DOCKER_HOST unix:///var/run/docker.sock
 set -x EDITOR vim
-set -x FIREFOX_BIN /Users/nathan/Applications/Firefox.app/Contents/MacOS/firefox
-set -x FLEETCTL_ENDPOINT http://localhost:4001
 set -x GEM_HOME ~/.gem
 set -x HOMEBREW_NO_ANALYTICS 1
 set -x LANG en_US.UTF-8
