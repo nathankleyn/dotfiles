@@ -25,7 +25,6 @@ set -x PATH ~/Library/Python/3.7/bin $PATH
 # Export some lovely environment variables
 
 # set -x _JAVA_OPTIONS "-Djava.net.preferIPv4Stack=true -Djava.security.krb5.realm=OX.AC.UK -Djava.security.krb5.kdc=kdc0.ox.ac.uk:kdc1.ox.ac.uk"
-set -x DOCKER_HOST unix:///var/run/docker.sock
 set -x EDITOR vim
 set -x GEM_HOME ~/.gem
 set -x HOMEBREW_NO_ANALYTICS 1
@@ -53,3 +52,5 @@ end
 direnv hook fish | source
 test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shell_integration.fish
 
+# Enable Rbenv
+. (rbenv init - | source)
