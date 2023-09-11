@@ -21,6 +21,8 @@ fi
 brew bundle --no-lock
 # arch -x86_64 /usr/local/bin/brew bundle --no-lock --file Brewfile-x86
 
+./install-mac-app-store-deps.sh
+
 curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
 
 GEM_HOME=~/.gem gem install bundler
