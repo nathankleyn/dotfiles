@@ -12,13 +12,14 @@ if [ "$(command -v brew)" = "brew not found" ]; then
   /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
+# FIXME: May no longer be needed, experiment on next laptop move.
 # Install Homebrew for x86_64 compat
-if [ ! -f "/usr/local/bin/brew" ]; then
-  arch -x86_64 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-fi
+# if [ ! -f "/usr/local/bin/brew" ]; then
+#   arch -x86_64 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+# fi
 
-brew bundle --no-lock
-arch -x86_64 /usr/local/bin/brew bundle --no-lock --file Brewfile-x86
+# brew bundle --no-lock
+# arch -x86_64 /usr/local/bin/brew bundle --no-lock --file Brewfile-x86
 
 curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
 

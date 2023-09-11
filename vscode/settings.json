@@ -1,7 +1,7 @@
 {
   "telemetry.enableTelemetry": false,
   "workbench.colorTheme": "Braver's Solarized Light (themed workbench)",
-  "editor.fontFamily": "'Source Code Pro for Powerline'",
+  "editor.fontFamily": "Menlo",
   "editor.tabSize": 2,
   "[rust]": {
     "editor.tabSize": 4,
@@ -10,7 +10,6 @@
   "editor.detectIndentation": false,
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
-  "workbench.iconTheme": "vs-minimal",
   "workbench.startupEditor": "newUntitledFile",
   "editor.rulers": [
     80,
@@ -30,7 +29,6 @@
     "*.nomad": "terraform"
   },
   "todo-tree.tree.showScanModeButton": false,
-  "workbench.productIconTheme": "fluent-icons",
   "todo-tree.general.tags": [
     "BUG",
     "HACK",
@@ -43,5 +41,5 @@
   "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
   "shellcheck.executablePath": "/usr/local/bin/shellcheck",
   "editor.fontLigatures": true,
-  "editor.fontSize": 13
+  "editor.fontSize": 14
 }
