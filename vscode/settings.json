@@ -39,7 +39,7 @@
     "[x]"
   ],
   "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
-  "shellcheck.executablePath": "/usr/local/bin/shellcheck",
+  "shellcheck.executablePath": "/opt/homebrew/bin/shellcheck",
   "editor.fontLigatures": true,
   "editor.fontSize": 14,
   "yaml.customTags": [
