@@ -1,6 +1,6 @@
 {
   "telemetry.enableTelemetry": false,
-  "workbench.colorTheme": "Braver's Solarized Light (themed workbench)",
+  "workbench.colorTheme": "Gruvbox Dark Hard",
   "editor.fontFamily": "Menlo",
   "editor.tabSize": 2,
   "[rust]": {
@@ -70,5 +70,6 @@
     "!Select sequence",
     "!Split",
     "!Split sequence"
-  ]
+  ],
+  "window.commandCenter": false
 }
