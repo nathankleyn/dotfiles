@@ -54,3 +54,6 @@ test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shel
 
 # Enable Rbenv
 . (rbenv init - | source)
+
+# Enable fnm
+fnm env --use-on-cd | source
