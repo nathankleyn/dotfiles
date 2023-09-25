@@ -22,6 +22,7 @@ brew "wget"
 brew "xz"
 
 cask "cameracontroller"
+cask "firefox"
 cask "font-source-code-pro-for-powerline"
 cask "font-source-code-pro"
 cask "gpg-suite"
