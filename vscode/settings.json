@@ -71,5 +71,6 @@
     "!Split",
     "!Split sequence"
   ],
-  "window.commandCenter": false
+  "window.commandCenter": false,
+  "aws.telemetry": false
 }
