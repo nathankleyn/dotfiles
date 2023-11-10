@@ -72,5 +72,7 @@
     "!Split sequence"
   ],
   "window.commandCenter": false,
-  "aws.telemetry": false
+  "aws.telemetry": false,
+  "editor.accessibilitySupport": "off",
+  "window.nativeTabs": true
 }
