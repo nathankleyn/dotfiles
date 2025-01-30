@@ -2,7 +2,7 @@ source ~/.fish-private
 
 # Configure Fish theme
 
-set -g theme_color_scheme solarized-light
+set -g theme_color_scheme solarized-dark
 set -g theme_display_date no
 
 # Add directories to the PATH
@@ -17,7 +17,9 @@ set -x PATH /opt/homebrew/sbin $PATH
 set -x PATH /opt/homebrew/opt/coreutils/libexec/gnubin $PATH
 set -x PATH /opt/homebrew/opt/grep/libexec/gnubin $PATH
 set -x PATH /opt/homebrew/opt/ruby/bin $PATH
+set -x PATH ~/.bun/bin $PATH
 set -x PATH ~/.cargo/bin $PATH
+set -x PATH ~/.rye/shims $PATH
 set -x PATH ~/.gem/bin $PATH
 set -x PATH ~/.okta-aws-cli $PATH
 set -x PATH ~/Library/Python/3.7/bin $PATH
@@ -56,4 +58,8 @@ test -e {$HOME}/.iterm2_shell_integration.fish ; and source {$HOME}/.iterm2_shel
 . (rbenv init - | source)
 
 # Enable fnm
-fnm env --use-on-cd | source
+# fnm env --use-on-cd | source
+
+# Enable Google Cloud auto completions
+source "$(brew --prefix)/share/google-cloud-sdk/path.fish.inc"
+

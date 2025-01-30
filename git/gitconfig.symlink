@@ -8,6 +8,7 @@
 	algorithm = histogram
 	submodule = log
 	colorMoved = default
+	external = difft
 [commit]
 	gpgsign = true
 [gpg]
@@ -25,3 +26,14 @@
 	rebase = true
 [init]
 	defaultBranch = main
+[rerere]
+	enabled = true
+[alias]
+	fomo = ! git fetch --tags --force && git rebase origin/main
+	s = status
+	d = diff
+	dc = diff --cached
+	ca = commit --ammend
+[diff "lockb"]
+	textconv = bun
+	binary = true

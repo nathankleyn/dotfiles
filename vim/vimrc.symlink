@@ -115,8 +115,8 @@ set statusline+=%*
 
 " Colour schemes
 set t_Co=256
-set background=light
-colorscheme solarized
+set background=dark
+colorscheme catppuccin_macchiato
 
 " Folding
 set foldenable                   " enable folding

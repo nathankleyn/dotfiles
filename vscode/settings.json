@@ -1,7 +1,6 @@
 {
   "telemetry.enableTelemetry": false,
-  "workbench.colorTheme": "Gruvbox Dark Hard",
-  "editor.fontFamily": "Menlo",
+  "editor.fontFamily": "SF Mono",
   "editor.tabSize": 2,
   "[rust]": {
     "editor.tabSize": 4,
@@ -40,7 +39,7 @@
   ],
   "todo-tree.regex.regex": "(//|#|<!--|;|/\\*|^|^\\s*(-|\\d+.))\\s*($TAGS)",
   "shellcheck.executablePath": "/opt/homebrew/bin/shellcheck",
-  "editor.fontLigatures": true,
+  "editor.fontLigatures": false,
   "editor.fontSize": 14,
   "yaml.customTags": [
     "!And",
@@ -74,5 +73,22 @@
   "window.commandCenter": false,
   "aws.telemetry": false,
   "editor.accessibilitySupport": "off",
-  "window.nativeTabs": true
+  "window.nativeTabs": true,
+  "stripe.cliInstallPath": "/opt/homebrew/bin/stripe",
+  "[typescript]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "kotlin.languageServer.enabled": false,
+  "kotlin.debugAdapter.enabled": false,
+  "workbench.layoutControl.enabled": false,
+  "debug.javascript.autoAttachFilter": "onlyWithFlag",
+  "prisma.showPrismaDataPlatformNotification": false,
+  "[vue]": {
+    "editor.defaultFormatter": "biomejs.biome"
+  },
+  "jupyter.askForKernelRestart": false,
+  "workbench.iconTheme": "catppuccin-macchiato",
+  "workbench.colorTheme": "Braver's Solarized Dark (themed workbench)",
+  "vue.server.hybridMode": true,
+  "zig.zls.path": "zls"
 }
