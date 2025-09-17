@@ -87,8 +87,31 @@
     "editor.defaultFormatter": "biomejs.biome"
   },
   "jupyter.askForKernelRestart": false,
-  "workbench.iconTheme": "catppuccin-macchiato",
-  "workbench.colorTheme": "Braver's Solarized Dark (themed workbench)",
+  "workbench.iconTheme": "catppuccin-frappe",
+  "workbench.colorTheme": "Catppuccin Frappé",
   "vue.server.hybridMode": true,
-  "zig.zls.path": "zls"
+  "zig.zls.path": "zls",
+  "playwright.showTrace": false,
+  "github.copilot.nextEditSuggestions.enabled": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "javascript": false,
+    "vue": true,
+    "ini": false,
+    "typescript": true,
+    "html": false
+  },
+  "spellright.groupDictionaries": false,
+  "spellright.language": [
+    "en_US",
+    "en_GB",
+  ],
+  "spellright.languageContext": {
+    "strings": [ "en_US", "en_GB" ],
+    "comments": [ "en_US", "en_GB" ]
+  },
+  "docker.extension.dockerEngineAvailabilityPrompt": false
 }

@@ -14,7 +14,4 @@ project/plugins/project/
 .cache
 .lib/
 
-# VSCode settings
-.vscode
-
 *-registry-creds.json
