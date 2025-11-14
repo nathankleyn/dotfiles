@@ -34,6 +34,7 @@
 	d = diff
 	dc = diff --cached
 	ca = commit --ammend
+	push = "!f() { \n  local args=()\n  for arg in \"$@\"; do \n    if [ \"$arg\" = \"-f\" ] || [ \"$arg\" = \"--force\" ]; then \n      args+=(--force-with-lease)\n    else \n      args+=(\"$arg\")\n    fi\n  done\n  command git push \"${args[@]}\"\n}; f"
 [diff "lockb"]
 	textconv = bun
 	binary = true

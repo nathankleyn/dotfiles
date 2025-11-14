@@ -4,6 +4,8 @@ desc "Hook our dotfiles into system-standard positions."
 task :install do
   linkables = Dir.glob('*/**{.symlink}')
 
+  puts linkables.inspect
+
   skip_all = false
   overwrite_all = false
   backup_all = false
@@ -15,7 +17,7 @@ task :install do
     file = linkable.split('/').last.split('.symlink').last
     target = "#{ENV["HOME"]}/.#{file}"
 
-    if File.exists?(target) || File.symlink?(target)
+    if File.exist?(target) || File.symlink?(target)
       unless skip_all || overwrite_all || backup_all
         puts "File already exists: #{target}, what do you want to do? [s]kip, [S]kip all, [o]verwrite, [O]verwrite all, [b]ackup, [B]ackup all"
         case STDIN.gets.chomp
@@ -52,7 +54,7 @@ task :uninstall do
     end
 
     # Replace any backups made during installation
-    if File.exists?("#{ENV["HOME"]}/.#{file}.backup")
+    if File.exist?("#{ENV["HOME"]}/.#{file}.backup")
       `mv "$HOME/.#{file}.backup" "$HOME/.#{file}"`
     end
 

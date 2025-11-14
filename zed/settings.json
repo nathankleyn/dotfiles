@@ -1,0 +1,56 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run the `open default settings` command
+// from the command palette or from `Zed` application menu.
+{
+  "buffer_font_family": ".ZedMono",
+  "title_bar": {
+    "show_branch_name": true,
+    "show_branch_icon": false
+  },
+  "diagnostics": {
+    "inline": {
+      "enabled": true
+    }
+  },
+  "tab_size": 2,
+  "wrap_guides": [
+    120
+  ],
+  "hard_tabs": false,
+  "ensure_final_newline_on_save": true,
+  "show_edit_predictions": true,
+  "edit_predictions": {
+    "disabled_globs": [],
+    "mode": "eager",
+    "copilot": {
+      "proxy": null,
+      "proxy_no_verify": null
+    },
+    "enabled_in_text_threads": false
+  },
+  "features": {
+    "edit_prediction_provider": "copilot"
+  },
+  "agent": {
+    "model_parameters": [],
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "gpt-4.1"
+    }
+  },
+  "theme": "Solarized Light",
+  "ui_font_family": "SF Mono",
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "formatter": {
+    "external": {
+      "command": "./node_modules/@biomejs/biome/bin/biome",
+      "arguments": ["format", "--write", "--stdin-file-path", "{buffer_path}"]
+    }
+  }
+}
