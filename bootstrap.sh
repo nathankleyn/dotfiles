@@ -18,13 +18,14 @@ fi
 #   arch -x86_64 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 # fi
 
-brew bundle --no-lock
+brew bundle
 # arch -x86_64 /usr/local/bin/brew bundle --no-lock --file Brewfile-x86
 
 ./install-mac-app-store-deps.sh
 
 curl https://git.io/fisher --create-dirs -sLo ~/.config/fish/functions/fisher.fish
 
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
 GEM_HOME=~/.gem gem install bundler
 
 rustup-init -y
@@ -33,7 +34,7 @@ source ~/.cargo/env
 rustup install beta
 rustup install nightly
 
-curl -L https://get.oh-my.fish > /tmp/oh-my-fish
+curl -L https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install > /tmp/oh-my-fish
 chmod +x /tmp/oh-my-fish
 /tmp/oh-my-fish --path=~/.local/share/omf --config=~/.config/omf
 rm /tmp/oh-my-fish
