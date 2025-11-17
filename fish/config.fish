@@ -31,6 +31,7 @@ set -x EDITOR vim
 set -x GEM_HOME ~/.gem
 set -x HOMEBREW_NO_ANALYTICS 1
 set -x LANG en_US.UTF-8
+set -x NODE_EXTRA_CA_CERTS /etc/ssl/cert.pem
 
 # Make some functions to do handy things.
 

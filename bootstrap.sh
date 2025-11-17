@@ -42,6 +42,8 @@ echo "Installed!"
 
 fish -c "fisher install edc/bass PatrickF1/fzf.fish"
 fish -c "omf install bobthefish" || true
+# Checkout an older version to avoid showing tags on main branches, which is just noisy
+(cd $OMF_PATH/themes/bobthefish && git checkout c2c47dc964a257131b3df2a127c2631b4760f3ec)
 
 fish -c "cd $DOTFILES_ROOT; and rake"
 ./vscode/restore-extensions.sh

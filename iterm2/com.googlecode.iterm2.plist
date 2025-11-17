@@ -5250,7 +5250,7 @@
 			<key>Disable Window Resizing</key>
 			<true/>
 			<key>Draw Powerline Glyphs</key>
-			<false/>
+			<true/>
 			<key>Faint Text Alpha</key>
 			<real>0.5</real>
 			<key>Faint Text Alpha (Dark)</key>
@@ -5558,7 +5558,7 @@
 			<key>Non-ASCII Ligatures</key>
 			<false/>
 			<key>Normal Font</key>
-			<string>SourceCodeProForPowerline-Regular 14</string>
+			<string>SourceCodePro-Regular 14</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
