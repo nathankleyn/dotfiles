@@ -1,0 +1,70 @@
+# Warm Burnout Dark — palette lifted from the iTerm2 colour preset of the same
+# name, so the prompt matches the terminal and the Zed theme exactly.
+
+palette = "warm_burnout_dark"
+
+format = """
+$directory\
+$git_branch\
+$git_state\
+$git_status\
+$cmd_duration\
+$line_break\
+$character"""
+
+[palettes.warm_burnout_dark]
+bg = "#1a1510"
+fg = "#bfbdb6"
+grey = "#686868"
+red = "#f07178"
+orange = "#ffb454"
+amber = "#f5c56e"
+yellow = "#fdb04c"
+green = "#aad94c"
+blue = "#59c2ff"
+purple = "#d2a6ff"
+cyan = "#95e6cb"
+
+# No date/time in the prompt, matching `theme_display_date no` from the Fish config.
+[time]
+disabled = true
+
+[directory]
+style = "bold orange"
+truncation_length = 4
+truncate_to_repo = true
+read_only = " \ue0a2"
+read_only_style = "red"
+
+[character]
+success_symbol = "[❯](bold green)"
+error_symbol = "[❯](bold red)"
+vimcmd_symbol = "[❮](bold purple)"
+
+[git_branch]
+format = "on [$symbol$branch]($style) "
+symbol = "\ue0a0 "
+style = "bold purple"
+
+[git_state]
+format = "\\([$state( $progress_current/$progress_total)]($style)\\) "
+style = "bold red"
+
+[git_status]
+format = "([$all_status$ahead_behind]($style) )"
+style = "bold yellow"
+conflicted = "="
+ahead = "⇡${count}"
+behind = "⇣${count}"
+diverged = "⇕⇡${ahead_count}⇣${behind_count}"
+untracked = "?${count}"
+stashed = ""
+modified = "!${count}"
+staged = "+${count}"
+renamed = "»${count}"
+deleted = "✘${count}"
+
+[cmd_duration]
+format = "took [$duration]($style) "
+style = "bold amber"
+min_time = 2_000

@@ -23,6 +23,7 @@ set -x PATH ~/.rye/shims $PATH
 set -x PATH ~/.gem/bin $PATH
 set -x PATH ~/.okta-aws-cli $PATH
 set -x PATH ~/Library/Python/3.7/bin $PATH
+set -x PATH ~/.local/bin $PATH
 
 # Export some lovely environment variables
 

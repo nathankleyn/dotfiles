@@ -34,22 +34,22 @@ source ~/.cargo/env
 rustup install beta
 rustup install nightly
 
-curl -L https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install > /tmp/oh-my-fish
-chmod +x /tmp/oh-my-fish
-/tmp/oh-my-fish --path=~/.local/share/omf --config=~/.config/omf
-rm /tmp/oh-my-fish
-echo "Installed!"
+# curl -L https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install > /tmp/oh-my-fish
+# chmod +x /tmp/oh-my-fish
+# /tmp/oh-my-fish --path=~/.local/share/omf --config=~/.config/omf
+# rm /tmp/oh-my-fish
+# echo "Installed!"
 
-fish -c "fisher install edc/bass PatrickF1/fzf.fish"
-fish -c "omf install bobthefish" || true
-# Checkout an older version to avoid showing tags on main branches, which is just noisy
-(cd $OMF_PATH/themes/bobthefish && git checkout c2c47dc964a257131b3df2a127c2631b4760f3ec)
+# fish -c "fisher install edc/bass PatrickF1/fzf.fish"
+# fish -c "omf install bobthefish" || true
+# # Checkout an older version to avoid showing tags on main branches, which is just noisy
+# (cd $OMF_PATH/themes/bobthefish && git checkout c2c47dc964a257131b3df2a127c2631b4760f3ec)
 
 fish -c "cd $DOTFILES_ROOT; and rake"
-./vscode/restore-extensions.sh
+# ./vscode/restore-extensions.sh
 
-grep -v fish /etc/shells | sudo tee /etc/shells
-echo "/opt/homebrew/bin/fish" | sudo tee -a /etc/shells
-chsh -s /opt/homebrew/bin/fish
+grep -v zsh /etc/shells | sudo tee /etc/shells
+echo "/opt/homebrew/bin/zsh" | sudo tee -a /etc/shells
+chsh -s /opt/homebrew/bin/zsh
 
 echo "All done! ✅"

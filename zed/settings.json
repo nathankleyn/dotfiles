@@ -7,10 +7,44 @@
 // custom settings, run the `open default settings` command
 // from the command palette or from `Zed` application menu.
 {
+  "format_on_save": "on",
+  "diff_view_style": "split",
+  "auto_update_extensions": {
+    "biome": false,
+    "vue": false
+  },
+  "remove_trailing_whitespace_on_save": true,
+  "cli_default_open_behavior": "new_window",
+  "project_panel": {
+    "dock": "left"
+  },
+  "outline_panel": {
+    "dock": "left"
+  },
+  "collaboration_panel": {
+    "dock": "left"
+  },
+  "git_panel": {
+    "dock": "left"
+  },
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)"
+  },
+  "agent_servers": {
+    "claude-acp": {
+      "default_config_options": {
+        "mode": "auto",
+        "model": "default"
+      },
+      "type": "registry"
+    }
+  },
+  "colorize_brackets": true,
   "buffer_font_family": ".ZedMono",
   "title_bar": {
     "show_branch_name": true,
-    "show_branch_icon": false
   },
   "diagnostics": {
     "inline": {
@@ -25,25 +59,24 @@
   "ensure_final_newline_on_save": true,
   "show_edit_predictions": true,
   "edit_predictions": {
+    "provider": "zed",
     "disabled_globs": [],
-    "mode": "eager",
-    "copilot": {
-      "proxy": null,
-      "proxy_no_verify": null
-    },
-    "enabled_in_text_threads": false
-  },
-  "features": {
-    "edit_prediction_provider": "copilot"
+    "mode": "subtle",
   },
   "agent": {
+    "sidebar_side": "right",
+    "dock": "right",
     "model_parameters": [],
     "default_model": {
-      "provider": "copilot_chat",
-      "model": "gpt-4.1"
+      "provider": "llama.cpp",
+      "model": "ggml-org/gemma-4-E4B-it-GGUF:Q8_0"
     }
   },
-  "theme": "Solarized Light",
+  "theme": {
+    "mode": "dark",
+    "light": "Warm Burnout Light",
+    "dark": "Warm Burnout Dark"
+  },
   "ui_font_family": ".ZedMono",
   "ui_font_size": 16,
   "buffer_font_size": 16,
@@ -51,6 +84,33 @@
     "external": {
       "command": "./node_modules/@biomejs/biome/bin/biome",
       "arguments": ["format", "--write", "--stdin-file-path", "{buffer_path}"]
+    }
+  },
+  "sticky_scroll": {
+    "enabled": true
+  },
+  "theme_overrides": {
+    "Solarized Dark": {
+      "accents": ["#ff69b4", "#7fff00", "#ff1493", "#00ffff", "#ff8c00", "#9400d3"]
+    }
+  },
+  "lsp": {
+    "vtsls": {
+      "settings": {
+        "javascript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          }
+        },
+        "typescript": {
+          "updateImportsOnFileMove": {
+            "enabled": "always"
+          },
+          "tsserver": {
+            "maxTsServerMemory": 4096
+          }
+        }
+      }
     }
   }
 }

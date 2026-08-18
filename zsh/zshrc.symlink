@@ -1,0 +1,138 @@
+[ -f ~/.zsh-private ] && source ~/.zsh-private
+
+# Add directories to the PATH
+
+typeset -U path
+path=(/usr/local/bin $path)
+path=(/usr/local/sbin $path)
+path=(/usr/local/opt/coreutils/libexec/gnubin $path)
+path=(/usr/local/opt/grep/libexec/gnubin $path)
+path=(/usr/local/opt/ruby/bin $path)
+path=(/opt/homebrew/bin $path)
+path=(/opt/homebrew/sbin $path)
+path=(/opt/homebrew/opt/coreutils/libexec/gnubin $path)
+path=(/opt/homebrew/opt/grep/libexec/gnubin $path)
+path=(/opt/homebrew/opt/ruby/bin $path)
+path=(~/.bun/bin $path)
+path=(~/.cargo/bin $path)
+path=(~/.rye/shims $path)
+path=(~/.gem/bin $path)
+path=(~/.okta-aws-cli $path)
+path=(~/Library/Python/3.7/bin $path)
+path=(~/.local/bin $path)
+export PATH
+
+# Export some lovely environment variables
+
+# export _JAVA_OPTIONS="-Djava.net.preferIPv4Stack=true -Djava.security.krb5.realm=OX.AC.UK -Djava.security.krb5.kdc=kdc0.ox.ac.uk:kdc1.ox.ac.uk"
+export EDITOR=vim
+export GEM_HOME=~/.gem
+export HOMEBREW_NO_ANALYTICS=1
+export LANG=en_US.UTF-8
+export NODE_EXTRA_CA_CERTS=/etc/ssl/cert.pem
+
+# Make some functions to do handy things.
+
+function gs {
+  git status "$@"
+}
+
+function gc {
+  git clean -dfx -e .vagrant -e mesos "$@"
+}
+
+function ll {
+  ls -lG "$@"
+}
+
+function typora {
+  open -a Typora "$@"
+}
+
+# History. Ctrl+R is only as good as what gets persisted, and Fish did this for
+# free -- Zsh needs it spelled out.
+
+HISTFILE=~/.zsh_history
+HISTSIZE=1000000
+SAVEHIST=1000000
+setopt EXTENDED_HISTORY       # record timestamps
+setopt INC_APPEND_HISTORY     # write as we go, not just at exit
+setopt SHARE_HISTORY          # equivalent of Fish's `history merge`
+setopt HIST_IGNORE_SPACE      # leading space keeps a command out of history
+setopt HIST_REDUCE_BLANKS
+setopt HIST_FIND_NO_DUPS
+
+# Enable completions.
+autoload -Uz compinit && compinit
+
+# Extend Zsh with direnv and iTerm integrations.
+eval "$(direnv hook zsh)"
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+# Enable fnm
+eval "$(fnm env --use-on-cd --shell zsh)"
+
+# fzf. `fzf --zsh` supplies Ctrl+T (paste file path) and Alt+C (fuzzy cd); its
+# stock Ctrl+R is replaced below.
+source <(fzf --zsh)
+
+export FZF_DEFAULT_OPTS="\
+--height=60% --layout=reverse --border --info=inline \
+--color=fg:#bfbdb6,bg:-1,hl:#ffb454 \
+--color=fg+:#ffffff,bg+:#33393a,hl+:#f5c56e \
+--color=info:#aad94c,prompt:#59c2ff,pointer:#f07178 \
+--color=marker:#d2a6ff,spinner:#95e6cb,header:#686868,border:#686868"
+
+# Use ripgrep for Ctrl+T so it honours .gitignore.
+export FZF_DEFAULT_COMMAND="rg --files --hidden --glob '!.git'"
+export FZF_CTRL_T_COMMAND="$FZF_DEFAULT_COMMAND"
+
+# Ctrl+R, modelled on fzf.fish's _fzf_search_history: newest first, deduped,
+# multi-select, seeded with whatever is already typed, and it only replaces the
+# command line rather than running the command.
+#
+# Commands come from the $history array rather than `fc -l` for two reasons:
+# `fc` takes ~1s to format 20k entries where $history takes ~10ms, and `fc`
+# escapes embedded newlines so multi-line commands come back mangled.
+fzf-history-search() {
+  emulate -L zsh
+  setopt local_options no_aliases pipe_fail
+
+  # ${(@v)history} omits the newest event -- it is reachable only by direct
+  # subscript -- so the boundary entries are added back explicitly and deduped.
+  # Without this the command you just ran is missing from Ctrl+R.
+  local -a candidates=(
+    "${history[$HISTCMD]}"
+    "${history[$((HISTCMD - 1))]}"
+    "${(@v)history}"
+  )
+  candidates=( ${(u)candidates:#} )
+
+  local raw
+  raw=$(print -rNn -- "${(@)candidates}" |
+    fzf --read0 --print0 --multi --scheme=history \
+        --prompt='History> ' \
+        --query="$BUFFER" \
+        --preview='printf %s {}' \
+        --preview-window='bottom:3:wrap' \
+        ${=FZF_CTRL_R_OPTS})
+
+  if (( $? == 0 )) && [[ -n $raw ]]; then
+    local -a picks=( ${(0)raw} )
+    BUFFER=${(pj:\n:)picks}
+    CURSOR=${#BUFFER}
+  fi
+
+  zle reset-prompt
+}
+zle -N fzf-history-search
+bindkey '^R' fzf-history-search
+
+# Enable the Starship prompt. The Rakefile links *.symlink into ~/.<name>, so the
+# config lands at ~/.starship.toml rather than the default ~/.config/starship.toml.
+export STARSHIP_CONFIG=~/.starship.toml
+eval "$(starship init zsh)"
+
+# Added by OrbStack: command-line tools and integration
+# This won't be added again if you remove it.
+source ~/.orbstack/shell/init.zsh 2>/dev/null || :

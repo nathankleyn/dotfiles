@@ -1,0 +1,49 @@
+# Ghostty configuration.
+#
+# Colours are the "Warm Burnout Dark" preset, generated from the iTerm2 plist in
+# this repo so the two terminals and the Zed theme stay in lockstep.
+
+# Scrollback. NOTE: this is in BYTES, not lines -- the default is 10000000 (10MB).
+# This is 1GiB, i.e. 100x the default. Ghostty grows the buffer lazily, so this is
+# a ceiling rather than an upfront allocation.
+scrollback-limit = 1073741824
+
+# Font. Source Code Pro as installed is the Powerline-patched build, so it carries
+# the branch/padlock glyphs the Starship prompt uses.
+font-family = "Source Code Pro"
+font-size = 14
+
+# Theme: Warm Burnout Dark
+background = #1a1510
+foreground = #bfbdb6
+cursor-color = #f5c56e
+cursor-text = #1a1510
+selection-background = #33393a
+selection-foreground = #bfbdb6
+
+palette = 0=#23211b
+palette = 1=#f06b73
+palette = 2=#70bf56
+palette = 3=#fdb04c
+palette = 4=#4fbfff
+palette = 5=#d0a1ff
+palette = 6=#93e2c8
+palette = 7=#c7c7c7
+palette = 8=#686868
+palette = 9=#f07178
+palette = 10=#aad94c
+palette = 11=#ffb454
+palette = 12=#59c2ff
+palette = 13=#d2a6ff
+palette = 14=#95e6cb
+palette = 15=#ffffff
+
+# Behaviour
+macos-option-as-alt = true
+copy-on-select = clipboard
+mouse-hide-while-typing = true
+window-save-state = always
+window-padding-x = 4
+window-padding-y = 2
+shell-integration = zsh
+confirm-close-surface = false
