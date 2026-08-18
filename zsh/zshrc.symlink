@@ -17,8 +17,7 @@ path=(~/.bun/bin $path)
 path=(~/.cargo/bin $path)
 path=(~/.rye/shims $path)
 path=(~/.gem/bin $path)
-path=(~/.okta-aws-cli $path)
-path=(~/Library/Python/3.7/bin $path)
+path=(~/Library/Python/3.14/bin $path)
 path=(~/.local/bin $path)
 export PATH
 
@@ -38,10 +37,6 @@ alias vim=hx
 
 function gs {
   git status "$@"
-}
-
-function gc {
-  git clean -dfx -e .vagrant -e mesos "$@"
 }
 
 function ll {
@@ -69,9 +64,8 @@ setopt HIST_FIND_NO_DUPS
 fpath=(/opt/homebrew/share/zsh/site-functions $fpath)
 autoload -Uz compinit && compinit
 
-# Extend Zsh with direnv and iTerm integrations.
+# Extend Zsh with direnv
 eval "$(direnv hook zsh)"
-test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # Enable fnm
 eval "$(fnm env --use-on-cd --shell zsh)"
