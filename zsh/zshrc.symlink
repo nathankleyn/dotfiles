@@ -25,11 +25,14 @@ export PATH
 # Export some lovely environment variables
 
 # export _JAVA_OPTIONS="-Djava.net.preferIPv4Stack=true -Djava.security.krb5.realm=OX.AC.UK -Djava.security.krb5.kdc=kdc0.ox.ac.uk:kdc1.ox.ac.uk"
-export EDITOR=vim
+export EDITOR=hx
 export GEM_HOME=~/.gem
 export HOMEBREW_NO_ANALYTICS=1
 export LANG=en_US.UTF-8
 export NODE_EXTRA_CA_CERTS=/etc/ssl/cert.pem
+
+# Muscle memory: `vim` opens Helix.
+alias vim=hx
 
 # Make some functions to do handy things.
 
@@ -62,7 +65,8 @@ setopt HIST_IGNORE_SPACE      # leading space keeps a command out of history
 setopt HIST_REDUCE_BLANKS
 setopt HIST_FIND_NO_DUPS
 
-# Enable completions.
+# Enable completions, including those Homebrew installs (Helix ships some).
+fpath=(/opt/homebrew/share/zsh/site-functions $fpath)
 autoload -Uz compinit && compinit
 
 # Extend Zsh with direnv and iTerm integrations.
@@ -128,9 +132,7 @@ fzf-history-search() {
 zle -N fzf-history-search
 bindkey '^R' fzf-history-search
 
-# Enable the Starship prompt. The Rakefile links *.symlink into ~/.<name>, so the
-# config lands at ~/.starship.toml rather than the default ~/.config/starship.toml.
-export STARSHIP_CONFIG=~/.starship.toml
+# Enable the Starship prompt.
 eval "$(starship init zsh)"
 
 # Added by OrbStack: command-line tools and integration

@@ -28,11 +28,14 @@ set -x PATH ~/.local/bin $PATH
 # Export some lovely environment variables
 
 # set -x _JAVA_OPTIONS "-Djava.net.preferIPv4Stack=true -Djava.security.krb5.realm=OX.AC.UK -Djava.security.krb5.kdc=kdc0.ox.ac.uk:kdc1.ox.ac.uk"
-set -x EDITOR vim
+set -x EDITOR hx
 set -x GEM_HOME ~/.gem
 set -x HOMEBREW_NO_ANALYTICS 1
 set -x LANG en_US.UTF-8
 set -x NODE_EXTRA_CA_CERTS /etc/ssl/cert.pem
+
+# Muscle memory: `vim` opens Helix.
+alias vim=hx
 
 # Make some functions to do handy things.
 

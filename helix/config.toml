@@ -1,0 +1,29 @@
+# Helix configuration.
+#
+# Helix's defaults are deliberately sensible, so this file is near-empty on
+# purpose -- add to it only when a default actually annoys you. Full reference:
+# https://docs.helix-editor.com/configuration.html
+#
+# Language servers and formatters are NOT configured here; they go in a sibling
+# languages.toml. Helix picks up any LSP it finds on $PATH automatically, so
+# most of the time installing the server is all that's needed.
+
+# Warm Burnout Dark, generated from the Zed theme -- see themes/. `:theme <name>`
+# previews the built-ins live.
+theme = "warm_burnout_dark"
+
+[editor]
+# line-number = "relative"
+# cursorline = true
+# bufferline = "multiple"
+# color-modes = true
+
+[editor.cursor-shape]
+# insert = "bar"
+
+[editor.file-picker]
+# hidden = false
+
+[keys.normal]
+# Add remaps here, e.g.:
+# C-s = ":w"

@@ -1,0 +1,137 @@
+# Warm Burnout Dark for Helix.
+#
+# Generated from the Zed extension theme of the same name, so the editor,
+# terminal (Ghostty) and prompt (Starship) all share one palette. Zed uses
+# RGBA; Helix has no alpha channel, so translucent values are composited
+# over the background here.
+
+# Syntax
+"attribute" = { fg = "amber", modifiers = ["italic"] }
+"type" = { fg = "blue", modifiers = ["italic"] }
+"type.builtin" = { fg = "blue", modifiers = ["italic"] }
+"type.enum.variant" = { fg = "blue" }
+"constructor" = { fg = "blue", modifiers = ["italic"] }
+"constant" = "pink"
+"constant.builtin" = "pink"
+"constant.numeric" = "pink"
+"constant.character.escape" = "sage"
+"string" = "olive"
+"string.regexp" = "sage"
+"string.special" = "rose"
+"comment" = { fg = "grey", modifiers = ["italic"] }
+"variable" = "fg"
+"variable.parameter" = "pink"
+"variable.builtin" = { fg = "rose", modifiers = ["italic"] }
+"variable.other.member" = { fg = "gold", modifiers = ["italic"] }
+"label" = "label"
+"punctuation" = "fg"
+"punctuation.delimiter" = "fg_muted"
+"punctuation.bracket" = "fg_muted"
+"punctuation.special" = "orange"
+"keyword" = { fg = "orange", modifiers = ["bold"] }
+"keyword.control" = { fg = "orange", modifiers = ["bold"] }
+"keyword.operator" = "peach"
+"keyword.directive" = "orange"
+"keyword.function" = { fg = "orange", modifiers = ["bold"] }
+"operator" = "peach"
+"function" = "amber"
+"function.builtin" = "salmon"
+"function.method" = "amber"
+"function.macro" = "orange"
+"tag" = { fg = "rose", modifiers = ["bold"] }
+"namespace" = { fg = "blue", modifiers = ["italic"] }
+"special" = "orange"
+
+# Markup
+"markup.heading" = { fg = "olive", modifiers = ["bold"] }
+"markup.list" = "orange"
+"markup.bold" = { fg = "salmon", modifiers = ["bold"] }
+"markup.italic" = { fg = "salmon", modifiers = ["italic"] }
+"markup.strikethrough" = { modifiers = ["crossed_out"] }
+"markup.link.url" = { fg = "rose", modifiers = ["underlined"] }
+"markup.link.text" = "rose"
+"markup.raw" = "olive"
+"markup.quote" = { fg = "grey", modifiers = ["italic"] }
+
+# Diff / VCS
+"diff.plus" = "success"
+"diff.minus" = "deleted"
+"diff.delta" = "info"
+
+# UI
+"ui.background" = { bg = "bg" }
+"ui.text" = "fg"
+"ui.text.focus" = { fg = "fg", modifiers = ["bold"] }
+"ui.text.inactive" = "fg_dim"
+"ui.cursor" = { fg = "bg", bg = "cursor" }
+"ui.cursor.primary" = { fg = "bg", bg = "cursor" }
+"ui.cursor.match" = { bg = "bg_subtle", modifiers = ["bold"] }
+"ui.cursorline.primary" = { bg = "bg_active" }
+"ui.selection" = { bg = "selection" }
+"ui.selection.primary" = { bg = "selection" }
+"ui.linenr" = "fg_dim"
+"ui.linenr.selected" = { fg = "fg_gutter", modifiers = ["bold"] }
+"ui.gutter" = { bg = "bg" }
+"ui.statusline" = { fg = "fg", bg = "bg_dark" }
+"ui.statusline.inactive" = { fg = "fg_dim", bg = "bg_dark" }
+"ui.statusline.normal" = { fg = "bg", bg = "amber", modifiers = ["bold"] }
+"ui.statusline.insert" = { fg = "bg", bg = "success", modifiers = ["bold"] }
+"ui.statusline.select" = { fg = "bg", bg = "blue", modifiers = ["bold"] }
+"ui.popup" = { fg = "fg", bg = "bg_dark" }
+"ui.popup.info" = { fg = "fg", bg = "bg_dark" }
+"ui.window" = { fg = "border" }
+"ui.help" = { fg = "fg", bg = "bg_dark" }
+"ui.menu" = { fg = "fg", bg = "bg_dark" }
+"ui.menu.selected" = { fg = "bg", bg = "amber" }
+"ui.menu.scroll" = { fg = "fg_dim", bg = "bg_dark" }
+"ui.virtual.whitespace" = "indent"
+"ui.virtual.indent-guide" = "indent"
+"ui.virtual.ruler" = { bg = "bg_active" }
+"ui.virtual.inlay-hint" = { fg = "grey", modifiers = ["italic"] }
+"ui.virtual.jump-label" = { fg = "orange", modifiers = ["bold"] }
+"ui.bufferline" = { fg = "fg_dim", bg = "bg_dark" }
+"ui.bufferline.active" = { fg = "fg", bg = "bg", modifiers = ["bold"] }
+"ui.highlight" = { bg = "bg_subtle" }
+
+# Diagnostics
+"error" = "error"
+"warning" = "warning"
+"info" = "info"
+"hint" = "grey"
+"diagnostic.error" = { underline = { color = "error", style = "curl" } }
+"diagnostic.warning" = { underline = { color = "warning", style = "curl" } }
+"diagnostic.info" = { underline = { color = "info", style = "curl" } }
+"diagnostic.hint" = { underline = { color = "grey", style = "curl" } }
+"diagnostic.unnecessary" = { modifiers = ["dim"] }
+
+[palette]
+bg = "#1a1510"
+bg_dark = "#14120f"
+bg_active = "#222018"
+bg_subtle = "#26211c"
+fg = "#bfbdb6"
+fg_muted = "#ada69c"
+fg_dim = "#746f67"
+fg_gutter = "#a59f96"
+cursor = "#f5c56e"
+selection = "#363a3a"
+orange = "#ff8f40"
+amber = "#ffb454"
+peach = "#f29668"
+salmon = "#ec9878"
+gold = "#deb074"
+label = "#e6c08a"
+blue = "#90aec0"
+rose = "#dc9e92"
+pink = "#d4a8b8"
+olive = "#b4bc78"
+sage = "#96b898"
+grey = "#b4a89c"
+error = "#f49090"
+warning = "#fdb04c"
+success = "#70bf56"
+info = "#73b8ff"
+deleted = "#f26d78"
+conflict = "#f29668"
+border = "#26211c"
+indent = "#211c17"
